@@ -1,0 +1,1817 @@
+<!DOCTYPE html>
+<html lang="de-DE">
+
+
+<meta http-equiv="content-type" content="text/html;charset=UTF-8" />
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>Hu-Con | Huber Consulting</title>
+  <link href='../../api.tiles.mapbox.com/mapbox-gl-js/v1.2.0/mapbox-gl.css' rel='stylesheet' />
+  <script src='../../api.tiles.mapbox.com/mapbox-gl-js/v1.2.0/mapbox-gl.js'></script>
+  <script src="../../cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
+  <script src="../../www.google.com/recaptcha/apifd10.js?render=reCAPTCHA_site_key"></script>
+  <meta name='robots' content='max-image-preview:large' />
+  <script type="text/javascript">
+    window._wpemojiSettings = { "baseUrl": "https:\/\/s.w.org\/images\/core\/emoji\/14.0.0\/72x72\/", "ext": ".png", "svgUrl": "https:\/\/s.w.org\/images\/core\/emoji\/14.0.0\/svg\/", "svgExt": ".svg", "source": { "concatemoji": "../wp-includes\/js\/wp-emoji-release.min.js?ver=6.1" } }
+    /*! This file is auto-generated */
+    !function (e, a, t) { var n, r, o, i = a.createElement("canvas"), p = i.getContext && i.getContext("2d"); function s(e, t) { var a = String.fromCharCode, e = (p.clearRect(0, 0, i.width, i.height), p.fillText(a.apply(this, e), 0, 0), i.toDataURL()); return p.clearRect(0, 0, i.width, i.height), p.fillText(a.apply(this, t), 0, 0), e === i.toDataURL() } function c(e) { var t = a.createElement("script"); t.src = e, t.defer = t.type = "text/javascript", a.getElementsByTagName("head")[0].appendChild(t) } for (o = Array("flag", "emoji"), t.supports = { everything: !0, everythingExceptFlag: !0 }, r = 0; r < o.length; r++)t.supports[o[r]] = function (e) { if (p && p.fillText) switch (p.textBaseline = "top", p.font = "600 32px Arial", e) { case "flag": return s([127987, 65039, 8205, 9895, 65039], [127987, 65039, 8203, 9895, 65039]) ? !1 : !s([55356, 56826, 55356, 56819], [55356, 56826, 8203, 55356, 56819]) && !s([55356, 57332, 56128, 56423, 56128, 56418, 56128, 56421, 56128, 56430, 56128, 56423, 56128, 56447], [55356, 57332, 8203, 56128, 56423, 8203, 56128, 56418, 8203, 56128, 56421, 8203, 56128, 56430, 8203, 56128, 56423, 8203, 56128, 56447]); case "emoji": return !s([129777, 127995, 8205, 129778, 127999], [129777, 127995, 8203, 129778, 127999]) }return !1 }(o[r]), t.supports.everything = t.supports.everything && t.supports[o[r]], "flag" !== o[r] && (t.supports.everythingExceptFlag = t.supports.everythingExceptFlag && t.supports[o[r]]); t.supports.everythingExceptFlag = t.supports.everythingExceptFlag && !t.supports.flag, t.DOMReady = !1, t.readyCallback = function () { t.DOMReady = !0 }, t.supports.everything || (n = function () { t.readyCallback() }, a.addEventListener ? (a.addEventListener("DOMContentLoaded", n, !1), e.addEventListener("load", n, !1)) : (e.attachEvent("onload", n), a.attachEvent("onreadystatechange", function () { "complete" === a.readyState && t.readyCallback() })), (e = t.source || {}).concatemoji ? c(e.concatemoji) : e.wpemoji && e.twemoji && (c(e.twemoji), c(e.wpemoji))) }(window, document, window._wpemojiSettings);
+  </script>
+  <style type="text/css">
+    img.wp-smiley,
+    img.emoji {
+      display: inline !important;
+      border: none !important;
+      box-shadow: none !important;
+      height: 1em !important;
+      width: 1em !important;
+      margin: 0 0.07em !important;
+      vertical-align: -0.1em !important;
+      background: none !important;
+      padding: 0 !important;
+    }
+  </style>
+  <link rel='stylesheet' id='wp-block-library-css'
+    href='../wp-includes/css/dist/block-library/style.min9b2d.css?ver=6.1' type='text/css' media='all' />
+  <link rel='stylesheet' id='classic-theme-styles-css' href='../wp-includes/css/classic-themes.min68b3.css?ver=1'
+    type='text/css' media='all' />
+  <style id='global-styles-inline-css' type='text/css'>
+    body {
+      --wp--preset--color--black: #000000;
+      --wp--preset--color--cyan-bluish-gray: #abb8c3;
+      --wp--preset--color--white: #ffffff;
+      --wp--preset--color--pale-pink: #f78da7;
+      --wp--preset--color--vivid-red: #cf2e2e;
+      --wp--preset--color--luminous-vivid-orange: #ff6900;
+      --wp--preset--color--luminous-vivid-amber: #fcb900;
+      --wp--preset--color--light-green-cyan: #7bdcb5;
+      --wp--preset--color--vivid-green-cyan: #00d084;
+      --wp--preset--color--pale-cyan-blue: #8ed1fc;
+      --wp--preset--color--vivid-cyan-blue: #0693e3;
+      --wp--preset--color--vivid-purple: #9b51e0;
+      --wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg, rgba(6, 147, 227, 1) 0%, rgb(155, 81, 224) 100%);
+      --wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg, rgb(122, 220, 180) 0%, rgb(0, 208, 130) 100%);
+      --wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg, rgba(252, 185, 0, 1) 0%, rgba(255, 105, 0, 1) 100%);
+      --wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg, rgba(255, 105, 0, 1) 0%, rgb(207, 46, 46) 100%);
+      --wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg, rgb(238, 238, 238) 0%, rgb(169, 184, 195) 100%);
+      --wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg, rgb(74, 234, 220) 0%, rgb(151, 120, 209) 20%, rgb(207, 42, 186) 40%, rgb(238, 44, 130) 60%, rgb(251, 105, 98) 80%, rgb(254, 248, 76) 100%);
+      --wp--preset--gradient--blush-light-purple: linear-gradient(135deg, rgb(255, 206, 236) 0%, rgb(152, 150, 240) 100%);
+      --wp--preset--gradient--blush-bordeaux: linear-gradient(135deg, rgb(254, 205, 165) 0%, rgb(254, 45, 45) 50%, rgb(107, 0, 62) 100%);
+      --wp--preset--gradient--luminous-dusk: linear-gradient(135deg, rgb(255, 203, 112) 0%, rgb(199, 81, 192) 50%, rgb(65, 88, 208) 100%);
+      --wp--preset--gradient--pale-ocean: linear-gradient(135deg, rgb(255, 245, 203) 0%, rgb(182, 227, 212) 50%, rgb(51, 167, 181) 100%);
+      --wp--preset--gradient--electric-grass: linear-gradient(135deg, rgb(202, 248, 128) 0%, rgb(113, 206, 126) 100%);
+      --wp--preset--gradient--midnight: linear-gradient(135deg, rgb(2, 3, 129) 0%, rgb(40, 116, 252) 100%);
+      --wp--preset--duotone--dark-grayscale: url('#wp-duotone-dark-grayscale');
+      --wp--preset--duotone--grayscale: url('#wp-duotone-grayscale');
+      --wp--preset--duotone--purple-yellow: url('#wp-duotone-purple-yellow');
+      --wp--preset--duotone--blue-red: url('#wp-duotone-blue-red');
+      --wp--preset--duotone--midnight: url('#wp-duotone-midnight');
+      --wp--preset--duotone--magenta-yellow: url('#wp-duotone-magenta-yellow');
+      --wp--preset--duotone--purple-green: url('#wp-duotone-purple-green');
+      --wp--preset--duotone--blue-orange: url('#wp-duotone-blue-orange');
+      --wp--preset--font-size--small: 13px;
+      --wp--preset--font-size--medium: 20px;
+      --wp--preset--font-size--large: 36px;
+      --wp--preset--font-size--x-large: 42px;
+      --wp--preset--spacing--20: 0.44rem;
+      --wp--preset--spacing--30: 0.67rem;
+      --wp--preset--spacing--40: 1rem;
+      --wp--preset--spacing--50: 1.5rem;
+      --wp--preset--spacing--60: 2.25rem;
+      --wp--preset--spacing--70: 3.38rem;
+      --wp--preset--spacing--80: 5.06rem;
+    }
+
+    :where(.is-layout-flex) {
+      gap: 0.5em;
+    }
+
+    body .is-layout-flow>.alignleft {
+      float: left;
+      margin-inline-start: 0;
+      margin-inline-end: 2em;
+    }
+
+    body .is-layout-flow>.alignright {
+      float: right;
+      margin-inline-start: 2em;
+      margin-inline-end: 0;
+    }
+
+    body .is-layout-flow>.aligncenter {
+      margin-left: auto !important;
+      margin-right: auto !important;
+    }
+
+    body .is-layout-constrained>.alignleft {
+      float: left;
+      margin-inline-start: 0;
+      margin-inline-end: 2em;
+    }
+
+    body .is-layout-constrained>.alignright {
+      float: right;
+      margin-inline-start: 2em;
+      margin-inline-end: 0;
+    }
+
+    body .is-layout-constrained>.aligncenter {
+      margin-left: auto !important;
+      margin-right: auto !important;
+    }
+
+    body .is-layout-constrained> :where(:not(.alignleft):not(.alignright):not(.alignfull)) {
+      max-width: var(--wp--style--global--content-size);
+      margin-left: auto !important;
+      margin-right: auto !important;
+    }
+
+    body .is-layout-constrained>.alignwide {
+      max-width: var(--wp--style--global--wide-size);
+    }
+
+    body .is-layout-flex {
+      display: flex;
+    }
+
+    body .is-layout-flex {
+      flex-wrap: wrap;
+      align-items: center;
+    }
+
+    body .is-layout-flex>* {
+      margin: 0;
+    }
+
+    :where(.wp-block-columns.is-layout-flex) {
+      gap: 2em;
+    }
+
+    .has-black-color {
+      color: var(--wp--preset--color--black) !important;
+    }
+
+    .has-cyan-bluish-gray-color {
+      color: var(--wp--preset--color--cyan-bluish-gray) !important;
+    }
+
+    .has-white-color {
+      color: var(--wp--preset--color--white) !important;
+    }
+
+    .has-pale-pink-color {
+      color: var(--wp--preset--color--pale-pink) !important;
+    }
+
+    .has-vivid-red-color {
+      color: var(--wp--preset--color--vivid-red) !important;
+    }
+
+    .has-luminous-vivid-orange-color {
+      color: var(--wp--preset--color--luminous-vivid-orange) !important;
+    }
+
+    .has-luminous-vivid-amber-color {
+      color: var(--wp--preset--color--luminous-vivid-amber) !important;
+    }
+
+    .has-light-green-cyan-color {
+      color: var(--wp--preset--color--light-green-cyan) !important;
+    }
+
+    .has-vivid-green-cyan-color {
+      color: var(--wp--preset--color--vivid-green-cyan) !important;
+    }
+
+    .has-pale-cyan-blue-color {
+      color: var(--wp--preset--color--pale-cyan-blue) !important;
+    }
+
+    .has-vivid-cyan-blue-color {
+      color: var(--wp--preset--color--vivid-cyan-blue) !important;
+    }
+
+    .has-vivid-purple-color {
+      color: var(--wp--preset--color--vivid-purple) !important;
+    }
+
+    .has-black-background-color {
+      background-color: var(--wp--preset--color--black) !important;
+    }
+
+    .has-cyan-bluish-gray-background-color {
+      background-color: var(--wp--preset--color--cyan-bluish-gray) !important;
+    }
+
+    .has-white-background-color {
+      background-color: var(--wp--preset--color--white) !important;
+    }
+
+    .has-pale-pink-background-color {
+      background-color: var(--wp--preset--color--pale-pink) !important;
+    }
+
+    .has-vivid-red-background-color {
+      background-color: var(--wp--preset--color--vivid-red) !important;
+    }
+
+    .has-luminous-vivid-orange-background-color {
+      background-color: var(--wp--preset--color--luminous-vivid-orange) !important;
+    }
+
+    .has-luminous-vivid-amber-background-color {
+      background-color: var(--wp--preset--color--luminous-vivid-amber) !important;
+    }
+
+    .has-light-green-cyan-background-color {
+      background-color: var(--wp--preset--color--light-green-cyan) !important;
+    }
+
+    .has-vivid-green-cyan-background-color {
+      background-color: var(--wp--preset--color--vivid-green-cyan) !important;
+    }
+
+    .has-pale-cyan-blue-background-color {
+      background-color: var(--wp--preset--color--pale-cyan-blue) !important;
+    }
+
+    .has-vivid-cyan-blue-background-color {
+      background-color: var(--wp--preset--color--vivid-cyan-blue) !important;
+    }
+
+    .has-vivid-purple-background-color {
+      background-color: var(--wp--preset--color--vivid-purple) !important;
+    }
+
+    .has-black-border-color {
+      border-color: var(--wp--preset--color--black) !important;
+    }
+
+    .has-cyan-bluish-gray-border-color {
+      border-color: var(--wp--preset--color--cyan-bluish-gray) !important;
+    }
+
+    .has-white-border-color {
+      border-color: var(--wp--preset--color--white) !important;
+    }
+
+    .has-pale-pink-border-color {
+      border-color: var(--wp--preset--color--pale-pink) !important;
+    }
+
+    .has-vivid-red-border-color {
+      border-color: var(--wp--preset--color--vivid-red) !important;
+    }
+
+    .has-luminous-vivid-orange-border-color {
+      border-color: var(--wp--preset--color--luminous-vivid-orange) !important;
+    }
+
+    .has-luminous-vivid-amber-border-color {
+      border-color: var(--wp--preset--color--luminous-vivid-amber) !important;
+    }
+
+    .has-light-green-cyan-border-color {
+      border-color: var(--wp--preset--color--light-green-cyan) !important;
+    }
+
+    .has-vivid-green-cyan-border-color {
+      border-color: var(--wp--preset--color--vivid-green-cyan) !important;
+    }
+
+    .has-pale-cyan-blue-border-color {
+      border-color: var(--wp--preset--color--pale-cyan-blue) !important;
+    }
+
+    .has-vivid-cyan-blue-border-color {
+      border-color: var(--wp--preset--color--vivid-cyan-blue) !important;
+    }
+
+    .has-vivid-purple-border-color {
+      border-color: var(--wp--preset--color--vivid-purple) !important;
+    }
+
+    .has-vivid-cyan-blue-to-vivid-purple-gradient-background {
+      background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;
+    }
+
+    .has-light-green-cyan-to-vivid-green-cyan-gradient-background {
+      background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;
+    }
+
+    .has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background {
+      background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;
+    }
+
+    .has-luminous-vivid-orange-to-vivid-red-gradient-background {
+      background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;
+    }
+
+    .has-very-light-gray-to-cyan-bluish-gray-gradient-background {
+      background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;
+    }
+
+    .has-cool-to-warm-spectrum-gradient-background {
+      background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;
+    }
+
+    .has-blush-light-purple-gradient-background {
+      background: var(--wp--preset--gradient--blush-light-purple) !important;
+    }
+
+    .has-blush-bordeaux-gradient-background {
+      background: var(--wp--preset--gradient--blush-bordeaux) !important;
+    }
+
+    .has-luminous-dusk-gradient-background {
+      background: var(--wp--preset--gradient--luminous-dusk) !important;
+    }
+
+    .has-pale-ocean-gradient-background {
+      background: var(--wp--preset--gradient--pale-ocean) !important;
+    }
+
+    .has-electric-grass-gradient-background {
+      background: var(--wp--preset--gradient--electric-grass) !important;
+    }
+
+    .has-midnight-gradient-background {
+      background: var(--wp--preset--gradient--midnight) !important;
+    }
+
+    .has-small-font-size {
+      font-size: var(--wp--preset--font-size--small) !important;
+    }
+
+    .has-medium-font-size {
+      font-size: var(--wp--preset--font-size--medium) !important;
+    }
+
+    .has-large-font-size {
+      font-size: var(--wp--preset--font-size--large) !important;
+    }
+
+    .has-x-large-font-size {
+      font-size: var(--wp--preset--font-size--x-large) !important;
+    }
+
+    .wp-block-navigation a:where(:not(.wp-element-button)) {
+      color: inherit;
+    }
+
+    :where(.wp-block-columns.is-layout-flex) {
+      gap: 2em;
+    }
+
+    .wp-block-pullquote {
+      font-size: 1.5em;
+      line-height: 1.6;
+    }
+  </style>
+  <link rel='stylesheet' id='vendor-css-css' href='../wp-content/themes/hucon/assets/vendor/vendor9b2d.css?ver=6.1'
+    type='text/css' media='all' />
+  <link rel='stylesheet' id='theme-style-css' href='../wp-content/themes/hucon/style9b2d.css?ver=6.1' type='text/css'
+    media='all' />
+  <link rel='stylesheet' id='additional-css-css' href='../wp-content/themes/hucon/style.ext8a54.css?ver=1.0.0'
+    type='text/css' media='all' />
+  <script type='text/javascript' src='../wp-content/themes/hucon/assets/vendor/vendor9b2d.js?ver=6.1'
+    id='vendor-js-js'></script>
+  <script type='text/javascript' src='../wp-content/themes/hucon/assets/js/index9b2d.js?ver=6.1'
+    id='Main JS-js'></script>
+  <script type='text/javascript' src='../wp-content/themes/hucon/assets/js/other9b2d.js?ver=6.1' id='Other-js'></script>
+  <script type='text/javascript' src='../wp-content/themes/hucon/assets/js/maps9b2d.js?ver=6.1' id='Maps-js'></script>
+  <script type='text/javascript' src='../wp-content/themes/hucon/assets/js/grids9b2d.js?ver=6.1'
+    id='Image Grid JS-js'></script>
+  <script type='text/javascript' src='../wp-content/themes/hucon/assets/js/progress-bar9b2d.js?ver=6.1'
+    id='Progress Bar JS-js'></script>
+  <script type='text/javascript' src='../wp-content/themes/hucon/assets/js/sticky-header9b2d.js?ver=6.1'
+    id='Sticky Slider JS-js'></script>
+  <script type='text/javascript' src='../wp-content/themes/hucon/assets/js/flip-boxes9b2d.js?ver=6.1'
+    id='Flip Boxes JS-js'></script>
+  <script type='text/javascript' src='../wp-content/themes/hucon/assets/js/header9b2d.js?ver=6.1'
+    id='Header JS-js'></script>
+  <link rel="https://api.w.org/" href="../wp-json/index.html" />
+  <link rel="alternate" type="application/json" href="../wp-json/wp/v2/pages/3242.json" />
+  <link rel="canonical" href="index.html" />
+  <link rel="alternate" type="application/json+oembed" href="../wp-json/oembed/1.0/embed2320.json" />
+  <link rel="alternate" type="text/xml+oembed" href="../wp-json/oembed/1.0/embed3d20" />
+</head>
+
+<body class="page-template-default page page-id-3242">
+
+  <header>
+
+    <div class="container-fluid website-header">
+      <div class="row website-standard-header">
+
+        <div class="website-standard-header__logo">
+          <a href="../index.html">
+            <img src="../wp-content/uploads/2022/05/Logo-HC-weiss-300x56.png" class="img-responsive" alt=""
+              title="Logo HC weiss" description="">
+          </a>
+        </div>
+        <div class="website-standard-header__menu">
+          <nav class="navbar-expand-lg navbar-light">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar"
+              aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbar">
+              <div class="menu-main-navigation-container">
+                <ul id="menu-main-navigation" class="main-menu">
+                  <li id="menu-item-3494"
+                    class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-3494">
+                    <a>Leistungen</a>
+                    <ul class="sub-menu">
+                      <li id="menu-item-3455"
+                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3455"><a
+                          href="../arbeitssicherheit/index.html">Arbeitssicherheit</a></li>
+                      <li id="menu-item-3495"
+                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3495"><a
+                          href="../managementberatung/index.html">Managementberatung</a></li>
+                    </ul>
+                  </li>
+                  <li id="menu-item-3497"
+                    class="menu-item menu-item-type-post_type_archive menu-item-object-experience menu-item-3497"><a
+                      href="../experience/index.html">Referenzen</a></li>
+                  <li id="menu-item-3454"
+                    class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3454"><a
+                      href="../ueber-mich/index.html">Über mich</a></li>
+                  <li id="menu-item-3496"
+                    class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-3496"><a
+                      href="../index.html#kontakt">Kontakt</a></li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+        </div>
+      </div>
+    </div>
+  </header>
+
+
+
+  <section class="container-fluid">
+    <div class="row">
+
+      <div class="col-md-12">
+
+        <div class="row banner pb-bg-image"
+          style="background-image: url(../wp-content/uploads/2022/06/Datenschutz-Impressum-1785515084.jpg);">
+
+          <div class="container">
+
+            <div class="row">
+
+
+            </div>
+          </div>
+        </div>
+
+
+
+      </div>
+
+    </div>
+
+    </div>
+    </div>
+    </div>
+  </section>
+
+
+
+
+  <section class="container">
+    <div class="row text-block">
+
+      <div class="col-12 text-block--content">
+        <div>
+          <div class="idg-text-ajax-loading idg-text-copy-protection" data-text-id="1954616" data-text-language="de">
+            <h1 class="adsimple-111954616 fusion-responsive-typography-calculated"
+              style="--fontsize: 32; line-height: 1.4;" data-fontsize="32" data-lineheight="44.8px">Datenschutzerklärung
+            </h1>
+            <h2 id="einleitung-ueberblick" class="adsimple-111954616 fusion-responsive-typography-calculated"
+              style="--fontsize: 24; line-height: 1.5; --minfontsize: 24;" data-fontsize="24" data-lineheight="36px">
+              Einleitung und Überblick</h2>
+            <p>Wir haben diese Datenschutzerklärung (Fassung 27.02.2022-111954616) verfasst, um Ihnen gemäß der Vorgaben
+              der <a class="adsimple-111954616"
+                href="https://eur-lex.europa.eu/legal-content/DE/ALL/?uri=celex%3A32016R0679&amp;tid=111954616"
+                target="_blank" rel="noopener">Datenschutz-Grundverordnung (EU) 2016/679</a> und anwendbaren nationalen
+              Gesetzen zu erklären, welche personenbezogenen Daten (kurz Daten) wir als Verantwortliche – und die von
+              uns beauftragten Auftragsverarbeiter (z. B. Provider) – verarbeiten, zukünftig verarbeiten werden und
+              welche rechtmäßigen Möglichkeiten Sie haben. Die verwendeten Begriffe sind geschlechtsneutral zu
+              verstehen.<br />
+              <strong class="adsimple-111954616">Kurz gesagt:</strong> Wir informieren Sie umfassend über Daten, die wir
+              über Sie verarbeiten.
+            </p>
+            <p>Datenschutzerklärungen klingen für gewöhnlich sehr technisch und verwenden juristische Fachbegriffe.
+              Diese Datenschutzerklärung soll Ihnen hingegen die wichtigsten Dinge so einfach und transparent wie
+              möglich beschreiben. Soweit es der Transparenz förderlich ist, werden technische <strong
+                class="adsimple-111954616">Begriffe leserfreundlich erklärt</strong>, <strong
+                class="adsimple-111954616">Links</strong> zu weiterführenden Informationen geboten und <strong
+                class="adsimple-111954616">Grafiken</strong> zum Einsatz gebracht. Wir informieren damit in klarer und
+              einfacher Sprache, dass wir im Rahmen unserer Geschäftstätigkeiten nur dann personenbezogene Daten
+              verarbeiten, wenn eine entsprechende gesetzliche Grundlage gegeben ist. Das ist sicher nicht möglich, wenn
+              man möglichst knappe, unklare und juristisch-technische Erklärungen abgibt, so wie sie im Internet oft
+              Standard sind, wenn es um Datenschutz geht. Ich hoffe, Sie finden die folgenden Erläuterungen interessant
+              und informativ und vielleicht ist die eine oder andere Information dabei, die Sie noch nicht
+              kannten.<br />
+              Wenn trotzdem Fragen bleiben, möchten wir Sie bitten, sich an die unten bzw. im Impressum genannte
+              verantwortliche Stelle zu wenden, den vorhandenen Links zu folgen und sich weitere Informationen auf
+              Drittseiten anzusehen. Unsere Kontaktdaten finden Sie selbstverständlich auch im Impressum.</p>
+            <h2 id="anwendungsbereich" class="adsimple-111954616 fusion-responsive-typography-calculated"
+              style="--fontsize: 24; line-height: 1.5; --minfontsize: 24;" data-fontsize="24" data-lineheight="36px">
+              Anwendungsbereich</h2>
+            <p>Diese Datenschutzerklärung gilt für alle von uns im Unternehmen verarbeiteten personenbezogenen Daten und
+              für alle personenbezogenen Daten, die von uns beauftragte Firmen (Auftragsverarbeiter) verarbeiten. Mit
+              personenbezogenen Daten meinen wir Informationen im Sinne des Art. 4 Nr. 1 DSGVO wie zum Beispiel Name,
+              E-Mail-Adresse und postalische Anschrift einer Person. Die Verarbeitung personenbezogener Daten sorgt
+              dafür, dass wir unsere Dienstleistungen und Produkte anbieten und abrechnen können, sei es online oder
+              offline. Der Anwendungsbereich dieser Datenschutzerklärung umfasst:</p>
+            <ul class="adsimple-111954616">
+              <li class="adsimple-111954616">alle Onlineauftritte (Websites, Onlineshops), die wir betreiben</li>
+              <li class="adsimple-111954616">Social Media Auftritte und E-Mail-Kommunikation</li>
+              <li class="adsimple-111954616">mobile Apps für Smartphones und andere Geräte</li>
+            </ul>
+            <p><strong class="adsimple-111954616">Kurz gesagt:</strong> Die Datenschutzerklärung gilt für alle Bereiche,
+              in denen personenbezogene Daten im Unternehmen über die genannten Kanäle strukturiert verarbeitet werden.
+              Sollten wir außerhalb dieser Kanäle mit Ihnen in Rechtsbeziehungen eintreten, werden wir Sie
+              gegebenenfalls gesondert informieren.</p>
+            <h2 id="rechtsgrundlagen" class="adsimple-111954616 fusion-responsive-typography-calculated"
+              style="--fontsize: 24; line-height: 1.5; --minfontsize: 24;" data-fontsize="24" data-lineheight="36px">
+              Rechtsgrundlagen</h2>
+            <p>In der folgenden Datenschutzerklärung geben wir Ihnen transparente Informationen zu den rechtlichen
+              Grundsätzen und Vorschriften, also den Rechtsgrundlagen der Datenschutz-Grundverordnung, die uns
+              ermöglichen, personenbezogene Daten zu verarbeiten.<br />
+              Was das EU-Recht betrifft, beziehen wir uns auf die VERORDNUNG (EU) 2016/679 DES EUROPÄISCHEN PARLAMENTS
+              UND DES RATES vom 27. April 2016. Diese Datenschutz-Grundverordnung der EU können Sie selbstverständlich
+              online auf EUR-Lex, dem Zugang zum EU-Recht, unter <a class="adsimple-111954616"
+                href="https://eur-lex.europa.eu/legal-content/DE/ALL/?uri=celex%3A32016R0679&amp;tid=111954616"
+                target="_blank"
+                rel="noopener">https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=celex%3A32016R0679</a> nachlesen.</p>
+            <p>Wir verarbeiten Ihre Daten nur, wenn mindestens eine der folgenden Bedingungen zutrifft:</p>
+            <ol>
+              <li class="adsimple-111954616"><strong class="adsimple-111954616">Einwilligung</strong> (Artikel 6 Absatz
+                1 lit. a DSGVO): Sie haben uns Ihre Einwilligung gegeben, Daten zu einem bestimmten Zweck zu
+                verarbeiten. Ein Beispiel wäre die Speicherung Ihrer eingegebenen Daten eines Kontaktformulars.</li>
+              <li class="adsimple-111954616"><strong class="adsimple-111954616">Vertrag</strong> (Artikel 6 Absatz 1
+                lit. b DSGVO): Um einen Vertrag oder vorvertragliche Verpflichtungen mit Ihnen zu erfüllen, verarbeiten
+                wir Ihre Daten. Wenn wir zum Beispiel einen Kaufvertrag mit Ihnen abschließen, benötigen wir vorab
+                personenbezogene Informationen.</li>
+              <li class="adsimple-111954616"><strong class="adsimple-111954616">Rechtliche Verpflichtung</strong>
+                (Artikel 6 Absatz 1 lit. c DSGVO): Wenn wir einer rechtlichen Verpflichtung unterliegen, verarbeiten wir
+                Ihre Daten. Zum Beispiel sind wir gesetzlich verpflichtet Rechnungen für die Buchhaltung aufzuheben.
+                Diese enthalten in der Regel personenbezogene Daten.</li>
+              <li class="adsimple-111954616"><strong class="adsimple-111954616">Berechtigte Interessen</strong> (Artikel
+                6 Absatz 1 lit. f DSGVO): Im Falle berechtigter Interessen, die Ihre Grundrechte nicht einschränken,
+                behalten wir uns die Verarbeitung personenbezogener Daten vor. Wir müssen zum Beispiel gewisse Daten
+                verarbeiten, um unsere Website sicher und wirtschaftlich effizient betreiben zu können. Diese
+                Verarbeitung ist somit ein berechtigtes Interesse.</li>
+            </ol>
+            <p>Weitere Bedingungen wie die Wahrnehmung von Aufnahmen im öffentlichen Interesse und Ausübung öffentlicher
+              Gewalt sowie dem Schutz lebenswichtiger Interessen treten bei uns in der Regel nicht auf. Soweit eine
+              solche Rechtsgrundlage doch einschlägig sein sollte, wird diese an der entsprechenden Stelle ausgewiesen.
+            </p>
+            <p>Zusätzlich zu der EU-Verordnung gelten auch noch nationale Gesetze:</p>
+            <ul class="adsimple-111954616">
+              <li class="adsimple-111954616">In <strong class="adsimple-111954616">Österreich</strong> ist dies das
+                Bundesgesetz zum Schutz natürlicher Personen bei der Verarbeitung personenbezogener Daten (<strong
+                  class="adsimple-111954616">Datenschutzgesetz</strong>), kurz <strong
+                  class="adsimple-111954616">DSG</strong>.</li>
+              <li class="adsimple-111954616">In <strong class="adsimple-111954616">Deutschland</strong> gilt das <strong
+                  class="adsimple-111954616">Bundesdatenschutzgesetz</strong>, kurz<strong class="adsimple-111954616">
+                  BDSG</strong>.</li>
+            </ul>
+            <p>Sofern weitere regionale oder nationale Gesetze zur Anwendung kommen, informieren wir Sie in den
+              folgenden Abschnitten darüber.</p>
+            <h2 id="kontaktdaten-verantwortliche" class="adsimple-111954616 fusion-responsive-typography-calculated"
+              style="--fontsize: 24; line-height: 1.5; --minfontsize: 24;" data-fontsize="24" data-lineheight="36px">
+              Kontaktdaten des Verantwortlichen</h2>
+            <p>Sollten Sie Fragen zum Datenschutz haben, finden Sie nachfolgend die Kontaktdaten der verantwortlichen
+              Person bzw. Stelle:<br />
+              <span class="adsimple-111954616" style="font-weight: 400;">Dipl.-Ing.(FH) Erich Huber<br />
+                Sinabelkirchen 294<br />
+                A – 8261 Sinabelkirchen</span>
+            </p>
+            <p>Impressum: <a
+                href="http://huconint.projekte.axtesys.eu/impressum/">http://huconint.projekte.axtesys.eu/impressum/</a>
+            </p>
+            <h2 id="speicherdauer" class="adsimple-111954616 fusion-responsive-typography-calculated"
+              style="--fontsize: 24; line-height: 1.5; --minfontsize: 24;" data-fontsize="24" data-lineheight="36px">
+              Speicherdauer</h2>
+            <p>Dass wir personenbezogene Daten nur so lange speichern, wie es für die Bereitstellung unserer
+              Dienstleistungen und Produkte unbedingt notwendig ist, gilt als generelles Kriterium bei uns. Das
+              bedeutet, dass wir personenbezogene Daten löschen, sobald der Grund für die Datenverarbeitung nicht mehr
+              vorhanden ist. In einigen Fällen sind wir gesetzlich dazu verpflichtet, bestimmte Daten auch nach Wegfall
+              des ursprüngliches Zwecks zu speichern, zum Beispiel zu Zwecken der Buchführung.</p>
+            <p>Sollten Sie die Löschung Ihrer Daten wünschen oder die Einwilligung zur Datenverarbeitung widerrufen,
+              werden die Daten so rasch wie möglich und soweit keine Pflicht zur Speicherung besteht, gelöscht.</p>
+            <p>Über die konkrete Dauer der jeweiligen Datenverarbeitung informieren wir Sie weiter unten, sofern wir
+              weitere Informationen dazu haben.</p>
+            <h2 id="rechte-dsgvo" class="adsimple-111954616 fusion-responsive-typography-calculated"
+              style="--fontsize: 24; line-height: 1.5; --minfontsize: 24;" data-fontsize="24" data-lineheight="36px">
+              Rechte laut Datenschutz-Grundverordnung</h2>
+            <p>Laut Artikel 13 DSGVO stehen Ihnen die folgenden Rechte zu, damit es zu einer fairen und transparenten
+              Verarbeitung von Daten kommt:</p>
+            <ul class="adsimple-111954616">
+              <li class="adsimple-111954616">Sie haben laut Artikel 15 DSGVO ein Auskunftsrecht darüber, ob wir Daten
+                von Ihnen verarbeiten. Sollte das zutreffen, haben Sie Recht darauf eine Kopie der Daten zu erhalten und
+                die folgenden Informationen zu erfahren:
+                <ul class="adsimple-111954616">
+                  <li class="adsimple-111954616">zu welchem Zweck wir die Verarbeitung durchführen;</li>
+                  <li class="adsimple-111954616">die Kategorien, also die Arten von Daten, die verarbeitet werden;</li>
+                  <li class="adsimple-111954616">wer diese Daten erhält und wenn die Daten an Drittländer übermittelt
+                    werden, wie die Sicherheit garantiert werden kann;</li>
+                  <li class="adsimple-111954616">wie lange die Daten gespeichert werden;</li>
+                  <li class="adsimple-111954616">das Bestehen des Rechts auf Berichtigung, Löschung oder Einschränkung
+                    der Verarbeitung und dem Widerspruchsrecht gegen die Verarbeitung;</li>
+                  <li class="adsimple-111954616">dass Sie sich bei einer Aufsichtsbehörde beschweren können (Links zu
+                    diesen Behörden finden Sie weiter unten);</li>
+                  <li class="adsimple-111954616">die Herkunft der Daten, wenn wir sie nicht bei Ihnen erhoben haben;
+                  </li>
+                  <li class="adsimple-111954616">ob Profiling durchgeführt wird, ob also Daten automatisch ausgewertet
+                    werden, um zu einem persönlichen Profil von Ihnen zu gelangen.</li>
+                </ul>
+              </li>
+              <li class="adsimple-111954616">Sie haben laut Artikel 16 DSGVO ein Recht auf Berichtigung der Daten, was
+                bedeutet, dass wir Daten richtig stellen müssen, falls Sie Fehler finden.</li>
+              <li class="adsimple-111954616">Sie haben laut Artikel 17 DSGVO das Recht auf Löschung („Recht auf
+                Vergessenwerden“), was konkret bedeutet, dass Sie die Löschung Ihrer Daten verlangen dürfen.</li>
+              <li class="adsimple-111954616">Sie haben laut Artikel 18 DSGVO das Recht auf Einschränkung der
+                Verarbeitung, was bedeutet, dass wir die Daten nur mehr speichern dürfen aber nicht weiter verwenden.
+              </li>
+              <li class="adsimple-111954616">Sie haben laut Artikel 19 DSGVO das Recht auf Datenübertragbarkeit, was
+                bedeutet, dass wir Ihnen auf Anfrage Ihre Daten in einem gängigen Format zur Verfügung stellen.</li>
+              <li class="adsimple-111954616">Sie haben laut Artikel 21 DSGVO ein Widerspruchsrecht, welches nach
+                Durchsetzung eine Änderung der Verarbeitung mit sich bringt.
+                <ul class="adsimple-111954616">
+                  <li class="adsimple-111954616">Wenn die Verarbeitung Ihrer Daten auf Artikel 6 Abs. 1 lit. e
+                    (öffentliches Interesse, Ausübung öffentlicher Gewalt) oder Artikel 6 Abs. 1 lit. f (berechtigtes
+                    Interesse) basiert, können Sie gegen die Verarbeitung Widerspruch einlegen. Wir prüfen danach so
+                    rasch wie möglich, ob wir diesem Widerspruch rechtlich nachkommen können.</li>
+                  <li class="adsimple-111954616">Werden Daten verwendet, um Direktwerbung zu betreiben, können Sie
+                    jederzeit gegen diese Art der Datenverarbeitung widersprechen. Wir dürfen Ihre Daten danach nicht
+                    mehr für Direktmarketing verwenden.</li>
+                  <li class="adsimple-111954616">Werden Daten verwendet, um Profiling zu betreiben, können Sie jederzeit
+                    gegen diese Art der Datenverarbeitung widersprechen. Wir dürfen Ihre Daten danach nicht mehr für
+                    Profiling verwenden.</li>
+                </ul>
+              </li>
+              <li class="adsimple-111954616">Sie haben laut Artikel 22 DSGVO unter Umständen das Recht, nicht einer
+                ausschließlich auf einer automatisierten Verarbeitung (zum Beispiel Profiling) beruhenden Entscheidung
+                unterworfen zu werden.</li>
+            </ul>
+            <p><strong class="adsimple-111954616">Kurz gesagt:</strong> Sie haben Rechte – zögern Sie nicht, die oben
+              gelistete verantwortliche Stelle bei uns zu kontaktieren!</p>
+            <p>Wenn Sie glauben, dass die Verarbeitung Ihrer Daten gegen das Datenschutzrecht verstößt oder Ihre
+              datenschutzrechtlichen Ansprüche in sonst einer Weise verletzt worden sind, können Sie sich bei der
+              Aufsichtsbehörde beschweren. Diese ist für Österreich die Datenschutzbehörde, deren Website Sie unter <a
+                class="adsimple-111954616" href="https://www.dsb.gv.at/?tid=111954616" target="_blank"
+                rel="noopener">https://www.dsb.gv.at/</a> finden. In Deutschland gibt es für jedes Bundesland einen
+              Datenschutzbeauftragten. Für nähere Informationen können Sie sich an die <a class="adsimple-111954616"
+                href="https://www.bfdi.bund.de/DE/Home/home_node.html" target="_blank" rel="noopener">Bundesbeauftragte
+                für den Datenschutz und die Informationsfreiheit (BfDI)</a> wenden. Für unser Unternehmen ist die
+              folgende lokale Datenschutzbehörde zuständig:</p>
+            <h2 id="oesterreich-datenschutzbehoerde" class="adsimple-111954616 fusion-responsive-typography-calculated"
+              style="--fontsize: 24; line-height: 1.5; --minfontsize: 24;" data-fontsize="24" data-lineheight="36px">
+              Österreich Datenschutzbehörde</h2>
+            <p><strong class="adsimple-111954616">Leiterin: </strong>Mag. Dr. Andrea Jelinek<strong
+                class="adsimple-111954616"><br />
+                Adresse: </strong>Barichgasse 40-42, 1030 Wien<strong class="adsimple-111954616"><br />
+                Telefonnr.: </strong>+43 1 52 152-0<strong class="adsimple-111954616"><br />
+                E-Mail-Adresse: </strong><a class="adsimple-111954616" href="mailto:dsb@dsb.gv.at" target="_blank"
+                rel="noopener">dsb@dsb.gv.at</a><strong class="adsimple-111954616"><br />
+                Website: </strong><a class="adsimple-111954616" href="https://www.dsb.gv.at/" target="_blank"
+                rel="noopener">https://www.dsb.gv.at/</a></p>
+            <h2 id="sicherheit-datenverarbeitung" class="adsimple-111954616 fusion-responsive-typography-calculated"
+              style="--fontsize: 24; line-height: 1.5; --minfontsize: 24;" data-fontsize="24" data-lineheight="36px">
+              Sicherheit der Datenverarbeitung</h2>
+            <p>Um personenbezogene Daten zu schützen, haben wir sowohl technische als auch organisatorische Maßnahmen
+              umgesetzt. Wo es uns möglich ist, verschlüsseln oder pseudonymisieren wir personenbezogene Daten. Dadurch
+              machen wir es im Rahmen unserer Möglichkeiten so schwer wie möglich, dass Dritte aus unseren Daten auf
+              persönliche Informationen schließen können.</p>
+            <p>Art. 25 DSGVO spricht hier von “Datenschutz durch Technikgestaltung und durch datenschutzfreundliche
+              Voreinstellungen” und meint damit, dass man sowohl bei Software (z. B. Formularen) also auch Hardware (z.
+              B. Zugang zum Serverraum) immer an Sicherheit denkt und entsprechende Maßnahmen setzt. Im Folgenden gehen
+              wir, falls erforderlich, noch auf konkrete Maßnahmen ein.</p>
+            <h2 id="kommunikation" class="adsimple-111954616 fusion-responsive-typography-calculated"
+              style="--fontsize: 24; line-height: 1.5; --minfontsize: 24;" data-fontsize="24" data-lineheight="36px">
+              Kommunikation</h2>
+            <table border="1" cellpadding="15">
+              <tbody>
+                <tr>
+                  <td><strong class="adsimple-111954616">Kommunikation Zusammenfassung</strong><br />
+                    ? Betroffene: Alle, die mit uns per Telefon, E-Mail oder Online-Formular kommunizieren<br />
+                    ? Verarbeitete Daten: z. B. Telefonnummer, Name, E-Mail-Adresse, eingegebene Formulardaten. Mehr
+                    Details dazu finden Sie bei der jeweils eingesetzten Kontaktart<br />
+                    ? Zweck: Abwicklung der Kommunikation mit Kunden, Geschäftspartnern usw.<br />
+                    ? Speicherdauer: Dauer des Geschäftsfalls und der gesetzlichen Vorschriften<br />
+                    ⚖️ Rechtsgrundlagen: Art. 6 Abs. 1 lit. a DSGVO (Einwilligung), Art. 6 Abs. 1 lit. b DSGVO
+                    (Vertrag), Art. 6 Abs. 1 lit. f DSGVO (Berechtigte Interessen)</td>
+                </tr>
+              </tbody>
+            </table>
+            <p>Wenn Sie mit uns Kontakt aufnehmen und per Telefon, E-Mail oder Online-Formular kommunizieren, kann es
+              zur Verarbeitung personenbezogener Daten kommen.</p>
+            <p>Die Daten werden für die Abwicklung und Bearbeitung Ihrer Frage und des damit zusammenhängenden
+              Geschäftsvorgangs verarbeitet. Die Daten während ebensolange gespeichert bzw. so lange es das Gesetz
+              vorschreibt.</p>
+            <h3 class="adsimple-111954616 fusion-responsive-typography-calculated"
+              style="--fontsize: 21; line-height: 1.5; --minfontsize: 21;" data-fontsize="21" data-lineheight="31.5px">
+              Betroffene Personen</h3>
+            <p>Von den genannten Vorgängen sind alle betroffen, die über die von uns bereit gestellten
+              Kommunikationswege den Kontakt zu uns suchen.</p>
+            <h3 class="adsimple-111954616 fusion-responsive-typography-calculated"
+              style="--fontsize: 21; line-height: 1.5; --minfontsize: 21;" data-fontsize="21" data-lineheight="31.5px">
+              Telefon</h3>
+            <p>Wenn Sie uns anrufen, werden die Anrufdaten auf dem jeweiligen Endgerät und beim eingesetzten
+              Telekommunikationsanbieter pseudonymisiert gespeichert. Außerdem können Daten wie Name und Telefonnummer
+              im Anschluss per E-Mail versendet und zur Anfragebeantwortung gespeichert werden. Die Daten werden
+              gelöscht, sobald der Geschäftsfall beendet wurde und es gesetzliche Vorgaben erlauben.</p>
+            <h3 class="adsimple-111954616 fusion-responsive-typography-calculated"
+              style="--fontsize: 21; line-height: 1.5; --minfontsize: 21;" data-fontsize="21" data-lineheight="31.5px">
+              E-Mail</h3>
+            <p>Wenn Sie mit uns per E-Mail kommunizieren, werden Daten gegebenenfalls auf dem jeweiligen Endgerät
+              (Computer, Laptop, Smartphone,…) gespeichert und es kommt zur Speicherung von Daten auf dem E-Mail-Server.
+              Die Daten werden gelöscht, sobald der Geschäftsfall beendet wurde und es gesetzliche Vorgaben erlauben.
+            </p>
+            <h3 class="adsimple-111954616 fusion-responsive-typography-calculated"
+              style="--fontsize: 21; line-height: 1.5; --minfontsize: 21;" data-fontsize="21" data-lineheight="31.5px">
+              Online Formulare</h3>
+            <p>Wenn Sie mit uns mittels Online-Formular kommunizieren, werden Daten auf unserem Webserver gespeichert
+              und gegebenenfalls an eine E-Mail-Adresse von uns weitergeleitet. Die Daten werden gelöscht, sobald der
+              Geschäftsfall beendet wurde und es gesetzliche Vorgaben erlauben.</p>
+            <h3 class="adsimple-111954616 fusion-responsive-typography-calculated"
+              style="--fontsize: 21; line-height: 1.5; --minfontsize: 21;" data-fontsize="21" data-lineheight="31.5px">
+              Rechtsgrundlagen</h3>
+            <p>Die Verarbeitung der Daten basiert auf den folgenden Rechtsgrundlagen:</p>
+            <ul class="adsimple-111954616">
+              <li class="adsimple-111954616">Art. 6 Abs. 1 lit. a DSGVO (Einwilligung): Sie geben uns die Einwilligung
+                Ihre Daten zu speichern und weiter für den Geschäftsfall betreffende Zwecke zu verwenden;</li>
+              <li class="adsimple-111954616">Art. 6 Abs. 1 lit. b DSGVO (Vertrag): Es besteht die Notwendigkeit für die
+                Erfüllung eines Vertrags mit Ihnen oder einem Auftragsverarbeiter wie z. B. dem Telefonanbieter oder wir
+                müssen die Daten für vorvertragliche Tätigkeiten, wie z. B. die Vorbereitung eines Angebots,
+                verarbeiten;</li>
+              <li class="adsimple-111954616">Art. 6 Abs. 1 lit. f DSGVO (Berechtigte Interessen): Wir wollen
+                Kundenanfragen und geschäftliche Kommunikation in einem professionellen Rahmen betreiben. Dazu sind
+                gewisse technische Einrichtungen wie z. B. E-Mail-Programme, Exchange-Server und Mobilfunkbetreiber
+                notwendig, um die Kommunikation effizient betreiben zu können.</li>
+            </ul>
+            <h2 id="webhosting-einleitung" class="adsimple-111954616 fusion-responsive-typography-calculated"
+              style="--fontsize: 24; line-height: 1.5; --minfontsize: 24;" data-fontsize="24" data-lineheight="36px">
+              Webhosting Einleitung</h2>
+            <table border="1" cellpadding="15">
+              <tbody>
+                <tr>
+                  <td><strong class="adsimple-111954616">Webhosting Zusammenfassung</strong><br />
+                    ? Betroffene: Besucher der Website<br />
+                    ? Zweck: professionelles Hosting der Website und Absicherung des Betriebs<br />
+                    ? Verarbeitete Daten: IP-Adresse, Zeitpunkt des Websitebesuchs, verwendeter Browser und weitere
+                    Daten. Mehr Details dazu finden Sie weiter unten bzw. beim jeweils eingesetzten Webhosting
+                    Provider.<br />
+                    ? Speicherdauer: abhängig vom jeweiligen Provider, aber in der Regel 2 Wochen<br />
+                    ⚖️ Rechtsgrundlagen: Art. 6 Abs. 1 lit.f DSGVO (Berechtigte Interessen)</td>
+                </tr>
+              </tbody>
+            </table>
+            <h3 class="adsimple-111954616 fusion-responsive-typography-calculated"
+              style="--fontsize: 21; line-height: 1.5; --minfontsize: 21;" data-fontsize="21" data-lineheight="31.5px">
+              Was ist Webhosting?</h3>
+            <p>Wenn Sie heutzutage Websites besuchen, werden gewisse Informationen – auch personenbezogene Daten –
+              automatisch erstellt und gespeichert, so auch auf dieser Website. Diese Daten sollten möglichst sparsam
+              und nur mit Begründung verarbeitet werden. Mit Website meinen wir übrigens die Gesamtheit aller Webseiten
+              auf einer Domain, d.h. alles von der Startseite (Homepage) bis hin zur aller letzten Unterseite (wie
+              dieser hier). Mit Domain meinen wir zum Beispiel beispiel.de oder musterbeispiel.com.</p>
+            <p>Wenn Sie eine Website auf einem Bildschirm ansehen möchten, verwenden Sie dafür ein Programm, das sich
+              Webbrowser nennt. Sie kennen vermutlich einige Webbrowser beim Namen: Google Chrome, Microsoft Edge,
+              Mozilla Firefox und Apple Safari.</p>
+            <p>Dieser Webbrowser muss sich zu einem anderen Computer verbinden, wo der Code der Website gespeichert ist:
+              dem Webserver. Der Betrieb eines Webservers ist eine komplizierte und aufwendige Aufgabe, weswegen dies in
+              der Regel von professionellen Anbietern, den Providern, übernommen wird. Diese bieten Webhosting an und
+              sorgen damit für eine verlässliche und fehlerfreie Speicherung der Daten von Websites.</p>
+            <p>Bei der Verbindungsaufnahme des Browsers auf Ihrem Computer (Desktop, Laptop, Smartphone) und während der
+              Datenübertragung zu und vom Webserver kann es zu einer Verarbeitung personenbezogener Daten kommen.
+              Einerseits speichert Ihr Computer Daten, andererseits muss auch der Webserver Daten eine Zeit lang
+              speichern, um einen ordentlichen Betrieb zu gewährleisten.</p>
+            <p>Zur Veranschaulichung:</p>
+            <p><img decoding="async" role="img"
+                src="https://www.adsimple.at/wp-content/uploads/2018/03/browser-und-webserver.svg"
+                alt="Browser und Webserver" width="100%" /></p>
+            <h3 class="adsimple-111954616 fusion-responsive-typography-calculated"
+              style="--fontsize: 21; line-height: 1.5; --minfontsize: 21;" data-fontsize="21" data-lineheight="31.5px">
+              Warum verarbeiten wir personenbezogene Daten?</h3>
+            <p>Die Zwecke der Datenverarbeitung sind:</p>
+            <ol>
+              <li class="adsimple-111954616">Professionelles Hosting der Website und Absicherung des Betriebs</li>
+              <li class="adsimple-111954616">zur Aufrechterhaltung der Betriebs- und IT-Sicherheit</li>
+              <li class="adsimple-111954616">Anonyme Auswertung des Zugriffsverhaltens zur Verbesserung unseres Angebots
+                und ggf. zur Strafverfolgung bzw. Verfolgung von Ansprüchen</li>
+            </ol>
+            <h3 class="adsimple-111954616 fusion-responsive-typography-calculated"
+              style="--fontsize: 21; line-height: 1.5; --minfontsize: 21;" data-fontsize="21" data-lineheight="31.5px">
+              Welche Daten werden verarbeitet?</h3>
+            <p>Auch während Sie unsere Website jetzt gerade besuchen, speichert unser Webserver, das ist der Computer
+              auf dem diese Webseite gespeichert ist, in der Regel automatisch Daten wie</p>
+            <ul class="adsimple-111954616">
+              <li class="adsimple-111954616">die komplette Internetadresse (URL) der aufgerufenen Webseite</li>
+              <li class="adsimple-111954616">Browser und Browserversion (z. B. Chrome 87)</li>
+              <li class="adsimple-111954616">das verwendete Betriebssystem (z. B. Windows 10)</li>
+              <li class="adsimple-111954616">die Adresse (URL) der zuvor besuchten Seite (Referrer URL) (z. B. <a
+                  class="adsimple-111954616" href="https://www.beispielquellsite.de/vondabinichgekommen.html/"
+                  target="_blank" rel="follow noopener">https://www.beispielquellsite.de/vondabinichgekommen.html/</a>)
+              </li>
+              <li class="adsimple-111954616">den Hostnamen und die IP-Adresse des Geräts von welchem aus zugegriffen
+                wird (z. B. COMPUTERNAME und 194.23.43.121)</li>
+              <li class="adsimple-111954616">Datum und Uhrzeit</li>
+              <li class="adsimple-111954616">in Dateien, den sogenannten Webserver-Logfiles</li>
+            </ul>
+            <h3 class="adsimple-111954616 fusion-responsive-typography-calculated"
+              style="--fontsize: 21; line-height: 1.5; --minfontsize: 21;" data-fontsize="21" data-lineheight="31.5px">
+              Wie lange werden Daten gespeichert?</h3>
+            <p>In der Regel werden die oben genannten Daten zwei Wochen gespeichert und danach automatisch gelöscht. Wir
+              geben diese Daten nicht weiter, können jedoch nicht ausschließen, dass diese Daten beim Vorliegen von
+              rechtswidrigem Verhalten von Behörden eingesehen werden.</p>
+            <p><strong class="adsimple-111954616">Kurz gesagt:</strong> Ihr Besuch wird durch unseren Provider (Firma,
+              die unsere Website auf speziellen Computern (Servern) laufen lässt), protokolliert, aber wir geben Ihre
+              Daten nicht ohne Zustimmung weiter!</p>
+            <h3 class="adsimple-111954616 fusion-responsive-typography-calculated"
+              style="--fontsize: 21; line-height: 1.5; --minfontsize: 21;" data-fontsize="21" data-lineheight="31.5px">
+              Rechtsgrundlage</h3>
+            <p>Die Rechtmäßigkeit der Verarbeitung personenbezogener Daten im Rahmen des Webhosting ergibt sich aus Art.
+              6 Abs. 1 lit. f DSGVO (Wahrung der berechtigten Interessen), denn die Nutzung von professionellem Hosting
+              bei einem Provider ist notwendig, um das Unternehmen im Internet sicher und nutzerfreundlich präsentieren
+              und Angriffe und Forderungen hieraus gegebenenfalls verfolgen zu können.</p>
+            <p>Zwischen uns und dem Hostingprovider besteht in der Regel ein Vertrag über die Auftragsverarbeitung gemäß
+              Art. 28 f. DSGVO, der die Einhaltung von Datenschutz gewährleistet und Datensicherheit garantiert.</p>
+            <h2 id="website-baukastensysteme-einleitung"
+              class="adsimple-111954616 fusion-responsive-typography-calculated"
+              style="--fontsize: 24; line-height: 1.5; --minfontsize: 24;" data-fontsize="24" data-lineheight="36px">
+              Website Baukastensysteme Einleitung</h2>
+            <table border="1" cellpadding="15">
+              <tbody>
+                <tr>
+                  <td><strong class="adsimple-111954616">Website Baukastensysteme Datenschutzerklärung
+                      Zusammenfassung</strong><br />
+                    ? Betroffene: Besucher der Website<br />
+                    ? Zweck: Optimierung unserer Serviceleistung<br />
+                    ? Verarbeitete Daten: Daten wie etwa technische Nutzungsinformationen wie Browseraktivität,
+                    Clickstream-Aktivitäten, Sitzungs-Heatmaps sowie Kontaktdaten, IP-Adresse oder Ihr geografischer
+                    Standort. Mehr Details dazu finden Sie weiter unten in dieser Datenschutzerklärung und in der
+                    Datenschutzerklärung der Anbieter.<br />
+                    ? Speicherdauer: hängt vom Anbieter ab<br />
+                    ⚖️ Rechtsgrundlagen: Art. 6 Abs. 1 lit. f DSGVO (Berechtigte Interessen), Art. 6 Abs. 1 lit. a DSGVO
+                    (Einwilligung)</td>
+                </tr>
+              </tbody>
+            </table>
+            <h3 class="adsimple-111954616 fusion-responsive-typography-calculated"
+              style="--fontsize: 21; line-height: 1.5; --minfontsize: 21;" data-fontsize="21" data-lineheight="31.5px">
+              Was sind Website Baukastensysteme?</h3>
+            <p>Wir verwenden für unsere Website ein Website Baukastensystem. Baukastensysteme sind besondere Formen
+              eines Content-Management-Systems (CMS). Mit einem Baukastensystem können Websitebetreiber sehr leicht und
+              ohne Programmierkenntnisse eine Website erstellen. In vielen Fällen bieten auch Webhoster Baukastensysteme
+              an. Durch die Verwendung eines Baukastensystems können auch personenbezogene Daten von Ihnen erhoben,
+              gespeichert und verarbeitet werden. In diesem Datenschutztext geben wir Ihnen allgemeine Informationen
+              über die Datenverarbeitung durch Baukastensysteme. Nähere Informationen finden Sie in den
+              Datenschutzerklärungen des Anbieters.</p>
+            <h3 class="adsimple-111954616 fusion-responsive-typography-calculated"
+              style="--fontsize: 21; line-height: 1.5; --minfontsize: 21;" data-fontsize="21" data-lineheight="31.5px">
+              Warum verwenden wir Website Baukastensysteme für unsere Website?</h3>
+            <p>Der größte Vorteil eines Baukastensystems ist die einfache Bedienbarkeit. Wir wollen Ihnen eine klare,
+              einfache und übersichtliche Website bieten, die wir selbst – ohne externe Unterstützung – problemlos
+              bedienen und warten können. Ein Baukastensystem bietet mittlerweile viele hilfreiche Funktionen, die wir
+              auch ohne Programmierkenntnisse anwenden können. Dadurch können wir unsere Webpräsenz nach unseren
+              Wünschen gestalten und Ihnen eine informative und angenehme Zeit auf unserer Website bieten.</p>
+            <h3 class="adsimple-111954616 fusion-responsive-typography-calculated"
+              style="--fontsize: 21; line-height: 1.5; --minfontsize: 21;" data-fontsize="21" data-lineheight="31.5px">
+              Welche Daten werden von einem Baukastensystem gespeichert?</h3>
+            <p>Welche Daten genau gespeichert werden hängt natürlich vom verwendeten Website-Baukastensystem ab. Jeder
+              Anbieter verarbeitet und erhebt unterschiedliche Daten des Websitebesuchers. Doch in der Regel werden
+              technische Nutzungsinformationen wie etwa etwa Betriebssystem, Browser, Bildschirmauflösung, Sprach- und
+              Tastatureinstellungen, Hostinganbieter und das Datum Ihres Websitebesuches erhoben. Weiter können auch
+              Trackingdaten (z.B. Browseraktivität, Clickstreamaktivitäten, Sitzungs-Heatmaps u.a.) verarbeitet werden.
+              Zudem können auch personenbezogene Daten erfasst und gespeichert werden. Dabei handelt es sich meistens um
+              Kontaktdaten wie E-Mail-Adresse, Telefonnummer (falls Sie diese angegeben haben), IP-Adresse und
+              geografischen Standortdaten. Welche Daten genau gespeichert werden, finden Sie in der Datenschutzerklärung
+              des Anbieters.</p>
+            <h3 class="adsimple-111954616 fusion-responsive-typography-calculated"
+              style="--fontsize: 21; line-height: 1.5; --minfontsize: 21;" data-fontsize="21" data-lineheight="31.5px">
+              Wie lange und wo werden die Daten gespeichert?</h3>
+            <p>Über die Dauer der Datenverarbeitung informieren wir Sie weiter unten im Zusammenhang mit dem verwendeten
+              Website Baukastensystem, sofern wir weitere Informationen dazu haben. In den Datenschutzerklärung des
+              Anbieters finden Sie detaillierte Informationen darüber. Generell verarbeiten wir personenbezogene Daten
+              nur so lange wie es für die Bereitstellung unserer Dienstleistungen und Produkte unbedingt notwendig ist.
+              Es kann sein, dass der Anbieter nach eigenen Maßgaben Daten von Ihnen speichert, worauf wir keinen
+              Einfluss haben.</p>
+            <h3 class="adsimple-111954616 fusion-responsive-typography-calculated"
+              style="--fontsize: 21; line-height: 1.5; --minfontsize: 21;" data-fontsize="21" data-lineheight="31.5px">
+              Widerspruchsrecht</h3>
+            <p>Sie haben immer das Recht auf Auskunft, Berichtigung und Löschung Ihrer personenbezogenen Daten. Bei
+              Fragen können Sie auch jederzeit Verantwortliche des verwendeten Website Baukastensystems kontaktieren.
+              Kontaktdaten finden Sie entweder in unserer Datenschutzerklärung oder auf der Website des entsprechenden
+              Anbieters.</p>
+            <p>Cookies, die Anbieter für ihre Funktionen verwenden, können Sie in Ihrem Browser löschen, deaktivieren
+              oder verwalten. Je nachdem welchen Browser Sie verwenden, funktioniert dies auf unterschiedliche Art und
+              Weise. Bitte beachten Sie aber, dass dann eventuell nicht mehr alle Funktionen wie gewohnt funktionieren.
+            </p>
+            <h3 class="adsimple-111954616 fusion-responsive-typography-calculated"
+              style="--fontsize: 21; line-height: 1.5; --minfontsize: 21;" data-fontsize="21" data-lineheight="31.5px">
+              Rechtsgrundlage</h3>
+            <p>Wir haben ein berechtigtes Interesse daran, ein Website Baukastensystem zu verwenden, um unseren
+              Online-Service zu optimieren und für Sie effizient und nutzeransprechend darzustellen. Die dafür
+              entsprechende Rechtsgrundlage ist Art. 6 Abs. 1 lit. f DSGVO (Berechtigte Interessen). Wir setzen den
+              Baukasten gleichwohl nur ein, soweit Sie eine Einwilligung erteilt haben.</p>
+            <p>Soweit die Verarbeitung von Daten für den Betrieb der Webseite nicht unbedingt notwendig ist, werden die
+              Daten nur auf Grundlage Ihrer Einwilligung verarbeitet. Dies betrifft insbesondere Aktivitäten des
+              Trackings. Rechtsgrundlage ist insoweit Art. 6 Abs. 1 lit. a DSGVO.</p>
+            <p>Mit dieser Datenschutzerklärung haben wir Ihnen die wichtigsten allgemeinen Informationen rund um die
+              Datenverarbeitung nähergebracht. Wenn Sie sich diesbezüglich noch genauer informieren wollen, finden Sie
+              weitere Informationen – sofern vorhanden – in dem folgenden Abschnitt bzw. in der Datenschutzerklärung des
+              Anbieters.</p>
+            <h2 id="wordpress-com-datenschutzerklaerung"
+              class="adsimple-111954616 fusion-responsive-typography-calculated"
+              style="--fontsize: 24; line-height: 1.5; --minfontsize: 24;" data-fontsize="24" data-lineheight="36px">
+              WordPress.com Datenschutzerklärung</h2>
+            <p>Wir nutzen für unsere Website WordPress.com, ein Website Baukastensystem. Dienstanbieter ist das
+              amerikanische Unternehmen Automattic Inc., 60 29th Street #343, San Francisco, CA 94110, USA.</p>
+            <p>WordPress verarbeitet Daten von Ihnen u.a. auch in den USA. Wir weisen darauf hin, dass nach Meinung des
+              Europäischen Gerichtshofs derzeit kein angemessenes Schutzniveau für den Datentransfer in die USA besteht.
+              Dies kann mit verschiedenen Risiken für die Rechtmäßigkeit und Sicherheit der Datenverarbeitung
+              einhergehen.</p>
+            <p>Als Grundlage der Datenverarbeitung bei Empfängern mit Sitz in Drittstaaten (außerhalb der Europäischen
+              Union, Island, Liechtenstein, Norwegen, also insbesondere in den USA) oder einer Datenweitergabe dorthin
+              verwendet WordPress sogenannte Standardvertragsklauseln (= Art. 46. Abs. 2 und 3 DSGVO).
+              Standardvertragsklauseln (Standard Contractual Clauses – SCC) sind von der EU-Kommission bereitgestellte
+              Mustervorlagen und sollen sicherstellen, dass Ihre Daten auch dann den europäischen Datenschutzstandards
+              entsprechen, wenn diese in Drittländer (wie beispielsweise in die USA) überliefert und dort gespeichert
+              werden. Durch diese Klauseln verpflichtet sich WordPress, bei der Verarbeitung Ihrer relevanten Daten, das
+              europäische Datenschutzniveau einzuhalten, selbst wenn die Daten in den USA gespeichert, verarbeitet und
+              verwaltet werden. Diese Klauseln basieren auf einem Durchführungsbeschluss der EU-Kommission. Sie finden
+              den Beschluss und die entsprechenden Standardvertragsklauseln u.a. hier: <a class="adsimple-111954616"
+                href="https://eur-lex.europa.eu/eli/dec_impl/2021/914/oj?locale=de" target="_blank"
+                rel="follow noopener">https://eur-lex.europa.eu/eli/dec_impl/2021/914/oj?locale=de</a></p>
+            <p>Die Datenverarbeitungsbedingungen (Data Processing Agreements), welche den Standardvertragsklauseln
+              entsprechen, finden Sie unter <a class="adsimple-111954616"
+                href="https://wordpress.com/support/data-processing-agreements/" target="_blank"
+                rel="follow noopener">https://wordpress.com/support/data-processing-agreements/</a>.</p>
+            <p>Mehr über die Daten, die durch die Verwendung von WordPress.com verarbeitet werden, erfahren Sie in der
+              Datenschutzerklärung auf <a class="adsimple-111954616" href="https://automattic.com/de/privacy/"
+                target="_blank" rel="noopener">https://automattic.com/de/privacy/</a>.</p>
+            <h2 id="sonstiges-einleitung" class="adsimple-111954616 fusion-responsive-typography-calculated"
+              style="--fontsize: 24; line-height: 1.5; --minfontsize: 24;" data-fontsize="24" data-lineheight="36px">
+              Sonstiges Einleitung</h2>
+            <table border="1" cellpadding="15">
+              <tbody>
+                <tr>
+                  <td><strong class="adsimple-111954616">Sonstiges Datenschutzerklärung Zusammenfassung</strong><br />
+                    ? Betroffene: Besucher der Website<br />
+                    ? Zweck: Verbesserung der Nutzererfahrung<br />
+                    ? Verarbeitete Daten: Welche Daten verarbeitet werden, hängt stark von den verwendeten Diensten ab.
+                    Meist handelt es sich um IP-Adresse und/oder technische Daten. Mehr Details dazu finden Sie bei den
+                    jeweils eingesetzten Tools.<br />
+                    ? Speicherdauer: abhängig von den eingesetzten Tools<br />
+                    ⚖️ Rechtsgrundlagen: Art. 6 Abs. 1 lit. a DSGVO (Einwilligung), Art. 6 Abs. 1 lit. f DSGVO
+                    (Berechtigte Interessen)</td>
+                </tr>
+              </tbody>
+            </table>
+            <h3 class="adsimple-111954616 fusion-responsive-typography-calculated"
+              style="--fontsize: 21; line-height: 1.5; --minfontsize: 21;" data-fontsize="21" data-lineheight="31.5px">
+              Was fällt unter „Sonstiges“?</h3>
+            <p>Unter die Kategorie „Sonstiges“ fallen jene Dienste, die nicht in eine der oben genannten Kategorien
+              passen. Dabei handelt es sich in der Regel um diverse Plugins und eingebundene Elemente, die unsere
+              Website verbessern. In der Regel werden diese Funktionen von Drittanbietern bezogen und in unsere Website
+              eingebunden. Beispielsweise handelt es sich dabei um Websuch-Dienste wie Algolia Place, Giphy,
+              Programmable Search Engine oder Onlinedienste für Wetterdaten wie etwa OpenWeather.</p>
+            <h3 class="adsimple-111954616 fusion-responsive-typography-calculated"
+              style="--fontsize: 21; line-height: 1.5; --minfontsize: 21;" data-fontsize="21" data-lineheight="31.5px">
+              Warum verwenden wir weitere Drittanbieter?</h3>
+            <p>Wir wollen Ihnen mit unserer Website das beste Webangebot in unserer Branche bieten. Schon lange ist eine
+              Website nicht bloß eine reine Visitenkarte für Unternehmen. Vielmehr ist es ein Ort, der Ihnen behilflich
+              sein soll, zu finden wonach Sie suchen. Um stets unsere Website für Sie noch interessanter und hilfreicher
+              zu machen, nutzen wir diverse Dienste von Drittanbietern.</p>
+            <h3 class="adsimple-111954616 fusion-responsive-typography-calculated"
+              style="--fontsize: 21; line-height: 1.5; --minfontsize: 21;" data-fontsize="21" data-lineheight="31.5px">
+              Welche Daten werden verarbeitet?</h3>
+            <p>Immer wenn Elemente in unsere Website eingebunden werden, wird Ihre IP-Adresse an den jeweiligen Anbieter
+              übermittelt, gespeichert und dort verarbeitet werden. Das ist nötig, weil sonst die Inhalte nicht an Ihren
+              Browser gesendet werden und folglich nicht entsprechend dargestellt werden. Es kann auch vorkommen, dass
+              Dienstanbieter auch Pixel-Tags bzw. Web-Beacons verwenden. Das sind kleine Grafiken auf Websites, die eine
+              Logdatei aufzeichnen und auch Analysen dieser Datei erstellen können. Mit den erhaltenen Informationen
+              können die Anbieter ihre eigenen Marketingmaßnahmen verbessern. Neben Pixel-Tags können solche
+              Informationen (wie beispielsweise welchen Button Sie klicken oder wann Sie welche Seite aufrufen) auch in
+              Cookies gespeichert werden. Darin können neben Analysedaten zu Ihrem Webverhalten auch technische
+              Informationen wie etwa Ihr Browsertyp oder Ihr Betriebssystem gespeichert werden. Manche Anbieter können
+              die gewonnenen Daten auch mit anderen internen Diensten oder auch mit Drittanbieter verknüpfen. Jeder
+              Anbieter pflegt einen anderen Umgang mit Ihren Daten. Daher empfehlen wir Ihnen sorgfältig die
+              Datenschutzerklärungen der jeweiligen Dienste durchzulesen. Wir sind grundsätzlich bemüht, nur Dienste zu
+              verwenden, die mit dem Thema Datenschutz sehr vorsichtig umgehen.</p>
+            <h3 class="adsimple-111954616 fusion-responsive-typography-calculated"
+              style="--fontsize: 21; line-height: 1.5; --minfontsize: 21;" data-fontsize="21" data-lineheight="31.5px">
+              Dauer der Datenverarbeitung</h3>
+            <p>Über die Dauer der Datenverarbeitung informieren wir Sie weiter unten, sofern wir weitere Informationen
+              dazu haben. Generell verarbeiten wir personenbezogene Daten nur so lange wie es für die Bereitstellung
+              unserer Dienstleistungen und Produkte unbedingt notwendig ist.</p>
+            <h3 class="adsimple-111954616 fusion-responsive-typography-calculated"
+              style="--fontsize: 21; line-height: 1.5; --minfontsize: 21;" data-fontsize="21" data-lineheight="31.5px">
+              Rechtsgrundlage</h3>
+            <p>Wenn wir Sie um Ihre Einwilligung bitte und Sie auch einwilligen, dass wir den Dienst verwenden dürfen,
+              gilt dies als Rechtsgrundlage der Verarbeitung Ihrer Daten (Art. 6 Abs. 1 lit. a DSGVO).  Zusätzlich zur
+              Einwilligung besteht von unserer Seite ein berechtigtes Interesse daran, das Verhalten der Websitebesucher
+              zu analysieren und so unser Angebot technisch und wirtschaftlich zu verbessern. Die Rechtsgrundlage dafür
+              ist Art. 6 Abs. 1 lit. f DSGVO (Berechtigte Interessen). Wir setzen die Tools gleichwohl nur ein, soweit
+              Sie eine Einwilligung erteilt haben.</p>
+            <p>Informationen zu den speziellen Tools, erhalten Sie – sofern vorhanden – in den folgenden Abschnitten.
+            </p>
+            <h2 id="font-awesome-datenschutzerklaerung"
+              class="adsimple-111954616 fusion-responsive-typography-calculated"
+              style="--fontsize: 24; line-height: 1.5; --minfontsize: 24;" data-fontsize="24" data-lineheight="36px">
+              Font Awesome Datenschutzerklärung</h2>
+            <table border="1" cellpadding="15">
+              <tbody>
+                <tr>
+                  <td><strong class="adsimple-111954616">Font Awesome Datenschutzerklärung
+                      Zusammenfassung</strong><br />
+                    ? Betroffene: Besucher der Website<br />
+                    ? Zweck: Optimierung unserer Serviceleistung<br />
+                    ? Verarbeitete Daten: etwa IP-Adresse und und welche Icon-Dateien geladen werden<br />
+                    Mehr Details dazu finden Sie weiter unten in dieser Datenschutzerklärung.<br />
+                    ? Speicherdauer: Dateien in identifizierbarer Form werden wenige Wochen gespeichert<br />
+                    ⚖️ Rechtsgrundlagen: Art. 6 Abs. 1 lit. a DSGVO (Einwilligung), Art. 6 Abs. 1 lit. f DSGVO
+                    (Berechtigte Interessen)</td>
+                </tr>
+              </tbody>
+            </table>
+            <h3 class="adsimple-111954616 fusion-responsive-typography-calculated"
+              style="--fontsize: 21; line-height: 1.5; --minfontsize: 21;" data-fontsize="21" data-lineheight="31.5px">
+              Was ist Font Awesome?</h3>
+            <p>Wir verwenden auf unserer Website Font Awesome des amerikanischen Unternehmens Fonticons (307 S. Main
+              St., Suite 202, Bentonville, AR 72712, USA). Wenn Sie eine unserer Webseite aufrufen, wird die
+              Web-Schriftart Font Awesome (im Speziellen Icons) über das Font Awesome Content Delivery Netzwerk (CDN)
+              geladen. So werden die Texte bzw. Schriften und Icons auf jedem Endgerät passend angezeigt. In dieser
+              Datenschutzerklärung gehen wir näher auf die Datenspeicherung und Datenverarbeitung durch diesen Service
+              ein.</p>
+            <p>Icons spielen für Websites eine immer wichtigere Rolle. Font Awesome ist eine Web-Schriftart, die
+              speziell für Webdesigner und Webentwickler entwickelt wurde. Mit Font Awesome können etwa Icons mit Hilfe
+              der Stylesheet-Sprache CSS nach Belieben skaliert und gefärbt werden. Sie ersetzen so alte Bild-Icons.
+              Font Awesome CDN ist der einfachste Weg die Icons oder Schriftarten auf Ihre Website zu laden. Dafür
+              mussten wir nur eine kleine Code-Zeile in unsere Website einbinden.</p>
+            <h3 class="adsimple-111954616 fusion-responsive-typography-calculated"
+              style="--fontsize: 21; line-height: 1.5; --minfontsize: 21;" data-fontsize="21" data-lineheight="31.5px">
+              Warum verwenden wir Font Awesome auf unserer Website?</h3>
+            <p>Durch Font Awesome können Inhalte auf unserer Website besser aufbereitet werden. So können Sie sich auf
+              unserer Website besser orientieren und die Inhalte leichter erfassen. Mit den Icons kann man sogar
+              manchmal ganze Wörter ersetzen und Platz sparen. Da ist besonders praktisch, wenn wir Inhalte speziell für
+              Smartphones optimieren.  Diese Icons werden statt als Bild als HMTL-Code eingefügt. Dadurch können wir die
+              Icons mit CSS genauso bearbeiten, wie wir wollen. Gleichzeitig verbessern wir mit Font Awesome auch unsere
+              Ladegeschwindigkeit, weil es sich nur um HTML-Elemente handelt und nicht um Icon-Bilder. All diese
+              Vorteile helfen uns, die Website für Sie noch übersichtlicher, frischer und schneller zu machen.</p>
+            <h3 class="adsimple-111954616 fusion-responsive-typography-calculated"
+              style="--fontsize: 21; line-height: 1.5; --minfontsize: 21;" data-fontsize="21" data-lineheight="31.5px">
+              Welche Daten werden von Font Awesome gespeichert?</h3>
+            <p>Zum Laden von Icons und Symbolen wird das Font Awesome Content Delivery Network (CDN) verwendet. CDNs
+              sind Netzwerke von Servern, die weltweit verteilt sind und es möglich machen, schnell Dateien aus der Nähe
+              zu laden. So werden auch, sobald Sie eine unserer Seiten aufrufen, die entsprechenden Icons von Font
+              Awesome bereitgestellt.</p>
+            <p>Damit die Web-Schriftarten geladen werden können, muss Ihr Browser eine Verbindung zu den Servern des
+              Unternehmens Fonticons, Inc. herstellen. Dabei wird Ihre IP-Adresse erkannt. Font Awesome sammelt auch
+              Daten darüber, welche Icon-Dateien wann heruntergeladen werden. Weiters werden auch technische Daten wie
+              etwa Ihre Browser-Version, Bildschirmauflösung oder der Zeitpunkt der ausgerufenen Seite übertragen.</p>
+            <p>Aus folgenden Gründen werden diese Daten gesammelt und gespeichert:</p>
+            <ul class="adsimple-111954616">
+              <li class="adsimple-111954616">um Content Delivery Netzwerke zu optimieren</li>
+              <li class="adsimple-111954616">um technische Fehler zu erkennen und zu beheben</li>
+              <li class="adsimple-111954616">um CDNs vor Missbrauch und Angriffen zu schützen</li>
+              <li class="adsimple-111954616">um Gebühren von Font Awesome Pro-Kunden berechnen zu können</li>
+              <li class="adsimple-111954616">um die Beliebtheit von Icons zu erfahren</li>
+              <li class="adsimple-111954616">um zu wissen, welchen Computer und welche Software Sie verwenden</li>
+            </ul>
+            <p>Falls Ihr Browser Web-Schriftarten nicht zulässt, wird automatisch eine Standardschrift Ihres PCs
+              verwendet. Nach derzeitigem Stand unserer Erkenntnis werden keine Cookies gesetzt. Wir sind mit der
+              Datenschutzabteilung von Font Awesome in Kontakt und geben Ihnen Bescheid, sobald wir näheres in Erfahrung
+              bringen.</p>
+            <h3 class="adsimple-111954616 fusion-responsive-typography-calculated"
+              style="--fontsize: 21; line-height: 1.5; --minfontsize: 21;" data-fontsize="21" data-lineheight="31.5px">
+              Wie lange und wo werden die Daten gespeichert?</h3>
+            <p>Font Awesome speichert Daten über die Nutzung des Content Delivery Network auf Servern auch in den
+              Vereinigten Staaten von Amerika. Die CDN-Server befinden sich allerdings weltweit und speichern Userdaten,
+              wo Sie sich befinden. In identifizierbarer Form werden die Daten in der Regel nur wenige Wochen
+              gespeichert. Aggregierte Statistiken über die Nutzung von den CDNs können auch länger gespeichert werden.
+              Personenbezogene Daten sind hier nicht enthalten.</p>
+            <h3 class="adsimple-111954616 fusion-responsive-typography-calculated"
+              style="--fontsize: 21; line-height: 1.5; --minfontsize: 21;" data-fontsize="21" data-lineheight="31.5px">
+              Wie kann ich meine Daten löschen bzw. die Datenspeicherung verhindern?</h3>
+            <p>Font Awesome speichert nach aktuellem Stand unseres Wissens keine personenbezogenen Daten über die
+              Content Delivery Netzwerke. Wenn Sie nicht wollen, dass Daten über die verwendeten Icons gespeichert
+              werden, können Sie leider unsere Website nicht besuchen. Wenn Ihr Browser keine Web-Schriftarten erlaubt,
+              werden auch keine Daten übertragen oder gespeichert. In diesem Fall wird einfach die Standard-Schrift
+              Ihres Computers verwendet.</p>
+            <h3 class="adsimple-111954616 fusion-responsive-typography-calculated"
+              style="--fontsize: 21; line-height: 1.5; --minfontsize: 21;" data-fontsize="21" data-lineheight="31.5px">
+              Rechtsgrundlage</h3>
+            <p>Wenn Sie eingewilligt haben, dass Font Awesome eingesetzt werden darf, ist die Rechtsgrundlage der
+              entsprechenden Datenverarbeitung diese Einwilligung. Diese Einwilligung stellt laut<strong
+                class="adsimple-111954616"> Art. 6 Abs. 1 lit. a DSGVO (Einwilligung)</strong> die Rechtsgrundlage für
+              die Verarbeitung personenbezogener Daten, wie sie bei der Erfassung durch Font Awesome vorkommen kann,
+              dar.</p>
+            <p>Von unserer Seite besteht zudem ein berechtigtes Interesse, Font Awesome zu verwenden, um unser
+              Online-Service zu optimieren. Die dafür entsprechende Rechtsgrundlage ist <strong
+                class="adsimple-111954616">Art. 6 Abs. 1 lit. f DSGVO (Berechtigte Interessen)</strong>. Wir setzen Font
+              Awesome gleichwohl nur ein, soweit Sie eine Einwilligung erteilt haben.</p>
+            <p>Wir weisen darauf hin, dass nach Meinung des Europäischen Gerichtshofs derzeit kein angemessenes
+              Schutzniveau für den Datentransfer in die USA besteht. Die Datenverarbeitung geschieht im Wesentlichen
+              durch Font Awesome. Dies kann dazu führen, dass gegebenenfalls Daten nicht anonymisiert verarbeitet und
+              gespeichert werden. Ferner können gegebenenfalls US-amerikanische staatliche Behörden Zugriff auf einzelne
+              Daten nehmen. Es kann ferner vorkommen, dass diese Daten mit Daten aus möglichen anderen Diensten von Font
+              Awesome, bei denen Sie ein Nutzerkonto haben, verknüpft werden.</p>
+            <p>Wenn Sie mehr über Font Awesome und deren Umgang mit Daten erfahren wollen, empfehlen wir Ihnen die
+              Datenschutzerklärung unter <a class="adsimple-111954616"
+                href="https://fontawesome.com/privacy">https://fontawesome.com/privacy</a> und die Hilfeseite unter <a
+                class="adsimple-111954616" href="https://fontawesome.com/support" target="_blank"
+                rel="follow noopener">https://fontawesome.com/support</a>.</p>
+            <h2 id="google-recaptcha-datenschutzerklaerung"
+              class="adsimple-111954616 fusion-responsive-typography-calculated"
+              style="--fontsize: 24; line-height: 1.5; --minfontsize: 24;" data-fontsize="24" data-lineheight="36px">
+              Google reCAPTCHA Datenschutzerklärung</h2>
+            <table border="1" cellpadding="15">
+              <tbody>
+                <tr>
+                  <td><strong class="adsimple-111954616">Google reCAPTCHA Datenschutzerklärung
+                      Zusammenfassung</strong><br />
+                    ? Betroffene: Besucher der Website<br />
+                    ? Zweck: Optimierung unserer Serviceleistung und Schutz vor Cyberangriffen<br />
+                    ? Verarbeitete Daten: Daten wie etwa IP-Adresse, Browserinformationen, Ihr Betriebssystem,
+                    eingeschränkte Standorts- und Nutzungsdaten<br />
+                    Mehr Details dazu finden Sie weiter unten in dieser Datenschutzerklärung.<br />
+                    ? Speicherdauer: abhängig von den gespeicherten Daten<br />
+                    ⚖️ Rechtsgrundlagen: Art. 6 Abs. 1 lit. a DSGVO (Einwilligung), Art. 6 Abs. 1 lit. f DSGVO
+                    (Berechtigte Interessen)</td>
+                </tr>
+              </tbody>
+            </table>
+            <h3 class="adsimple-111954616 fusion-responsive-typography-calculated"
+              style="--fontsize: 21; line-height: 1.5; --minfontsize: 21;" data-fontsize="21" data-lineheight="31.5px">
+              Was ist reCAPTCHA?</h3>
+            <p>Unser oberstes Ziel ist es, unsere Webseite für Sie und für uns bestmöglich zu sichern und zu schützen.
+              Um das zu gewährleisten, verwenden wir Google reCAPTCHA der Firma Google Inc. Für den europäischen Raum
+              ist das Unternehmen Google Ireland Limited (Gordon House, Barrow Street Dublin 4, Irland) für alle
+              Google-Dienste verantwortlich. Mit reCAPTCHA können wir feststellen, ob Sie auch wirklich ein Mensch aus
+              Fleisch und Blut sind und kein Roboter oder eine andere Spam-Software. Unter Spam verstehen wir jede, auf
+              elektronischen Weg, unerwünschte Information, die uns ungefragter Weise zukommt. Bei den klassischen
+              CAPTCHAS mussten Sie zur Überprüfung meist Text- oder Bildrätsel lösen. Mit reCAPTCHA von Google müssen
+              wir Sie meist nicht mit solchen Rätseln belästigen. Hier reicht es in den meisten Fällen, wenn Sie einfach
+              ein Häkchen setzen und so bestätigen, dass Sie kein Bot sind. Mit der neuen Invisible reCAPTCHA Version
+              müssen Sie nicht mal mehr ein Häkchen setzen. Wie das genau funktioniert und vor allem welche Daten dafür
+              verwendet werden, erfahren Sie im Verlauf dieser Datenschutzerklärung.</p>
+            <p>reCAPTCHA ist ein freier Captcha-Dienst von Google, der Webseiten vor Spam-Software und den Missbrauch
+              durch nicht-menschliche Besucher schützt. Am häufigsten wird dieser Dienst verwendet, wenn Sie Formulare
+              im Internet ausfüllen. Ein Captcha-Dienst ist eine Art automatischer Turing-Test, der sicherstellen soll,
+              dass eine Handlung im Internet von einem Menschen und nicht von einem Bot vorgenommen wird. Im klassischen
+              Turing-Test (benannt nach dem Informatiker Alan Turing) stellt ein Mensch die Unterscheidung zwischen Bot
+              und Mensch fest. Bei Captchas übernimmt das auch der Computer bzw. ein Softwareprogramm. Klassische
+              Captchas arbeiten mit kleinen Aufgaben, die für Menschen leicht zu lösen sind, doch für Maschinen
+              erhebliche Schwierigkeiten aufweisen. Bei reCAPTCHA müssen Sie aktiv keine Rätsel mehr lösen. Das Tool
+              verwendet moderne Risikotechniken, um Menschen von Bots zu unterscheiden. Hier müssen Sie nur noch das
+              Textfeld „Ich bin kein Roboter“ ankreuzen bzw. bei Invisible reCAPTCHA ist selbst das nicht mehr nötig.
+              Bei reCAPTCHA wird ein JavaScript-Element in den Quelltext eingebunden und dann läuft das Tool im
+              Hintergrund und analysiert Ihr Benutzerverhalten. Aus diesen Useraktionen berechnet die Software einen
+              sogenannten Captcha-Score. Google berechnet mit diesem Score schon vor der Captcha-Eingabe wie hoch die
+              Wahrscheinlichkeit ist, dass Sie ein Mensch sind. reCAPTCHA bzw. Captchas im Allgemeinen kommen immer dann
+              zum Einsatz, wenn Bots gewisse Aktionen (wie z.B. Registrierungen, Umfragen usw.) manipulieren oder
+              missbrauchen könnten.</p>
+            <h3 class="adsimple-111954616 fusion-responsive-typography-calculated"
+              style="--fontsize: 21; line-height: 1.5; --minfontsize: 21;" data-fontsize="21" data-lineheight="31.5px">
+              Warum verwenden wir reCAPTCHA auf unserer Website?</h3>
+            <p>Wir wollen nur Menschen aus Fleisch und Blut auf unserer Seite begrüßen. Bots oder Spam-Software
+              unterschiedlichster Art dürfen getrost zuhause bleiben. Darum setzen wir alle Hebel in Bewegung, uns zu
+              schützen und die bestmögliche Benutzerfreundlichkeit für Sie anzubieten. Aus diesem Grund verwenden wir
+              Google reCAPTCHA der Firma Google. So können wir uns ziemlich sicher sein, dass wir eine „botfreie“
+              Webseite bleiben. Durch die Verwendung von reCAPTCHA werden Daten an Google übermittelt, um festzustellen,
+              ob Sie auch wirklich ein Mensch sind. reCAPTCHA dient also der Sicherheit unserer Webseite und in weiterer
+              Folge damit auch Ihrer Sicherheit. Zum Beispiel könnte es ohne reCAPTCHA passieren, dass bei einer
+              Registrierung ein Bot möglichst viele E-Mail-Adressen registriert, um im Anschluss Foren oder Blogs mit
+              unerwünschten Werbeinhalten „zuzuspamen“. Mit reCAPTCHA können wir solche Botangriffe vermeiden.</p>
+            <h3 class="adsimple-111954616 fusion-responsive-typography-calculated"
+              style="--fontsize: 21; line-height: 1.5; --minfontsize: 21;" data-fontsize="21" data-lineheight="31.5px">
+              Welche Daten werden von reCAPTCHA gespeichert?</h3>
+            <p>reCAPTCHA sammelt personenbezogene Daten von Usern, um festzustellen, ob die Handlungen auf unserer
+              Webseite auch wirklich von Menschen stammen. Es kann also die IP-Adresse und andere Daten, die Google für
+              den reCAPTCHA-Dienst benötigt, an Google versendet werden. IP-Adressen werden innerhalb der
+              Mitgliedstaaten der EU oder anderer Vertragsstaaten des Abkommens über den Europäischen Wirtschaftsraum
+              fast immer zuvor gekürzt, bevor die Daten auf einem Server in den USA landen. Die IP-Adresse wird nicht
+              mit anderen Daten von Google kombiniert, sofern Sie nicht während der Verwendung von reCAPTCHA mit Ihrem
+              Google-Konto angemeldet sind. Zuerst prüft der reCAPTCHA-Algorithmus, ob auf Ihrem Browser schon
+              Google-Cookies von anderen Google-Diensten (YouTube. Gmail usw.) platziert sind. Anschließend setzt
+              reCAPTCHA ein zusätzliches Cookie in Ihrem Browser und erfasst einen Schnappschuss Ihres Browserfensters.
+            </p>
+            <p>Die folgende Liste von gesammelten Browser- und Userdaten, hat nicht den Anspruch auf Vollständigkeit.
+              Vielmehr sind es Beispiele von Daten, die nach unserer Erkenntnis, von Google verarbeitet werden.</p>
+            <ul class="adsimple-111954616">
+              <li class="adsimple-111954616">Referrer URL (die Adresse der Seite von der der Besucher kommt)</li>
+              <li class="adsimple-111954616">IP-Adresse (z.B. 256.123.123.1)</li>
+              <li class="adsimple-111954616">Infos über das Betriebssystem (die Software, die den Betrieb Ihres
+                Computers ermöglicht. Bekannte Betriebssysteme sind Windows, Mac OS X oder Linux)</li>
+              <li class="adsimple-111954616">Cookies (kleine Textdateien, die Daten in Ihrem Browser speichern)</li>
+              <li class="adsimple-111954616">Maus- und Keyboardverhalten (jede Aktion, die Sie mit der Maus oder der
+                Tastatur ausführen wird gespeichert)</li>
+              <li class="adsimple-111954616">Datum und Spracheinstellungen (welche Sprache bzw. welches Datum Sie auf
+                Ihrem PC voreingestellt haben wird gespeichert)</li>
+              <li class="adsimple-111954616">Alle Javascript-Objekte (JavaScript ist eine Programmiersprache, die
+                Webseiten ermöglicht, sich an den User anzupassen. JavaScript-Objekte können alle möglichen Daten unter
+                einem Namen sammeln)</li>
+              <li class="adsimple-111954616">Bildschirmauflösung (zeigt an aus wie vielen Pixeln die Bilddarstellung
+                besteht)</li>
+            </ul>
+            <p>Unumstritten ist, dass Google diese Daten verwendet und analysiert noch bevor Sie auf das Häkchen „Ich
+              bin kein Roboter“ klicken. Bei der Invisible reCAPTCHA-Version fällt sogar das Ankreuzen weg und der ganze
+              Erkennungsprozess läuft im Hintergrund ab. Wie viel und welche Daten Google genau speichert, erfährt man
+              von Google nicht im Detail.</p>
+            <p>Folgende Cookies werden von reCAPTCHA verwendet: Hierbei beziehen wir uns auf die reCAPTCHA Demo-Version
+              von Google unter <a class="adsimple-111954616" href="https://www.google.com/recaptcha/api2/demo"
+                target="_blank" rel="noopener noreferrer">https://www.google.com/recaptcha/api2/demo</a>. All diese
+              Cookies benötigen zu Trackingzwecken eine eindeutige Kennung. Hier ist eine Liste an Cookies, die Google
+              reCAPTCHA auf der Demo-Version gesetzt hat:</p>
+            <p><strong class="adsimple-111954616">Name:</strong> IDE<br />
+              <strong
+                class="adsimple-111954616">Wert:</strong> WqTUmlnmv_qXyi_DGNPLESKnRNrpgXoy1K-pAZtAkMbHI-111954616-8<br />
+              <strong class="adsimple-111954616">Verwendungszweck:</strong> Dieses Cookie wird von der Firma DoubleClick
+              (gehört auch Google) gesetzt, um die Aktionen eines Users auf der Webseite im Umgang mit Werbeanzeigen zu
+              registrieren und zu melden. So kann die Werbewirksamkeit gemessen und entsprechende Optimierungsmaßnahmen
+              getroffen werden. IDE wird in Browsern unter der Domain doubleclick.net gespeichert.<br />
+              <strong class="adsimple-111954616">Ablaufdatum:</strong> nach einem Jahr
+            </p>
+            <p><strong class="adsimple-111954616">Name:</strong> 1P_JAR<br />
+              <strong class="adsimple-111954616">Wert:</strong> 2019-5-14-12<br />
+              <strong class="adsimple-111954616">Verwendungszweck:</strong> Dieses Cookie sammelt Statistiken zur
+              Webseite-Nutzung und misst Conversions. Eine Conversion entsteht z.B., wenn ein User zu einem Käufer wird.
+              Das Cookie wird auch verwendet, um Usern relevante Werbeanzeigen einzublenden. Weiters kann man mit dem
+              Cookie vermeiden, dass ein User dieselbe Anzeige mehr als einmal zu Gesicht bekommt.<br />
+              <strong class="adsimple-111954616">Ablaufdatum:</strong> nach einem Monat
+            </p>
+            <p><strong class="adsimple-111954616">Name:</strong> ANID<br />
+              <strong class="adsimple-111954616">Wert:</strong> U7j1v3dZa1119546160xgZFmiqWppRWKOr<br />
+              <strong class="adsimple-111954616">Verwendungszweck:</strong> Viele Infos konnten wir über dieses Cookie
+              nicht in Erfahrung bringen. In der Datenschutzerklärung von Google wird das Cookie im Zusammenhang mit
+              „Werbecookies“ wie z. B. “DSID”, “FLC”, “AID”, “TAID” erwähnt. ANID wird unter Domain google.com
+              gespeichert.<br />
+              <strong class="adsimple-111954616">Ablaufdatum:</strong> nach 9 Monaten
+            </p>
+            <p><strong class="adsimple-111954616">Name:</strong> CONSENT<br />
+              <strong class="adsimple-111954616">Wert: </strong>YES+AT.de+20150628-20-0<br />
+              <strong class="adsimple-111954616">Verwendungszweck:</strong> Das Cookie speichert den Status der
+              Zustimmung eines Users zur Nutzung unterschiedlicher Services von Google. CONSENT dient auch der
+              Sicherheit, um User zu überprüfen, Betrügereien von Anmeldeinformationen zu verhindern und Userdaten vor
+              unbefugten Angriffen zu schützen.<br />
+              <strong class="adsimple-111954616">Ablaufdatum:</strong> nach 19 Jahren
+            </p>
+            <p><strong class="adsimple-111954616">Name:</strong> NID<br />
+              <strong class="adsimple-111954616">Wert:</strong> 0WmuWqy111954616zILzqV_nmt3sDXwPeM5Q<br />
+              <strong class="adsimple-111954616">Verwendungszweck:</strong> NID wird von Google verwendet, um
+              Werbeanzeigen an Ihre Google-Suche anzupassen. Mit Hilfe des Cookies „erinnert“ sich Google an Ihre meist
+              eingegebenen Suchanfragen oder Ihre frühere Interaktion mit Anzeigen. So bekommen Sie immer
+              maßgeschneiderte Werbeanzeigen. Das Cookie enthält eine einzigartige ID, um persönliche Einstellungen des
+              Users für Werbezwecke zu sammeln.<br />
+              <strong class="adsimple-111954616">Ablaufdatum:</strong> nach 6 Monaten
+            </p>
+            <p><strong class="adsimple-111954616">Name:</strong> DV<br />
+              <strong class="adsimple-111954616">Wert:</strong> gEAABBCjJMXcI0dSAAAANbqc111954616-4<br />
+              <strong class="adsimple-111954616">Verwendungszweck:</strong> Sobald Sie das „Ich bin kein
+              Roboter“-Häkchen angekreuzt haben, wird dieses Cookie gesetzt. Das Cookie wird von Google Analytics für
+              personalisierte Werbung verwendet. DV sammelt Informationen in anonymisierter Form und wird weiters
+              benutzt, um User-Unterscheidungen zu treffen.<br />
+              <strong class="adsimple-111954616">Ablaufdatum:</strong> nach 10 Minuten
+            </p>
+            <p><strong class="adsimple-111954616">Anmerkung: </strong>Diese Aufzählung kann keinen Anspruch auf
+              Vollständigkeit erheben, da Google erfahrungsgemäß die Wahl ihrer Cookies immer wieder auch verändert.</p>
+            <h3 class="adsimple-111954616 fusion-responsive-typography-calculated"
+              style="--fontsize: 21; line-height: 1.5; --minfontsize: 21;" data-fontsize="21" data-lineheight="31.5px">
+              Wie lange und wo werden die Daten gespeichert?</h3>
+            <p>Durch das Einfügen von reCAPTCHA werden Daten von Ihnen auf den Google-Server übertragen. Wo genau diese
+              Daten gespeichert werden, stellt Google, selbst nach wiederholtem Nachfragen, nicht klar dar. Ohne eine
+              Bestätigung von Google erhalten zu haben, ist davon auszugehen, dass Daten wie Mausinteraktion,
+              Verweildauer auf der Webseite oder Spracheinstellungen auf den europäischen oder amerikanischen
+              Google-Servern gespeichert werden. Die IP-Adresse, die Ihr Browser an Google übermittelt, wird
+              grundsätzlich nicht mit anderen Google-Daten aus weiteren Google-Diensten zusammengeführt. Wenn Sie
+              allerdings während der Nutzung des reCAPTCHA-Plug-ins bei Ihrem Google-Konto angemeldet sind, werden die
+              Daten zusammengeführt.<strong class="adsimple-111954616"> </strong>Dafür gelten die abweichenden
+              Datenschutzbestimmungen der Firma Google.</p>
+            <h3 class="adsimple-111954616 fusion-responsive-typography-calculated"
+              style="--fontsize: 21; line-height: 1.5; --minfontsize: 21;" data-fontsize="21" data-lineheight="31.5px">
+              Wie kann ich meine Daten löschen bzw. die Datenspeicherung verhindern?</h3>
+            <p>Wenn Sie wollen, dass über Sie und über Ihr Verhalten keine Daten an Google übermittelt werden, müssen
+              Sie sich, bevor Sie unsere Webseite besuchen bzw. die reCAPTCHA-Software verwenden, bei Google vollkommen
+              ausloggen und alle Google-Cookies löschen. Grundsätzlich werden die Daten sobald Sie unsere Seite aufrufen
+              automatisch an Google übermittelt. Um diese Daten wieder zu löschen, müssen Sie den Google-Support auf  <a
+                class="adsimple-111954616" href="https://support.google.com/?hl=de&amp;tid=111954616" target="_blank"
+                rel="noopener noreferrer">https://support.google.com/?hl=de&amp;tid=111954616</a> kontaktieren.</p>
+            <p>Wenn Sie also unsere Webseite verwenden, erklären Sie sich einverstanden, dass Google LLC und deren
+              Vertreter automatisch Daten erheben, bearbeiten und nutzen.</p>
+            <p>Bitte beachten Sie, dass bei der Verwendung dieses Tools Daten von Ihnen auch außerhalb der EU
+              gespeichert und verarbeitet werden können. Die meisten Drittstaaten (darunter auch die USA) gelten nach
+              derzeitigem europäischen Datenschutzrecht als nicht sicher. Daten an unsichere Drittstaaten dürfen also
+              nicht einfach übertragen, dort gespeichert und verarbeitet werden, sofern es keine passenden Garantien
+              (wie etwa EU-Standardvertragsklauseln) zwischen uns und dem außereuropäischen Dienstleister gibt.</p>
+            <h3 class="adsimple-111954616 fusion-responsive-typography-calculated"
+              style="--fontsize: 21; line-height: 1.5; --minfontsize: 21;" data-fontsize="21" data-lineheight="31.5px">
+              Rechtsgrundlage</h3>
+            <p>Wenn Sie eingewilligt haben, dass Google reCAPTCHA eingesetzt werden darf, ist die Rechtsgrundlage der
+              entsprechenden Datenverarbeitung diese Einwilligung. Diese Einwilligung stellt laut<strong
+                class="adsimple-111954616"> Art. 6 Abs. 1 lit. a DSGVO (Einwilligung)</strong> die Rechtsgrundlage für
+              die Verarbeitung personenbezogener Daten, wie sie bei der Erfassung durch Google reCAPTCHA vorkommen kann,
+              dar.</p>
+            <p>Von unserer Seite besteht zudem ein berechtigtes Interesse, Google reCAPTCHA zu verwenden, um unser
+              Online-Service zu optimieren und sicherer zu machen. Die dafür entsprechende Rechtsgrundlage ist <strong
+                class="adsimple-111954616">Art. 6 Abs. 1 lit. f DSGVO (Berechtigte Interessen)</strong>. Wir setzen
+              Google reCAPTCHA gleichwohl nur ein, soweit Sie eine Einwilligung erteilt haben.</p>
+            <p>Google verarbeitet Daten von Ihnen u.a. auch in den USA. Wir weisen darauf hin, dass nach Meinung des
+              Europäischen Gerichtshofs derzeit kein angemessenes Schutzniveau für den Datentransfer in die USA besteht.
+              Dies kann mit verschiedenen Risiken für die Rechtmäßigkeit und Sicherheit der Datenverarbeitung
+              einhergehen.</p>
+            <p>Als Grundlage der Datenverarbeitung bei Empfängern mit Sitz in Drittstaaten (außerhalb der Europäischen
+              Union, Island, Liechtenstein, Norwegen, also insbesondere in den USA) oder einer Datenweitergabe dorthin
+              verwendet Google sogenannte Standardvertragsklauseln (= Art. 46. Abs. 2 und 3 DSGVO).
+              Standardvertragsklauseln (Standard Contractual Clauses – SCC) sind von der EU-Kommission bereitgestellte
+              Mustervorlagen und sollen sicherstellen, dass Ihre Daten auch dann den europäischen Datenschutzstandards
+              entsprechen, wenn diese in Drittländer (wie beispielsweise in die USA) überliefert und dort gespeichert
+              werden. Durch diese Klauseln verpflichtet sich Google, bei der Verarbeitung Ihrer relevanten Daten, das
+              europäische Datenschutzniveau einzuhalten, selbst wenn die Daten in den USA gespeichert, verarbeitet und
+              verwaltet werden. Diese Klauseln basieren auf einem Durchführungsbeschluss der EU-Kommission. Sie finden
+              den Beschluss und die entsprechenden Standardvertragsklauseln u.a. hier: <a class="adsimple-111954616"
+                href="https://eur-lex.europa.eu/eli/dec_impl/2021/914/oj?locale=de" target="_blank"
+                rel="noopener">https://eur-lex.europa.eu/eli/dec_impl/2021/914/oj?locale=de</a></p>
+            <p>Die Google Ads Datenverarbeitungsbedingungen (Google Ads Data Processing Terms), welche den
+              Standardvertragsklauseln entsprechen, finden Sie unter <a class="adsimple-111954616"
+                href="https://business.safety.google/adsprocessorterms/" target="_blank"
+                rel="noopener">https://business.safety.google/adsprocessorterms/</a>.</p>
+            <p>Etwas mehr über reCAPTCHA erfahren Sie auf der Webentwickler-Seite von Google auf <a
+                class="adsimple-111954616" href="https://developers.google.com/recaptcha/" target="_blank"
+                rel="noopener noreferrer">https://developers.google.com/recaptcha/</a>. Google geht hier zwar auf die
+              technische Entwicklung der reCAPTCHA näher ein, doch genaue Informationen über Datenspeicherung und
+              datenschutzrelevanten Themen sucht man auch dort vergeblich. Eine gute Übersicht über die grundsätzliche
+              Verwendung von Daten bei Google finden Sie in der hauseigenen Datenschutzerklärung auf <a
+                class="adsimple-111954616" href="https://policies.google.com/privacy?hl=de&amp;tid=111954616"
+                target="_blank" rel="noopener noreferrer">https://www.google.com/intl/de/policies/privacy/</a>.</p>
+            <p>Alle Texte sind urheberrechtlich geschützt.</p>
+            <p style="margin-top: 15px;">Quelle: Erstellt mit dem <a
+                title="Datenschutz Generator von AdSimple für Österreich"
+                href="https://www.adsimple.at/datenschutz-generator/">Datenschutz Generator</a> von AdSimple</p>
+            <p><textarea class="copy-html" style="width: 100%; outline: none; display: none;" rows="20"
+                data-language-code="de">&lt;h1 class=&#8220;adsimple-111954616&#8243;&gt;Datenschutzerklärung&lt;/h1&gt;&lt;br /&gt;&lt;br /&gt;<br />
+&lt;h2 id=&#8220;einleitung-ueberblick&#8220; class=&#8220;adsimple-111954616&#8243;&gt;Einleitung und Überblick&lt;/h2&gt;&lt;br /&gt;&lt;br /&gt;<br />
+&lt;p&gt;Wir haben diese Datenschutzerklärung (Fassung 27.02.2022-111954616) verfasst, um Ihnen gemäß der Vorgaben der &lt;a class=&#8220;adsimple-111954616&#8243; href=&#8220;https://eur-lex.europa.eu/legal-content/DE/ALL/?uri=celex%3A32016R0679&amp;amp;tid=111954616&#8243; target=&#8220;_blank&#8220; rel=&#8220;noopener&#8220;&gt;Datenschutz-Grundverordnung (EU) 2016/679&lt;/a&gt; und anwendbaren nationalen Gesetzen zu erklären, welche personenbezogenen Daten (kurz Daten) wir als Verantwortliche &amp;#8211; und die von uns beauftragten Auftragsverarbeiter (z. B. Provider) &amp;#8211; verarbeiten, zukünftig verarbeiten werden und welche rechtmäßigen Möglichkeiten Sie haben. Die verwendeten Begriffe sind geschlechtsneutral zu verstehen.&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;<br />
+&lt;strong class=&#8220;adsimple-111954616&#8243;&gt;Kurz gesagt:&lt;/strong&gt; Wir informieren Sie umfassend über Daten, die wir über Sie verarbeiten.&lt;/p&gt;&lt;br /&gt;&lt;br /&gt;<br />
+&lt;p&gt;Datenschutzerklärungen klingen für gewöhnlich sehr technisch und verwenden juristische Fachbegriffe. Diese Datenschutzerklärung soll Ihnen hingegen die wichtigsten Dinge so einfach und transparent wie möglich beschreiben. Soweit es der Transparenz förderlich ist, werden technische &lt;strong class=&#8220;adsimple-111954616&#8243;&gt;Begriffe leserfreundlich erklärt&lt;/strong&gt;, &lt;strong class=&#8220;adsimple-111954616&#8243;&gt;Links&lt;/strong&gt; zu weiterführenden Informationen geboten und &lt;strong class=&#8220;adsimple-111954616&#8243;&gt;Grafiken&lt;/strong&gt; zum Einsatz gebracht. Wir informieren damit in klarer und einfacher Sprache, dass wir im Rahmen unserer Geschäftstätigkeiten nur dann personenbezogene Daten verarbeiten, wenn eine entsprechende gesetzliche Grundlage gegeben ist. Das ist sicher nicht möglich, wenn man möglichst knappe, unklare und juristisch-technische Erklärungen abgibt, so wie sie im Internet oft Standard sind, wenn es um Datenschutz geht. Ich hoffe, Sie finden die folgenden Erläuterungen interessant und informativ und vielleicht ist die eine oder andere Information dabei, die Sie noch nicht kannten.&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;<br />
+Wenn trotzdem Fragen bleiben, möchten wir Sie bitten, sich an die unten bzw. im Impressum genannte verantwortliche Stelle zu wenden, den vorhandenen Links zu folgen und sich weitere Informationen auf Drittseiten anzusehen. Unsere Kontaktdaten finden Sie selbstverständlich auch im Impressum.&lt;/p&gt;&lt;br /&gt;&lt;br /&gt;<br />
+&lt;h2 id=&#8220;anwendungsbereich&#8220; class=&#8220;adsimple-111954616&#8243;&gt;Anwendungsbereich&lt;/h2&gt;&lt;br /&gt;&lt;br /&gt;<br />
+&lt;p&gt;Diese Datenschutzerklärung gilt für alle von uns im Unternehmen verarbeiteten personenbezogenen Daten und für alle personenbezogenen Daten, die von uns beauftragte Firmen (Auftragsverarbeiter) verarbeiten. Mit personenbezogenen Daten meinen wir Informationen im Sinne des Art. 4 Nr. 1 DSGVO wie zum Beispiel Name, E-Mail-Adresse und postalische Anschrift einer Person. Die Verarbeitung personenbezogener Daten sorgt dafür, dass wir unsere Dienstleistungen und Produkte anbieten und abrechnen können, sei es online oder offline. Der Anwendungsbereich dieser Datenschutzerklärung umfasst:&lt;/p&gt;&lt;br /&gt;&lt;br /&gt;<br />
+&lt;ul class=&#8220;adsimple-111954616&#8243;&gt;&lt;br /&gt;&lt;br /&gt;<br />
+&lt;li class=&#8220;adsimple-111954616&#8243;&gt;alle Onlineauftritte (Websites, Onlineshops), die wir betreiben&lt;/li&gt;&lt;br /&gt;&lt;br /&gt;<br />
+&lt;li class=&#8220;adsimple-111954616&#8243;&gt;Social Media Auftritte und E-Mail-Kommunikation&lt;/li&gt;&lt;br /&gt;&lt;br /&gt;<br />
+&lt;li class=&#8220;adsimple-111954616&#8243;&gt;mobile Apps für Smartphones und andere Geräte&lt;/li&gt;&lt;br /&gt;&lt;br /&gt;<br />
+&lt;/ul&gt;&lt;br /&gt;&lt;br /&gt;<br />
+&lt;p&gt;&lt;br /&gt;&lt;br /&gt;<br />
+&lt;strong class=&#8220;adsimple-111954616&#8243;&gt;Kurz gesagt:&lt;/strong&gt; Die Datenschutzerklärung gilt für alle Bereiche, in denen personenbezogene Daten im Unternehmen über die genannten Kanäle strukturiert verarbeitet werden. Sollten wir außerhalb dieser Kanäle mit Ihnen in Rechtsbeziehungen eintreten, werden wir Sie gegebenenfalls gesondert informieren.&lt;/p&gt;&lt;br /&gt;&lt;br /&gt;<br />
+&lt;h2 id=&#8220;rechtsgrundlagen&#8220; class=&#8220;adsimple-111954616&#8243;&gt;Rechtsgrundlagen&lt;/h2&gt;&lt;br /&gt;&lt;br /&gt;<br />
+&lt;p&gt;In der folgenden Datenschutzerklärung geben wir Ihnen transparente Informationen zu den rechtlichen Grundsätzen und Vorschriften, also den Rechtsgrundlagen der Datenschutz-Grundverordnung, die uns ermöglichen, personenbezogene Daten zu verarbeiten.&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;<br />
+Was das EU-Recht betrifft, beziehen wir uns auf die VERORDNUNG (EU) 2016/679 DES EUROPÄISCHEN PARLAMENTS UND DES RATES vom 27. April 2016. Diese Datenschutz-Grundverordnung der EU können Sie selbstverständlich online auf EUR-Lex, dem Zugang zum EU-Recht, unter &lt;a class=&#8220;adsimple-111954616&#8243; href=&#8220;https://eur-lex.europa.eu/legal-content/DE/ALL/?uri=celex%3A32016R0679&amp;amp;tid=111954616&#8243; target=&#8220;_blank&#8220; rel=&#8220;noopener&#8220;&gt;https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=celex%3A32016R0679&lt;/a&gt; nachlesen.&lt;/p&gt;&lt;br /&gt;&lt;br /&gt;<br />
+&lt;p&gt;Wir verarbeiten Ihre Daten nur, wenn mindestens eine der folgenden Bedingungen zutrifft:&lt;/p&gt;&lt;br /&gt;&lt;br /&gt;<br />
+&lt;ol&gt;&lt;br /&gt;&lt;br /&gt;<br />
+&lt;li class=&#8220;adsimple-111954616&#8243;&gt;&lt;br /&gt;&lt;br /&gt;<br />
+&lt;strong class=&#8220;adsimple-111954616&#8243;&gt;Einwilligung&lt;/strong&gt; (Artikel 6 Absatz 1 lit. a DSGVO): Sie haben uns Ihre Einwilligung gegeben, Daten zu einem bestimmten Zweck zu verarbeiten. Ein Beispiel wäre die Speicherung Ihrer eingegebenen Daten eines Kontaktformulars.&lt;/li&gt;&lt;br /&gt;&lt;br /&gt;<br />
+&lt;li class=&#8220;adsimple-111954616&#8243;&gt;&lt;br /&gt;&lt;br /&gt;<br />
+&lt;strong class=&#8220;adsimple-111954616&#8243;&gt;Vertrag&lt;/strong&gt; (Artikel 6 Absatz 1 lit. b DSGVO): Um einen Vertrag oder vorvertragliche Verpflichtungen mit Ihnen zu erfüllen, verarbeiten wir Ihre Daten. Wenn wir zum Beispiel einen Kaufvertrag mit Ihnen abschließen, benötigen wir vorab personenbezogene Informationen.&lt;/li&gt;&lt;br /&gt;&lt;br /&gt;<br />
+&lt;li class=&#8220;adsimple-111954616&#8243;&gt;&lt;br /&gt;&lt;br /&gt;<br />
+&lt;strong class=&#8220;adsimple-111954616&#8243;&gt;Rechtliche Verpflichtung&lt;/strong&gt; (Artikel 6 Absatz 1 lit. c DSGVO): Wenn wir einer rechtlichen Verpflichtung unterliegen, verarbeiten wir Ihre Daten. Zum Beispiel sind wir gesetzlich verpflichtet Rechnungen für die Buchhaltung aufzuheben. Diese enthalten in der Regel personenbezogene Daten.&lt;/li&gt;&lt;br /&gt;&lt;br /&gt;<br />
+&lt;li class=&#8220;adsimple-111954616&#8243;&gt;&lt;br /&gt;&lt;br /&gt;<br />
+&lt;strong class=&#8220;adsimple-111954616&#8243;&gt;Berechtigte Interessen&lt;/strong&gt; (Artikel 6 Absatz 1 lit. f DSGVO): Im Falle berechtigter Interessen, die Ihre Grundrechte nicht einschränken, behalten wir uns die Verarbeitung personenbezogener Daten vor. Wir müssen zum Beispiel gewisse Daten verarbeiten, um unsere Website sicher und wirtschaftlich effizient betreiben zu können. Diese Verarbeitung ist somit ein berechtigtes Interesse.&lt;/li&gt;&lt;br /&gt;&lt;br /&gt;<br />
+&lt;/ol&gt;&lt;br /&gt;&lt;br /&gt;<br />
+&lt;p&gt;Weitere Bedingungen wie die Wahrnehmung von Aufnahmen im öffentlichen Interesse und Ausübung öffentlicher Gewalt sowie dem Schutz lebenswichtiger Interessen treten bei uns in der Regel nicht auf. Soweit eine solche Rechtsgrundlage doch einschlägig sein sollte, wird diese an der entsprechenden Stelle ausgewiesen.&lt;/p&gt;&lt;br /&gt;&lt;br /&gt;<br />
+&lt;p&gt;Zusätzlich zu der EU-Verordnung gelten auch noch nationale Gesetze:&lt;/p&gt;&lt;br /&gt;&lt;br /&gt;<br />
+&lt;ul class=&#8220;adsimple-111954616&#8243;&gt;&lt;br /&gt;&lt;br /&gt;<br />
+&lt;li class=&#8220;adsimple-111954616&#8243;&gt;In &lt;strong class=&#8220;adsimple-111954616&#8243;&gt;Österreich&lt;/strong&gt; ist dies das Bundesgesetz zum Schutz natürlicher Personen bei der Verarbeitung personenbezogener Daten (&lt;strong class=&#8220;adsimple-111954616&#8243;&gt;Datenschutzgesetz&lt;/strong&gt;), kurz &lt;strong class=&#8220;adsimple-111954616&#8243;&gt;DSG&lt;/strong&gt;.&lt;/li&gt;&lt;br /&gt;&lt;br /&gt;<br />
+&lt;li class=&#8220;adsimple-111954616&#8243;&gt;In &lt;strong class=&#8220;adsimple-111954616&#8243;&gt;Deutschland&lt;/strong&gt; gilt das &lt;strong class=&#8220;adsimple-111954616&#8243;&gt;Bundesdatenschutzgesetz&lt;/strong&gt;, kurz&lt;strong class=&#8220;adsimple-111954616&#8243;&gt; BDSG&lt;/strong&gt;.&lt;/li&gt;&lt;br /&gt;&lt;br /&gt;<br />
+&lt;/ul&gt;&lt;br /&gt;&lt;br /&gt;<br />
+&lt;p&gt;Sofern weitere regionale oder nationale Gesetze zur Anwendung kommen, informieren wir Sie in den folgenden Abschnitten darüber.&lt;/p&gt;&lt;br /&gt;&lt;br /&gt;<br />
+&lt;h2 id=&#8220;kontaktdaten-verantwortliche&#8220; class=&#8220;adsimple-111954616&#8243;&gt;Kontaktdaten des Verantwortlichen&lt;/h2&gt;&lt;br /&gt;&lt;br /&gt;<br />
+&lt;p&gt;Sollten Sie Fragen zum Datenschutz haben, finden Sie nachfolgend die Kontaktdaten der verantwortlichen Person bzw. Stelle:&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;<br />
+&lt;span class=&#8220;adsimple-111954616&#8243; style=&#8220;font-weight: 400&#8243;&gt;Dipl.-Ing.(FH) Erich Huber&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;<br />
+Sinabelkirchen 294&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;<br />
+A – 8261 Sinabelkirchen&lt;/span&gt;&lt;br /&gt;&lt;br /&gt;<br />
+&lt;/p&gt;&lt;br /&gt;&lt;br /&gt;<br />
+&lt;p&gt;Impressum: &lt;a href=&#8220;http://huconint.projekte.axtesys.eu/impressum/&#8220;&gt;http://huconint.projekte.axtesys.eu/impressum/&lt;/a&gt;&lt;br /&gt;&lt;br /&gt;<br />
+&lt;/p&gt;&lt;br /&gt;&lt;br /&gt;<br />
+&lt;h2 id=&#8220;speicherdauer&#8220; class=&#8220;adsimple-111954616&#8243;&gt;Speicherdauer&lt;/h2&gt;&lt;br /&gt;&lt;br /&gt;<br />
+&lt;p&gt;Dass wir personenbezogene Daten nur so lange speichern, wie es für die Bereitstellung unserer Dienstleistungen und Produkte unbedingt notwendig ist, gilt als generelles Kriterium bei uns. Das bedeutet, dass wir personenbezogene Daten löschen, sobald der Grund für die Datenverarbeitung nicht mehr vorhanden ist. In einigen Fällen sind wir gesetzlich dazu verpflichtet, bestimmte Daten auch nach Wegfall des ursprüngliches Zwecks zu speichern, zum Beispiel zu Zwecken der Buchführung.&lt;/p&gt;&lt;br /&gt;&lt;br /&gt;<br />
+&lt;p&gt;Sollten Sie die Löschung Ihrer Daten wünschen oder die Einwilligung zur Datenverarbeitung widerrufen, werden die Daten so rasch wie möglich und soweit keine Pflicht zur Speicherung besteht, gelöscht.&lt;/p&gt;&lt;br /&gt;&lt;br /&gt;<br />
+&lt;p&gt;Über die konkrete Dauer der jeweiligen Datenverarbeitung informieren wir Sie weiter unten, sofern wir weitere Informationen dazu haben.&lt;/p&gt;&lt;br /&gt;&lt;br /&gt;<br />
+&lt;h2 id=&#8220;rechte-dsgvo&#8220; class=&#8220;adsimple-111954616&#8243;&gt;Rechte laut Datenschutz-Grundverordnung&lt;/h2&gt;&lt;br /&gt;&lt;br /&gt;<br />
+&lt;p&gt;Laut Artikel 13 DSGVO stehen Ihnen die folgenden Rechte zu, damit es zu einer fairen und transparenten Verarbeitung von Daten kommt:&lt;/p&gt;&lt;br /&gt;&lt;br /&gt;<br />
+&lt;ul class=&#8220;adsimple-111954616&#8243;&gt;&lt;br /&gt;&lt;br /&gt;<br />
+&lt;li class=&#8220;adsimple-111954616&#8243;&gt;Sie haben laut Artikel 15 DSGVO ein Auskunftsrecht darüber, ob wir Daten von Ihnen verarbeiten. Sollte das zutreffen, haben Sie Recht darauf eine Kopie der Daten zu erhalten und die folgenden Informationen zu erfahren:&lt;br /&gt;&lt;br /&gt;<br />
+&lt;ul class=&#8220;adsimple-111954616&#8243;&gt;&lt;br /&gt;&lt;br /&gt;<br />
+&lt;li class=&#8220;adsimple-111954616&#8243;&gt;zu welchem Zweck wir die Verarbeitung durchführen;&lt;/li&gt;&lt;br /&gt;&lt;br /&gt;<br />
+&lt;li class=&#8220;adsimple-111954616&#8243;&gt;die Kategorien, also die Arten von Daten, die verarbeitet werden;&lt;/li&gt;&lt;br /&gt;&lt;br /&gt;<br />
+&lt;li class=&#8220;adsimple-111954616&#8243;&gt;wer diese Daten erhält und wenn die Daten an Drittländer übermittelt werden, wie die Sicherheit garantiert werden kann;&lt;/li&gt;&lt;br /&gt;&lt;br /&gt;<br />
+&lt;li class=&#8220;adsimple-111954616&#8243;&gt;wie lange die Daten gespeichert werden;&lt;/li&gt;&lt;br /&gt;&lt;br /&gt;<br />
+&lt;li class=&#8220;adsimple-111954616&#8243;&gt;das Bestehen des Rechts auf Berichtigung, Löschung oder Einschränkung der Verarbeitung und dem Widerspruchsrecht gegen die Verarbeitung;&lt;/li&gt;&lt;br /&gt;&lt;br /&gt;<br />
+&lt;li class=&#8220;adsimple-111954616&#8243;&gt;dass Sie sich bei einer Aufsichtsbehörde beschweren können (Links zu diesen Behörden finden Sie weiter unten);&lt;/li&gt;&lt;br /&gt;&lt;br /&gt;<br />
+&lt;li class=&#8220;adsimple-111954616&#8243;&gt;die Herkunft der Daten, wenn wir sie nicht bei Ihnen erhoben haben;&lt;/li&gt;&lt;br /&gt;&lt;br /&gt;<br />
+&lt;li class=&#8220;adsimple-111954616&#8243;&gt;ob Profiling durchgeführt wird, ob also Daten automatisch ausgewertet werden, um zu einem persönlichen Profil von Ihnen zu gelangen.&lt;/li&gt;&lt;br /&gt;&lt;br /&gt;<br />
+&lt;/ul&gt;&lt;br /&gt;&lt;br /&gt;<br />
+&lt;/li&gt;&lt;br /&gt;&lt;br /&gt;<br />
+&lt;li class=&#8220;adsimple-111954616&#8243;&gt;Sie haben laut Artikel 16 DSGVO ein Recht auf Berichtigung der Daten, was bedeutet, dass wir Daten richtig stellen müssen, falls Sie Fehler finden.&lt;/li&gt;&lt;br /&gt;&lt;br /&gt;<br />
+&lt;li class=&#8220;adsimple-111954616&#8243;&gt;Sie haben laut Artikel 17 DSGVO das Recht auf Löschung („Recht auf Vergessenwerden“), was konkret bedeutet, dass Sie die Löschung Ihrer Daten verlangen dürfen.&lt;/li&gt;&lt;br /&gt;&lt;br /&gt;<br />
+&lt;li class=&#8220;adsimple-111954616&#8243;&gt;Sie haben laut Artikel 18 DSGVO das Recht auf Einschränkung der Verarbeitung, was bedeutet, dass wir die Daten nur mehr speichern dürfen aber nicht weiter verwenden.&lt;/li&gt;&lt;br /&gt;&lt;br /&gt;<br />
+&lt;li class=&#8220;adsimple-111954616&#8243;&gt;Sie haben laut Artikel 19 DSGVO das Recht auf Datenübertragbarkeit, was bedeutet, dass wir Ihnen auf Anfrage Ihre Daten in einem gängigen Format zur Verfügung stellen.&lt;/li&gt;&lt;br /&gt;&lt;br /&gt;<br />
+&lt;li class=&#8220;adsimple-111954616&#8243;&gt;Sie haben laut Artikel 21 DSGVO ein Widerspruchsrecht, welches nach Durchsetzung eine Änderung der Verarbeitung mit sich bringt.&lt;br /&gt;&lt;br /&gt;<br />
+&lt;ul class=&#8220;adsimple-111954616&#8243;&gt;&lt;br /&gt;&lt;br /&gt;<br />
+&lt;li class=&#8220;adsimple-111954616&#8243;&gt;Wenn die Verarbeitung Ihrer Daten auf Artikel 6 Abs. 1 lit. e (öffentliches Interesse, Ausübung öffentlicher Gewalt) oder Artikel 6 Abs. 1 lit. f (berechtigtes Interesse) basiert, können Sie gegen die Verarbeitung Widerspruch einlegen. Wir prüfen danach so rasch wie möglich, ob wir diesem Widerspruch rechtlich nachkommen können.&lt;/li&gt;&lt;br /&gt;&lt;br /&gt;<br />
+&lt;li class=&#8220;adsimple-111954616&#8243;&gt;Werden Daten verwendet, um Direktwerbung zu betreiben, können Sie jederzeit gegen diese Art der Datenverarbeitung widersprechen. Wir dürfen Ihre Daten danach nicht mehr für Direktmarketing verwenden.&lt;/li&gt;&lt;br /&gt;&lt;br /&gt;<br />
+&lt;li class=&#8220;adsimple-111954616&#8243;&gt;Werden Daten verwendet, um Profiling zu betreiben, können Sie jederzeit gegen diese Art der Datenverarbeitung widersprechen. Wir dürfen Ihre Daten danach nicht mehr für Profiling verwenden.&lt;/li&gt;&lt;br /&gt;&lt;br /&gt;<br />
+&lt;/ul&gt;&lt;br /&gt;&lt;br /&gt;<br />
+&lt;/li&gt;&lt;br /&gt;&lt;br /&gt;<br />
+&lt;li class=&#8220;adsimple-111954616&#8243;&gt;Sie haben laut Artikel 22 DSGVO unter Umständen das Recht, nicht einer ausschließlich auf einer automatisierten Verarbeitung (zum Beispiel Profiling) beruhenden Entscheidung unterworfen zu werden.&lt;/li&gt;&lt;br /&gt;&lt;br /&gt;<br />
+&lt;/ul&gt;&lt;br /&gt;&lt;br /&gt;<br />
+&lt;p&gt;&lt;br /&gt;&lt;br /&gt;<br />
+&lt;strong class=&#8220;adsimple-111954616&#8243;&gt;Kurz gesagt:&lt;/strong&gt; Sie haben Rechte &amp;#8211; zögern Sie nicht, die oben gelistete verantwortliche Stelle bei uns zu kontaktieren!&lt;/p&gt;&lt;br /&gt;&lt;br /&gt;<br />
+&lt;p&gt;Wenn Sie glauben, dass die Verarbeitung Ihrer Daten gegen das Datenschutzrecht verstößt oder Ihre datenschutzrechtlichen Ansprüche in sonst einer Weise verletzt worden sind, können Sie sich bei der Aufsichtsbehörde beschweren. Diese ist für Österreich die Datenschutzbehörde, deren Website Sie unter &lt;a class=&#8220;adsimple-111954616&#8243; href=&#8220;https://www.dsb.gv.at/?tid=111954616&#8243; target=&#8220;_blank&#8220; rel=&#8220;noopener&#8220;&gt;https://www.dsb.gv.at/&lt;/a&gt; finden. In Deutschland gibt es für jedes Bundesland einen Datenschutzbeauftragten. Für nähere Informationen können Sie sich an die &lt;a class=&#8220;adsimple-111954616&#8243; href=&#8220;https://www.bfdi.bund.de/DE/Home/home_node.html&#8220; target=&#8220;_blank&#8220; rel=&#8220;noopener&#8220;&gt;Bundesbeauftragte für den Datenschutz und die Informationsfreiheit (BfDI)&lt;/a&gt; wenden. Für unser Unternehmen ist die folgende lokale Datenschutzbehörde zuständig:&lt;/p&gt;&lt;br /&gt;&lt;br /&gt;<br />
+&lt;h2 id=&#8220;oesterreich-datenschutzbehoerde&#8220; class=&#8220;adsimple-111954616&#8243;&gt;Österreich Datenschutzbehörde&lt;/h2&gt;&lt;br /&gt;&lt;br /&gt;<br />
+&lt;p&gt;&lt;br /&gt;&lt;br /&gt;<br />
+&lt;strong class=&#8220;adsimple-111954616&#8243;&gt;Leiterin: &lt;/strong&gt;Mag. Dr. Andrea Jelinek&lt;strong class=&#8220;adsimple-111954616&#8243;&gt;&lt;br /&gt;&lt;br /&gt;<br />
+&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;<br />
+Adresse: &lt;/strong&gt;Barichgasse 40-42, 1030 Wien&lt;strong class=&#8220;adsimple-111954616&#8243;&gt;&lt;br /&gt;&lt;br /&gt;<br />
+&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;<br />
+Telefonnr.: &lt;/strong&gt;+43 1 52&nbsp;152-0&lt;strong class=&#8220;adsimple-111954616&#8243;&gt;&lt;br /&gt;&lt;br /&gt;<br />
+&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;<br />
+E-Mail-Adresse: &lt;/strong&gt;&lt;br /&gt;&lt;br /&gt;<br />
+&lt;a class=&#8220;adsimple-111954616&#8243; href=&#8220;mailto:dsb@dsb.gv.at&#8220; target=&#8220;_blank&#8220; rel=&#8220;noopener&#8220;&gt;dsb@dsb.gv.at&lt;/a&gt;&lt;br /&gt;&lt;br /&gt;<br />
+&lt;strong class=&#8220;adsimple-111954616&#8243;&gt;&lt;br /&gt;&lt;br /&gt;<br />
+&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;<br />
+Website: &lt;/strong&gt;&lt;br /&gt;&lt;br /&gt;<br />
+&lt;a class=&#8220;adsimple-111954616&#8243; href=&#8220;https://www.dsb.gv.at/&#8220; target=&#8220;_blank&#8220; rel=&#8220;noopener&#8220;&gt;https://www.dsb.gv.at/&lt;/a&gt;&lt;br /&gt;&lt;br /&gt;<br />
+&lt;/p&gt;&lt;br /&gt;&lt;br /&gt;<br />
+&lt;h2 id=&#8220;sicherheit-datenverarbeitung&#8220; class=&#8220;adsimple-111954616&#8243;&gt;Sicherheit der Datenverarbeitung&lt;/h2&gt;&lt;br /&gt;&lt;br /&gt;<br />
+&lt;p&gt;Um personenbezogene Daten zu schützen, haben wir sowohl technische als auch organisatorische Maßnahmen umgesetzt. Wo es uns möglich ist, verschlüsseln oder pseudonymisieren wir personenbezogene Daten. Dadurch machen wir es im Rahmen unserer Möglichkeiten so schwer wie möglich, dass Dritte aus unseren Daten auf persönliche Informationen schließen können.&lt;/p&gt;&lt;br /&gt;&lt;br /&gt;<br />
+&lt;p&gt;Art. 25 DSGVO spricht hier von &amp;#8220;Datenschutz durch Technikgestaltung und durch datenschutzfreundliche Voreinstellungen&amp;#8221; und meint damit, dass man sowohl bei Software (z. B. Formularen) also auch Hardware (z. B. Zugang zum Serverraum) immer an Sicherheit denkt und entsprechende Maßnahmen setzt. Im Folgenden gehen wir, falls erforderlich, noch auf konkrete Maßnahmen ein.&lt;/p&gt;&lt;br /&gt;&lt;br /&gt;<br />
+&lt;h2 id=&#8220;kommunikation&#8220; class=&#8220;adsimple-111954616&#8243;&gt;Kommunikation&lt;/h2&gt;&lt;br /&gt;&lt;br /&gt;<br />
+&lt;table border=&#8220;1&#8243; cellpadding=&#8220;15&#8243;&gt;&lt;br /&gt;&lt;br /&gt;<br />
+&lt;tbody&gt;&lt;br /&gt;&lt;br /&gt;<br />
+&lt;tr&gt;&lt;br /&gt;&lt;br /&gt;<br />
+&lt;td&gt;&lt;br /&gt;&lt;br /&gt;<br />
+&lt;strong class=&#8220;adsimple-111954616&#8243;&gt;Kommunikation Zusammenfassung&lt;/strong&gt;&lt;br /&gt;&lt;br /&gt;<br />
+&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;<br />
+&amp;#x1f465; Betroffene: Alle, die mit uns per Telefon, E-Mail oder Online-Formular kommunizieren&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;<br />
+&amp;#x1f4d3; Verarbeitete Daten: z. B. Telefonnummer, Name, E-Mail-Adresse, eingegebene Formulardaten. Mehr Details dazu finden Sie bei der jeweils eingesetzten Kontaktart&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;<br />
+&amp;#x1f91d; Zweck: Abwicklung der Kommunikation mit Kunden, Geschäftspartnern usw.&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;<br />
+&amp;#x1f4c5; Speicherdauer: Dauer des Geschäftsfalls und der gesetzlichen Vorschriften&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;<br />
+&amp;#x2696;&amp;#xfe0f; Rechtsgrundlagen: Art. 6 Abs. 1 lit. a DSGVO (Einwilligung), Art. 6 Abs. 1 lit. b DSGVO (Vertrag), Art. 6 Abs. 1 lit. f DSGVO (Berechtigte Interessen)&lt;/td&gt;&lt;br /&gt;&lt;br /&gt;<br />
+&lt;/tr&gt;&lt;br /&gt;&lt;br /&gt;<br />
+&lt;/tbody&gt;&lt;br /&gt;&lt;br /&gt;<br />
+&lt;/table&gt;&lt;br /&gt;&lt;br /&gt;<br />
+&lt;p&gt;Wenn Sie mit uns Kontakt aufnehmen und per Telefon, E-Mail oder Online-Formular kommunizieren, kann es zur Verarbeitung personenbezogener Daten kommen.&lt;/p&gt;&lt;br /&gt;&lt;br /&gt;<br />
+&lt;p&gt;Die Daten werden für die Abwicklung und Bearbeitung Ihrer Frage und des damit zusammenhängenden Geschäftsvorgangs verarbeitet. Die Daten während ebensolange gespeichert bzw. so lange es das Gesetz vorschreibt.&lt;/p&gt;&lt;br /&gt;&lt;br /&gt;<br />
+&lt;h3 class=&#8220;adsimple-111954616&#8243;&gt;Betroffene Personen&lt;/h3&gt;&lt;br /&gt;&lt;br /&gt;<br />
+&lt;p&gt;Von den genannten Vorgängen sind alle betroffen, die über die von uns bereit gestellten Kommunikationswege den Kontakt zu uns suchen.&lt;/p&gt;&lt;br /&gt;&lt;br /&gt;<br />
+&lt;h3 class=&#8220;adsimple-111954616&#8243;&gt;Telefon&lt;/h3&gt;&lt;br /&gt;&lt;br /&gt;<br />
+&lt;p&gt;Wenn Sie uns anrufen, werden die Anrufdaten auf dem jeweiligen Endgerät und beim eingesetzten Telekommunikationsanbieter pseudonymisiert gespeichert. Außerdem können Daten wie Name und Telefonnummer im Anschluss per E-Mail versendet und zur Anfragebeantwortung gespeichert werden. Die Daten werden gelöscht, sobald der Geschäftsfall beendet wurde und es gesetzliche Vorgaben erlauben.&lt;/p&gt;&lt;br /&gt;&lt;br /&gt;<br />
+&lt;h3 class=&#8220;adsimple-111954616&#8243;&gt;E-Mail&lt;/h3&gt;&lt;br /&gt;&lt;br /&gt;<br />
+&lt;p&gt;Wenn Sie mit uns per E-Mail kommunizieren, werden Daten gegebenenfalls auf dem jeweiligen Endgerät (Computer, Laptop, Smartphone,&amp;#8230;) gespeichert und es kommt zur Speicherung von Daten auf dem E-Mail-Server. Die Daten werden gelöscht, sobald der Geschäftsfall beendet wurde und es gesetzliche Vorgaben erlauben.&lt;/p&gt;&lt;br /&gt;&lt;br /&gt;<br />
+&lt;h3 class=&#8220;adsimple-111954616&#8243;&gt;Online Formulare&lt;/h3&gt;&lt;br /&gt;&lt;br /&gt;<br />
+&lt;p&gt;Wenn Sie mit uns mittels Online-Formular kommunizieren, werden Daten auf unserem Webserver gespeichert und gegebenenfalls an eine E-Mail-Adresse von uns weitergeleitet. Die Daten werden gelöscht, sobald der Geschäftsfall beendet wurde und es gesetzliche Vorgaben erlauben.&lt;/p&gt;&lt;br /&gt;&lt;br /&gt;<br />
+&lt;h3 class=&#8220;adsimple-111954616&#8243;&gt;Rechtsgrundlagen&lt;/h3&gt;&lt;br /&gt;&lt;br /&gt;<br />
+&lt;p&gt;Die Verarbeitung der Daten basiert auf den folgenden Rechtsgrundlagen:&lt;/p&gt;&lt;br /&gt;&lt;br /&gt;<br />
+&lt;ul class=&#8220;adsimple-111954616&#8243;&gt;&lt;br /&gt;&lt;br /&gt;<br />
+&lt;li class=&#8220;adsimple-111954616&#8243;&gt;Art. 6 Abs. 1 lit. a DSGVO (Einwilligung): Sie geben uns die Einwilligung Ihre Daten zu speichern und weiter für den Geschäftsfall betreffende Zwecke zu verwenden;&lt;/li&gt;&lt;br /&gt;&lt;br /&gt;<br />
+&lt;li class=&#8220;adsimple-111954616&#8243;&gt;Art. 6 Abs. 1 lit. b DSGVO (Vertrag): Es besteht die Notwendigkeit für die Erfüllung eines Vertrags mit Ihnen oder einem Auftragsverarbeiter wie z. B. dem Telefonanbieter oder wir müssen die Daten für vorvertragliche Tätigkeiten, wie z. B. die Vorbereitung eines Angebots, verarbeiten;&lt;/li&gt;&lt;br /&gt;&lt;br /&gt;<br />
+&lt;li class=&#8220;adsimple-111954616&#8243;&gt;Art. 6 Abs. 1 lit. f DSGVO (Berechtigte Interessen): Wir wollen Kundenanfragen und geschäftliche Kommunikation in einem professionellen Rahmen betreiben. Dazu sind gewisse technische Einrichtungen wie z. B. E-Mail-Programme, Exchange-Server und Mobilfunkbetreiber notwendig, um die Kommunikation effizient betreiben zu können.&lt;/li&gt;&lt;br /&gt;&lt;br /&gt;<br />
+&lt;/ul&gt;&lt;br /&gt;&lt;br /&gt;<br />
+&lt;h2 id=&#8220;webhosting-einleitung&#8220; class=&#8220;adsimple-111954616&#8243;&gt;Webhosting Einleitung&lt;/h2&gt;&lt;br /&gt;&lt;br /&gt;<br />
+&lt;table border=&#8220;1&#8243; cellpadding=&#8220;15&#8243;&gt;&lt;br /&gt;&lt;br /&gt;<br />
+&lt;tbody&gt;&lt;br /&gt;&lt;br /&gt;<br />
+&lt;tr&gt;&lt;br /&gt;&lt;br /&gt;<br />
+&lt;td&gt;&lt;br /&gt;&lt;br /&gt;<br />
+&lt;strong class=&#8220;adsimple-111954616&#8243;&gt;Webhosting Zusammenfassung&lt;/strong&gt;&lt;br /&gt;&lt;br /&gt;<br />
+&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;<br />
+&amp;#x1f465; Betroffene: Besucher der Website&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;<br />
+&amp;#x1f91d; Zweck: professionelles Hosting der Website und Absicherung des Betriebs&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;<br />
+&amp;#x1f4d3; Verarbeitete Daten: IP-Adresse, Zeitpunkt des Websitebesuchs, verwendeter Browser und weitere Daten. Mehr Details dazu finden Sie weiter unten bzw. beim jeweils eingesetzten Webhosting Provider.&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;<br />
+&amp;#x1f4c5; Speicherdauer: abhängig vom jeweiligen Provider, aber in der Regel 2 Wochen&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;<br />
+&amp;#x2696;&amp;#xfe0f; Rechtsgrundlagen: Art. 6 Abs. 1 lit.f DSGVO (Berechtigte Interessen)&lt;/td&gt;&lt;br /&gt;&lt;br /&gt;<br />
+&lt;/tr&gt;&lt;br /&gt;&lt;br /&gt;<br />
+&lt;/tbody&gt;&lt;br /&gt;&lt;br /&gt;<br />
+&lt;/table&gt;&lt;br /&gt;&lt;br /&gt;<br />
+&lt;h3 class=&#8220;adsimple-111954616&#8243;&gt;Was ist Webhosting?&lt;/h3&gt;&lt;br /&gt;&lt;br /&gt;<br />
+&lt;p&gt;Wenn Sie heutzutage Websites besuchen, werden gewisse Informationen &amp;#8211; auch personenbezogene Daten &amp;#8211; automatisch erstellt und gespeichert, so auch auf dieser Website. Diese Daten sollten möglichst sparsam und nur mit Begründung verarbeitet werden. Mit Website meinen wir übrigens die Gesamtheit aller Webseiten auf einer Domain, d.h. alles von der Startseite (Homepage) bis hin zur aller letzten Unterseite (wie dieser hier). Mit Domain meinen wir zum Beispiel beispiel.de oder musterbeispiel.com.&lt;/p&gt;&lt;br /&gt;&lt;br /&gt;<br />
+&lt;p&gt;Wenn Sie eine Website auf einem Bildschirm ansehen möchten, verwenden Sie dafür ein Programm, das sich Webbrowser nennt. Sie kennen vermutlich einige Webbrowser beim Namen: Google Chrome, Microsoft Edge, Mozilla Firefox und Apple Safari.&lt;/p&gt;&lt;br /&gt;&lt;br /&gt;<br />
+&lt;p&gt;Dieser Webbrowser muss sich zu einem anderen Computer verbinden, wo der Code der Website gespeichert ist: dem Webserver. Der Betrieb eines Webservers ist eine komplizierte und aufwendige Aufgabe, weswegen dies in der Regel von professionellen Anbietern, den Providern, übernommen wird. Diese bieten Webhosting an und sorgen damit für eine verlässliche und fehlerfreie Speicherung der Daten von Websites.&lt;/p&gt;&lt;br /&gt;&lt;br /&gt;<br />
+&lt;p&gt;Bei der Verbindungsaufnahme des Browsers auf Ihrem Computer (Desktop, Laptop, Smartphone) und während der Datenübertragung zu und vom Webserver kann es zu einer Verarbeitung personenbezogener Daten kommen. Einerseits speichert Ihr Computer Daten, andererseits muss auch der Webserver Daten eine Zeit lang speichern, um einen ordentlichen Betrieb zu gewährleisten.&lt;/p&gt;&lt;br /&gt;&lt;br /&gt;<br />
+&lt;p&gt;Zur Veranschaulichung:&lt;/p&gt;&lt;br /&gt;&lt;br /&gt;<br />
+&lt;p&gt;&lt;br /&gt;&lt;br /&gt;<br />
+&lt;img role=&#8220;img&#8220; src=&#8220;https://www.adsimple.at/wp-content/uploads/2018/03/browser-und-webserver.svg&#8220; alt=&#8220;Browser und Webserver&#8220; width=&#8220;100%&#8220; /&gt;&lt;br /&gt;&lt;br /&gt;<br />
+&lt;/p&gt;&lt;br /&gt;&lt;br /&gt;<br />
+&lt;h3 class=&#8220;adsimple-111954616&#8243;&gt;Warum verarbeiten wir personenbezogene Daten?&lt;/h3&gt;&lt;br /&gt;&lt;br /&gt;<br />
+&lt;p&gt;Die Zwecke der Datenverarbeitung sind:&lt;/p&gt;&lt;br /&gt;&lt;br /&gt;<br />
+&lt;ol&gt;&lt;br /&gt;&lt;br /&gt;<br />
+&lt;li class=&#8220;adsimple-111954616&#8243;&gt;Professionelles Hosting der Website und Absicherung des Betriebs&lt;/li&gt;&lt;br /&gt;&lt;br /&gt;<br />
+&lt;li class=&#8220;adsimple-111954616&#8243;&gt;zur Aufrechterhaltung der Betriebs- und IT-Sicherheit&lt;/li&gt;&lt;br /&gt;&lt;br /&gt;<br />
+&lt;li class=&#8220;adsimple-111954616&#8243;&gt;Anonyme Auswertung des Zugriffsverhaltens zur Verbesserung unseres Angebots und ggf. zur Strafverfolgung bzw. Verfolgung von Ansprüchen&lt;/li&gt;&lt;br /&gt;&lt;br /&gt;<br />
+&lt;/ol&gt;&lt;br /&gt;&lt;br /&gt;<br />
+&lt;h3 class=&#8220;adsimple-111954616&#8243;&gt;Welche Daten werden verarbeitet?&lt;/h3&gt;&lt;br /&gt;&lt;br /&gt;<br />
+&lt;p&gt;Auch während Sie unsere Website jetzt gerade besuchen, speichert unser Webserver, das ist der Computer auf dem diese Webseite gespeichert ist, in der Regel automatisch Daten wie&lt;/p&gt;&lt;br /&gt;&lt;br /&gt;<br />
+&lt;ul class=&#8220;adsimple-111954616&#8243;&gt;&lt;br /&gt;&lt;br /&gt;<br />
+&lt;li class=&#8220;adsimple-111954616&#8243;&gt;die komplette Internetadresse (URL) der aufgerufenen Webseite&lt;/li&gt;&lt;br /&gt;&lt;br /&gt;<br />
+&lt;li class=&#8220;adsimple-111954616&#8243;&gt;Browser und Browserversion (z. B. Chrome 87)&lt;/li&gt;&lt;br /&gt;&lt;br /&gt;<br />
+&lt;li class=&#8220;adsimple-111954616&#8243;&gt;das verwendete Betriebssystem (z. B. Windows 10)&lt;/li&gt;&lt;br /&gt;&lt;br /&gt;<br />
+&lt;li class=&#8220;adsimple-111954616&#8243;&gt;die Adresse (URL) der zuvor besuchten Seite (Referrer URL) (z. B. &lt;a class=&#8220;adsimple-111954616&#8243; href=&#8220;https://www.beispielquellsite.de/vondabinichgekommen.html/&#8220; target=&#8220;_blank&#8220; rel=&#8220;follow noopener&#8220;&gt;https://www.beispielquellsite.de/vondabinichgekommen.html/&lt;/a&gt;)&lt;/li&gt;&lt;br /&gt;&lt;br /&gt;<br />
+&lt;li class=&#8220;adsimple-111954616&#8243;&gt;den Hostnamen und die IP-Adresse des Geräts von welchem aus zugegriffen wird (z. B. COMPUTERNAME und 194.23.43.121)&lt;/li&gt;&lt;br /&gt;&lt;br /&gt;<br />
+&lt;li class=&#8220;adsimple-111954616&#8243;&gt;Datum und Uhrzeit&lt;/li&gt;&lt;br /&gt;&lt;br /&gt;<br />
+&lt;li class=&#8220;adsimple-111954616&#8243;&gt;in Dateien, den sogenannten Webserver-Logfiles&lt;/li&gt;&lt;br /&gt;&lt;br /&gt;<br />
+&lt;/ul&gt;&lt;br /&gt;&lt;br /&gt;<br />
+&lt;h3 class=&#8220;adsimple-111954616&#8243;&gt;Wie lange werden Daten gespeichert?&lt;/h3&gt;&lt;br /&gt;&lt;br /&gt;<br />
+&lt;p&gt;In der Regel werden die oben genannten Daten zwei Wochen gespeichert und danach automatisch gelöscht. Wir geben diese Daten nicht weiter, können jedoch nicht ausschließen, dass diese Daten beim Vorliegen von rechtswidrigem Verhalten von Behörden eingesehen werden.&lt;/p&gt;&lt;br /&gt;&lt;br /&gt;<br />
+&lt;p&gt;&lt;br /&gt;&lt;br /&gt;<br />
+&lt;strong class=&#8220;adsimple-111954616&#8243;&gt;Kurz gesagt:&lt;/strong&gt; Ihr Besuch wird durch unseren Provider (Firma, die unsere Website auf speziellen Computern (Servern) laufen lässt), protokolliert, aber wir geben Ihre Daten nicht ohne Zustimmung weiter!&lt;/p&gt;&lt;br /&gt;&lt;br /&gt;<br />
+&lt;h3 class=&#8220;adsimple-111954616&#8243;&gt;Rechtsgrundlage&lt;/h3&gt;&lt;br /&gt;&lt;br /&gt;<br />
+&lt;p&gt;Die Rechtmäßigkeit der Verarbeitung personenbezogener Daten im Rahmen des Webhosting ergibt sich aus Art. 6 Abs. 1 lit. f DSGVO (Wahrung der berechtigten Interessen), denn die Nutzung von professionellem Hosting bei einem Provider ist notwendig, um das Unternehmen im Internet sicher und nutzerfreundlich präsentieren und Angriffe und Forderungen hieraus gegebenenfalls verfolgen zu können.&lt;/p&gt;&lt;br /&gt;&lt;br /&gt;<br />
+&lt;p&gt;Zwischen uns und dem Hostingprovider besteht in der Regel ein Vertrag über die Auftragsverarbeitung gemäß Art. 28 f. DSGVO, der die Einhaltung von Datenschutz gewährleistet und Datensicherheit garantiert.&lt;/p&gt;&lt;br /&gt;&lt;br /&gt;<br />
+&lt;h2 id=&#8220;website-baukastensysteme-einleitung&#8220; class=&#8220;adsimple-111954616&#8243;&gt;Website Baukastensysteme Einleitung&lt;/h2&gt;&lt;br /&gt;&lt;br /&gt;<br />
+&lt;table border=&#8220;1&#8243; cellpadding=&#8220;15&#8243;&gt;&lt;br /&gt;&lt;br /&gt;<br />
+&lt;tbody&gt;&lt;br /&gt;&lt;br /&gt;<br />
+&lt;tr&gt;&lt;br /&gt;&lt;br /&gt;<br />
+&lt;td&gt;&lt;br /&gt;&lt;br /&gt;<br />
+&lt;strong class=&#8220;adsimple-111954616&#8243;&gt;Website Baukastensysteme Datenschutzerklärung Zusammenfassung&lt;/strong&gt;&lt;br /&gt;&lt;br /&gt;<br />
+&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;<br />
+&amp;#x1f465; Betroffene: Besucher der Website&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;<br />
+&amp;#x1f91d; Zweck: Optimierung unserer Serviceleistung&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;<br />
+&amp;#x1f4d3; Verarbeitete Daten: Daten wie etwa technische Nutzungsinformationen wie Browseraktivität, Clickstream-Aktivitäten, Sitzungs-Heatmaps sowie Kontaktdaten, IP-Adresse oder Ihr geografischer Standort. Mehr Details dazu finden Sie weiter unten in dieser Datenschutzerklärung und in der Datenschutzerklärung der Anbieter.&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;<br />
+&amp;#x1f4c5; Speicherdauer: hängt vom Anbieter ab&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;<br />
+&amp;#x2696;&amp;#xfe0f; Rechtsgrundlagen: Art. 6 Abs. 1 lit. f DSGVO (Berechtigte Interessen), Art. 6 Abs. 1 lit. a DSGVO (Einwilligung)&lt;/td&gt;&lt;br /&gt;&lt;br /&gt;<br />
+&lt;/tr&gt;&lt;br /&gt;&lt;br /&gt;<br />
+&lt;/tbody&gt;&lt;br /&gt;&lt;br /&gt;<br />
+&lt;/table&gt;&lt;br /&gt;&lt;br /&gt;<br />
+&lt;h3 class=&#8220;adsimple-111954616&#8243;&gt;Was sind Website Baukastensysteme?&lt;/h3&gt;&lt;br /&gt;&lt;br /&gt;<br />
+&lt;p&gt;Wir verwenden für unsere Website ein Website Baukastensystem. Baukastensysteme sind besondere Formen eines Content-Management-Systems (CMS). Mit einem Baukastensystem können Websitebetreiber sehr leicht und ohne Programmierkenntnisse eine Website erstellen. In vielen Fällen bieten auch Webhoster Baukastensysteme an. Durch die Verwendung eines Baukastensystems können auch personenbezogene Daten von Ihnen erhoben, gespeichert und verarbeitet werden. In diesem Datenschutztext geben wir Ihnen allgemeine Informationen über die Datenverarbeitung durch Baukastensysteme. Nähere Informationen finden Sie in den Datenschutzerklärungen des Anbieters.&lt;/p&gt;&lt;br /&gt;&lt;br /&gt;<br />
+&lt;h3 class=&#8220;adsimple-111954616&#8243;&gt;Warum verwenden wir Website Baukastensysteme für unsere Website?&lt;/h3&gt;&lt;br /&gt;&lt;br /&gt;<br />
+&lt;p&gt;Der größte Vorteil eines Baukastensystems ist die einfache Bedienbarkeit. Wir wollen Ihnen eine klare, einfache und übersichtliche Website bieten, die wir selbst &amp;#8211; ohne externe Unterstützung – problemlos bedienen und warten können. Ein Baukastensystem bietet mittlerweile viele hilfreiche Funktionen, die wir auch ohne Programmierkenntnisse anwenden können. Dadurch können wir unsere Webpräsenz nach unseren Wünschen gestalten und Ihnen eine informative und angenehme Zeit auf unserer Website bieten.&lt;/p&gt;&lt;br /&gt;&lt;br /&gt;<br />
+&lt;h3 class=&#8220;adsimple-111954616&#8243;&gt;Welche Daten werden von einem Baukastensystem gespeichert?&lt;/h3&gt;&lt;br /&gt;&lt;br /&gt;<br />
+&lt;p&gt;Welche Daten genau gespeichert werden hängt natürlich vom verwendeten Website-Baukastensystem ab. Jeder Anbieter verarbeitet und erhebt unterschiedliche Daten des Websitebesuchers. Doch in der Regel werden technische Nutzungsinformationen wie etwa etwa Betriebssystem, Browser, Bildschirmauflösung, Sprach- und Tastatureinstellungen, Hostinganbieter und das Datum Ihres Websitebesuches erhoben. Weiter können auch Trackingdaten (z.B. Browseraktivität, Clickstreamaktivitäten, Sitzungs-Heatmaps u.a.) verarbeitet werden. Zudem können auch personenbezogene Daten erfasst und gespeichert werden. Dabei handelt es sich meistens um Kontaktdaten wie E-Mail-Adresse, Telefonnummer (falls Sie diese angegeben haben), IP-Adresse und geografischen Standortdaten. Welche Daten genau gespeichert werden, finden Sie in der Datenschutzerklärung des Anbieters.&lt;/p&gt;&lt;br /&gt;&lt;br /&gt;<br />
+&lt;h3 class=&#8220;adsimple-111954616&#8243;&gt;Wie lange und wo werden die Daten gespeichert?&lt;/h3&gt;&lt;br /&gt;&lt;br /&gt;<br />
+&lt;p&gt;Über die Dauer der Datenverarbeitung informieren wir Sie weiter unten im Zusammenhang mit dem verwendeten Website Baukastensystem, sofern wir weitere Informationen dazu haben. In den Datenschutzerklärung des Anbieters finden Sie detaillierte Informationen darüber. Generell verarbeiten wir personenbezogene Daten nur so lange wie es für die Bereitstellung unserer Dienstleistungen und Produkte unbedingt notwendig ist. Es kann sein, dass der Anbieter nach eigenen Maßgaben Daten von Ihnen speichert, worauf wir keinen Einfluss haben.&lt;/p&gt;&lt;br /&gt;&lt;br /&gt;<br />
+&lt;h3 class=&#8220;adsimple-111954616&#8243;&gt;Widerspruchsrecht&lt;/h3&gt;&lt;br /&gt;&lt;br /&gt;<br />
+&lt;p&gt;Sie haben immer das Recht auf Auskunft, Berichtigung und Löschung Ihrer personenbezogenen Daten. Bei Fragen können Sie auch jederzeit Verantwortliche des verwendeten Website Baukastensystems kontaktieren. Kontaktdaten finden Sie entweder in unserer Datenschutzerklärung oder auf der Website des entsprechenden Anbieters.&lt;/p&gt;&lt;br /&gt;&lt;br /&gt;<br />
+&lt;p&gt;Cookies, die Anbieter für ihre Funktionen verwenden, können Sie in Ihrem Browser löschen, deaktivieren oder verwalten. Je nachdem welchen Browser Sie verwenden, funktioniert dies auf unterschiedliche Art und Weise. Bitte beachten Sie aber, dass dann eventuell nicht mehr alle Funktionen wie gewohnt funktionieren.&lt;/p&gt;&lt;br /&gt;&lt;br /&gt;<br />
+&lt;h3 class=&#8220;adsimple-111954616&#8243;&gt;Rechtsgrundlage&lt;/h3&gt;&lt;br /&gt;&lt;br /&gt;<br />
+&lt;p&gt;Wir haben ein berechtigtes Interesse daran, ein Website Baukastensystem zu verwenden, um unseren Online-Service zu optimieren und für Sie effizient und nutzeransprechend darzustellen. Die dafür entsprechende Rechtsgrundlage ist Art. 6 Abs. 1 lit. f DSGVO (Berechtigte Interessen). Wir setzen den Baukasten gleichwohl nur ein, soweit Sie eine Einwilligung erteilt haben.&lt;/p&gt;&lt;br /&gt;&lt;br /&gt;<br />
+&lt;p&gt;Soweit die Verarbeitung von Daten für den Betrieb der Webseite nicht unbedingt notwendig ist, werden die Daten nur auf Grundlage Ihrer Einwilligung verarbeitet. Dies betrifft insbesondere Aktivitäten des Trackings. Rechtsgrundlage ist insoweit Art. 6 Abs. 1 lit. a DSGVO.&lt;/p&gt;&lt;br /&gt;&lt;br /&gt;<br />
+&lt;p&gt;Mit dieser Datenschutzerklärung haben wir Ihnen die wichtigsten allgemeinen Informationen rund um die Datenverarbeitung nähergebracht. Wenn Sie sich diesbezüglich noch genauer informieren wollen, finden Sie weitere Informationen – sofern vorhanden – in dem folgenden Abschnitt bzw. in der Datenschutzerklärung des Anbieters.&lt;/p&gt;&lt;br /&gt;&lt;br /&gt;<br />
+&lt;h2 id=&#8220;wordpress-com-datenschutzerklaerung&#8220; class=&#8220;adsimple-111954616&#8243;&gt;Wordpress.com Datenschutzerklärung&lt;/h2&gt;&lt;br /&gt;&lt;br /&gt;<br />
+&lt;p&gt;Wir nutzen für unsere Website WordPress.com, ein Website Baukastensystem. Dienstanbieter ist das amerikanische Unternehmen Automattic Inc., 60 29th Street #343, San Francisco, CA 94110, USA.&lt;/p&gt;&lt;br /&gt;&lt;br /&gt;<br />
+&lt;p&gt;WordPress verarbeitet Daten von Ihnen u.a. auch in den USA. Wir weisen darauf hin, dass nach Meinung des Europäischen Gerichtshofs derzeit kein angemessenes Schutzniveau für den Datentransfer in die USA besteht. Dies kann mit verschiedenen Risiken für die Rechtmäßigkeit und Sicherheit der Datenverarbeitung einhergehen.&lt;/p&gt;&lt;br /&gt;&lt;br /&gt;<br />
+&lt;p&gt;Als Grundlage der Datenverarbeitung bei Empfängern mit Sitz in Drittstaaten (außerhalb der Europäischen Union, Island, Liechtenstein, Norwegen, also insbesondere in den USA) oder einer Datenweitergabe dorthin verwendet WordPress sogenannte Standardvertragsklauseln (= Art. 46. Abs. 2 und 3 DSGVO). Standardvertragsklauseln (Standard Contractual Clauses – SCC) sind von der EU-Kommission bereitgestellte Mustervorlagen und sollen sicherstellen, dass Ihre Daten auch dann den europäischen Datenschutzstandards entsprechen, wenn diese in Drittländer (wie beispielsweise in die USA) überliefert und dort gespeichert werden. Durch diese Klauseln verpflichtet sich WordPress, bei der Verarbeitung Ihrer relevanten Daten, das europäische Datenschutzniveau einzuhalten, selbst wenn die Daten in den USA gespeichert, verarbeitet und verwaltet werden. Diese Klauseln basieren auf einem Durchführungsbeschluss der EU-Kommission. Sie finden den Beschluss und die entsprechenden Standardvertragsklauseln u.a. hier: &lt;a class=&#8220;adsimple-111954616&#8243; href=&#8220;https://eur-lex.europa.eu/eli/dec_impl/2021/914/oj?locale=de&#8220; target=&#8220;_blank&#8220; rel=&#8220;follow noopener&#8220;&gt;https://eur-lex.europa.eu/eli/dec_impl/2021/914/oj?locale=de&lt;/a&gt;&lt;br /&gt;&lt;br /&gt;<br />
+&lt;/p&gt;&lt;br /&gt;&lt;br /&gt;<br />
+&lt;p&gt;Die Datenverarbeitungsbedingungen (Data Processing Agreements), welche den Standardvertragsklauseln entsprechen, finden Sie unter &lt;a class=&#8220;adsimple-111954616&#8243; href=&#8220;https://wordpress.com/support/data-processing-agreements/&#8220; target=&#8220;_blank&#8220; rel=&#8220;follow noopener&#8220;&gt;https://wordpress.com/support/data-processing-agreements/&lt;/a&gt;.&lt;/p&gt;&lt;br /&gt;&lt;br /&gt;<br />
+&lt;p&gt;Mehr über die Daten, die durch die Verwendung von WordPress.com verarbeitet werden, erfahren Sie in der Datenschutzerklärung auf &lt;a class=&#8220;adsimple-111954616&#8243; href=&#8220;https://automattic.com/de/privacy/&#8220; target=&#8220;_blank&#8220; rel=&#8220;noopener&#8220;&gt;https://automattic.com/de/privacy/&lt;/a&gt;.&lt;/p&gt;&lt;br /&gt;&lt;br /&gt;<br />
+&lt;h2 id=&#8220;sonstiges-einleitung&#8220; class=&#8220;adsimple-111954616&#8243;&gt;Sonstiges Einleitung&lt;/h2&gt;&lt;br /&gt;&lt;br /&gt;<br />
+&lt;table border=&#8220;1&#8243; cellpadding=&#8220;15&#8243;&gt;&lt;br /&gt;&lt;br /&gt;<br />
+&lt;tbody&gt;&lt;br /&gt;&lt;br /&gt;<br />
+&lt;tr&gt;&lt;br /&gt;&lt;br /&gt;<br />
+&lt;td&gt;&lt;br /&gt;&lt;br /&gt;<br />
+&lt;strong class=&#8220;adsimple-111954616&#8243;&gt;Sonstiges Datenschutzerklärung Zusammenfassung&lt;/strong&gt;&lt;br /&gt;&lt;br /&gt;<br />
+&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;<br />
+&amp;#x1f465; Betroffene: Besucher der Website&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;<br />
+&amp;#x1f91d; Zweck: Verbesserung der Nutzererfahrung&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;<br />
+&amp;#x1f4d3; Verarbeitete Daten: Welche Daten verarbeitet werden, hängt stark von den verwendeten Diensten ab. Meist handelt es sich um IP-Adresse und/oder technische Daten. Mehr Details dazu finden Sie bei den jeweils eingesetzten Tools.&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;<br />
+&amp;#x1f4c5; Speicherdauer: abhängig von den eingesetzten Tools&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;<br />
+&amp;#x2696;&amp;#xfe0f; Rechtsgrundlagen: Art. 6 Abs. 1 lit. a DSGVO (Einwilligung), Art. 6 Abs. 1 lit. f DSGVO (Berechtigte Interessen)&lt;/td&gt;&lt;br /&gt;&lt;br /&gt;<br />
+&lt;/tr&gt;&lt;br /&gt;&lt;br /&gt;<br />
+&lt;/tbody&gt;&lt;br /&gt;&lt;br /&gt;<br />
+&lt;/table&gt;&lt;br /&gt;&lt;br /&gt;<br />
+&lt;h3 class=&#8220;adsimple-111954616&#8243;&gt;Was fällt unter „Sonstiges“?&lt;/h3&gt;&lt;br /&gt;&lt;br /&gt;<br />
+&lt;p&gt;Unter die Kategorie „Sonstiges“ fallen jene Dienste, die nicht in eine der oben genannten Kategorien passen. Dabei handelt es sich in der Regel um diverse Plugins und eingebundene Elemente, die unsere Website verbessern. In der Regel werden diese Funktionen von Drittanbietern bezogen und in unsere Website eingebunden. Beispielsweise handelt es sich dabei um Websuch-Dienste wie Algolia Place, Giphy, Programmable Search Engine oder Onlinedienste für Wetterdaten wie etwa OpenWeather.&lt;/p&gt;&lt;br /&gt;&lt;br /&gt;<br />
+&lt;h3 class=&#8220;adsimple-111954616&#8243;&gt;Warum verwenden wir weitere Drittanbieter?&lt;/h3&gt;&lt;br /&gt;&lt;br /&gt;<br />
+&lt;p&gt;Wir wollen Ihnen mit unserer Website das beste Webangebot in unserer Branche bieten. Schon lange ist eine Website nicht bloß eine reine Visitenkarte für Unternehmen. Vielmehr ist es ein Ort, der Ihnen behilflich sein soll, zu finden wonach Sie suchen. Um stets unsere Website für Sie noch interessanter und hilfreicher zu machen, nutzen wir diverse Dienste von Drittanbietern.&lt;/p&gt;&lt;br /&gt;&lt;br /&gt;<br />
+&lt;h3 class=&#8220;adsimple-111954616&#8243;&gt;Welche Daten werden verarbeitet?&lt;/h3&gt;&lt;br /&gt;&lt;br /&gt;<br />
+&lt;p&gt;Immer wenn Elemente in unsere Website eingebunden werden, wird Ihre IP-Adresse an den jeweiligen Anbieter übermittelt, gespeichert und dort verarbeitet werden. Das ist nötig, weil sonst die Inhalte nicht an Ihren Browser gesendet werden und folglich nicht entsprechend dargestellt werden. Es kann auch vorkommen, dass Dienstanbieter auch Pixel-Tags bzw. Web-Beacons verwenden. Das sind kleine Grafiken auf Websites, die eine Logdatei aufzeichnen und auch Analysen dieser Datei erstellen können. Mit den erhaltenen Informationen können die Anbieter ihre eigenen Marketingmaßnahmen verbessern. Neben Pixel-Tags können solche Informationen (wie beispielsweise welchen Button Sie klicken oder wann Sie welche Seite aufrufen) auch in Cookies gespeichert werden. Darin können neben Analysedaten zu Ihrem Webverhalten auch technische Informationen wie etwa Ihr Browsertyp oder Ihr Betriebssystem gespeichert werden. Manche Anbieter können die gewonnenen Daten auch mit anderen internen Diensten oder auch mit Drittanbieter verknüpfen. Jeder Anbieter pflegt einen anderen Umgang mit Ihren Daten. Daher empfehlen wir Ihnen sorgfältig die Datenschutzerklärungen der jeweiligen Dienste durchzulesen. Wir sind grundsätzlich bemüht, nur Dienste zu verwenden, die mit dem Thema Datenschutz sehr vorsichtig umgehen.&lt;/p&gt;&lt;br /&gt;&lt;br /&gt;<br />
+&lt;h3 class=&#8220;adsimple-111954616&#8243;&gt;Dauer der Datenverarbeitung&lt;/h3&gt;&lt;br /&gt;&lt;br /&gt;<br />
+&lt;p&gt;Über die Dauer der Datenverarbeitung informieren wir Sie weiter unten, sofern wir weitere Informationen dazu haben. Generell verarbeiten wir personenbezogene Daten nur so lange wie es für die Bereitstellung unserer Dienstleistungen und Produkte unbedingt notwendig ist.&lt;/p&gt;&lt;br /&gt;&lt;br /&gt;<br />
+&lt;h3 class=&#8220;adsimple-111954616&#8243;&gt;Rechtsgrundlage&lt;/h3&gt;&lt;br /&gt;&lt;br /&gt;<br />
+&lt;p&gt;Wenn wir Sie um Ihre Einwilligung bitte und Sie auch einwilligen, dass wir den Dienst verwenden dürfen, gilt dies als Rechtsgrundlage der Verarbeitung Ihrer Daten (Art. 6 Abs. 1 lit. a DSGVO). &nbsp;Zusätzlich zur Einwilligung besteht von unserer Seite ein berechtigtes Interesse daran, das Verhalten der Websitebesucher zu analysieren und so unser Angebot technisch und wirtschaftlich zu verbessern. Die Rechtsgrundlage dafür ist&nbsp;Art. 6 Abs. 1 lit. f DSGVO (Berechtigte Interessen). Wir setzen die Tools gleichwohl nur ein, soweit Sie eine Einwilligung erteilt haben.&lt;/p&gt;&lt;br /&gt;&lt;br /&gt;<br />
+&lt;p&gt;Informationen zu den speziellen Tools, erhalten Sie &amp;#8211; sofern vorhanden &amp;#8211; in den folgenden Abschnitten.&lt;/p&gt;&lt;br /&gt;&lt;br /&gt;<br />
+&lt;h2 id=&#8220;font-awesome-datenschutzerklaerung&#8220; class=&#8220;adsimple-111954616&#8243;&gt;Font Awesome Datenschutzerklärung&lt;/h2&gt;&lt;br /&gt;&lt;br /&gt;<br />
+&lt;table border=&#8220;1&#8243; cellpadding=&#8220;15&#8243;&gt;&lt;br /&gt;&lt;br /&gt;<br />
+&lt;tbody&gt;&lt;br /&gt;&lt;br /&gt;<br />
+&lt;tr&gt;&lt;br /&gt;&lt;br /&gt;<br />
+&lt;td&gt;&lt;br /&gt;&lt;br /&gt;<br />
+&lt;strong class=&#8220;adsimple-111954616&#8243;&gt;Font Awesome Datenschutzerklärung Zusammenfassung&lt;/strong&gt;&lt;br /&gt;&lt;br /&gt;<br />
+&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;<br />
+&amp;#x1f465; Betroffene: Besucher der Website&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;<br />
+&amp;#x1f91d; Zweck: Optimierung unserer Serviceleistung&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;<br />
+&amp;#x1f4d3; Verarbeitete Daten: etwa IP-Adresse und und welche Icon-Dateien geladen werden&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;<br />
+Mehr Details dazu finden Sie weiter unten in dieser Datenschutzerklärung.&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;<br />
+&amp;#x1f4c5; Speicherdauer: Dateien in identifizierbarer Form werden wenige Wochen gespeichert&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;<br />
+&amp;#x2696;&amp;#xfe0f; Rechtsgrundlagen: Art. 6 Abs. 1 lit. a DSGVO (Einwilligung), Art. 6 Abs. 1 lit. f DSGVO (Berechtigte Interessen)&lt;/td&gt;&lt;br /&gt;&lt;br /&gt;<br />
+&lt;/tr&gt;&lt;br /&gt;&lt;br /&gt;<br />
+&lt;/tbody&gt;&lt;br /&gt;&lt;br /&gt;<br />
+&lt;/table&gt;&lt;br /&gt;&lt;br /&gt;<br />
+&lt;h3 class=&#8220;adsimple-111954616&#8243;&gt;Was ist Font Awesome?&lt;/h3&gt;&lt;br /&gt;&lt;br /&gt;<br />
+&lt;p&gt;Wir verwenden auf unserer Website Font Awesome des amerikanischen Unternehmens Fonticons (307 S. Main St., Suite 202, Bentonville, AR 72712, USA). Wenn Sie eine unserer Webseite aufrufen, wird die Web-Schriftart Font Awesome (im Speziellen Icons) über das Font Awesome Content Delivery Netzwerk (CDN) geladen. So werden die Texte bzw. Schriften und Icons auf jedem Endgerät passend angezeigt. In dieser Datenschutzerklärung gehen wir näher auf die Datenspeicherung und Datenverarbeitung durch diesen Service ein.&lt;/p&gt;&lt;br /&gt;&lt;br /&gt;<br />
+&lt;p&gt;Icons spielen für Websites eine immer wichtigere Rolle. Font Awesome ist eine Web-Schriftart, die speziell für Webdesigner und Webentwickler entwickelt wurde. Mit Font Awesome können etwa Icons mit Hilfe der Stylesheet-Sprache CSS nach Belieben skaliert und gefärbt werden. Sie ersetzen so alte Bild-Icons. Font Awesome CDN ist der einfachste Weg die Icons oder Schriftarten auf Ihre Website zu laden. Dafür mussten wir nur eine kleine Code-Zeile in unsere Website einbinden.&lt;/p&gt;&lt;br /&gt;&lt;br /&gt;<br />
+&lt;h3 class=&#8220;adsimple-111954616&#8243;&gt;Warum verwenden wir Font Awesome auf unserer Website?&lt;/h3&gt;&lt;br /&gt;&lt;br /&gt;<br />
+&lt;p&gt;Durch Font Awesome können Inhalte auf unserer Website besser aufbereitet werden. So können Sie sich auf unserer Website besser orientieren und die Inhalte leichter erfassen. Mit den Icons kann man sogar manchmal ganze Wörter ersetzen und Platz sparen. Da ist besonders praktisch, wenn wir Inhalte speziell für Smartphones optimieren.&nbsp; Diese Icons werden statt als Bild als HMTL-Code eingefügt. Dadurch können wir die Icons mit CSS genauso bearbeiten, wie wir wollen. Gleichzeitig verbessern wir mit Font Awesome auch unsere Ladegeschwindigkeit, weil es sich nur um HTML-Elemente handelt und nicht um Icon-Bilder. All diese Vorteile helfen uns, die Website für Sie noch übersichtlicher, frischer und schneller zu machen.&lt;/p&gt;&lt;br /&gt;&lt;br /&gt;<br />
+&lt;h3 class=&#8220;adsimple-111954616&#8243;&gt;Welche Daten werden von Font Awesome gespeichert?&lt;/h3&gt;&lt;br /&gt;&lt;br /&gt;<br />
+&lt;p&gt;Zum Laden von Icons und Symbolen wird das Font Awesome Content Delivery Network (CDN) verwendet. CDNs sind Netzwerke von Servern, die weltweit verteilt sind und es möglich machen, schnell Dateien aus der Nähe zu laden. So werden auch, sobald Sie eine unserer Seiten aufrufen, die entsprechenden Icons von Font Awesome bereitgestellt.&lt;/p&gt;&lt;br /&gt;&lt;br /&gt;<br />
+&lt;p&gt;Damit die Web-Schriftarten geladen werden können, muss Ihr Browser eine Verbindung zu den Servern des Unternehmens Fonticons, Inc. herstellen. Dabei wird Ihre IP-Adresse erkannt. Font Awesome sammelt auch Daten darüber, welche Icon-Dateien wann heruntergeladen werden. Weiters werden auch technische Daten wie etwa Ihre Browser-Version, Bildschirmauflösung oder der Zeitpunkt der ausgerufenen Seite übertragen.&lt;/p&gt;&lt;br /&gt;&lt;br /&gt;<br />
+&lt;p&gt;Aus folgenden Gründen werden diese Daten gesammelt und gespeichert:&lt;/p&gt;&lt;br /&gt;&lt;br /&gt;<br />
+&lt;ul class=&#8220;adsimple-111954616&#8243;&gt;&lt;br /&gt;&lt;br /&gt;<br />
+&lt;li class=&#8220;adsimple-111954616&#8243;&gt;um Content Delivery Netzwerke zu optimieren&lt;/li&gt;&lt;br /&gt;&lt;br /&gt;<br />
+&lt;li class=&#8220;adsimple-111954616&#8243;&gt;um technische Fehler zu erkennen und zu beheben&lt;/li&gt;&lt;br /&gt;&lt;br /&gt;<br />
+&lt;li class=&#8220;adsimple-111954616&#8243;&gt;um CDNs vor Missbrauch und Angriffen zu schützen&lt;/li&gt;&lt;br /&gt;&lt;br /&gt;<br />
+&lt;li class=&#8220;adsimple-111954616&#8243;&gt;um Gebühren von Font Awesome Pro-Kunden berechnen zu können&lt;/li&gt;&lt;br /&gt;&lt;br /&gt;<br />
+&lt;li class=&#8220;adsimple-111954616&#8243;&gt;um die Beliebtheit von Icons zu erfahren&lt;/li&gt;&lt;br /&gt;&lt;br /&gt;<br />
+&lt;li class=&#8220;adsimple-111954616&#8243;&gt;um zu wissen, welchen Computer und welche Software Sie verwenden&lt;/li&gt;&lt;br /&gt;&lt;br /&gt;<br />
+&lt;/ul&gt;&lt;br /&gt;&lt;br /&gt;<br />
+&lt;p&gt;Falls Ihr Browser Web-Schriftarten nicht zulässt, wird automatisch eine Standardschrift Ihres PCs verwendet. Nach derzeitigem Stand unserer Erkenntnis werden keine Cookies gesetzt. Wir sind mit der Datenschutzabteilung von Font Awesome in Kontakt und geben Ihnen Bescheid, sobald wir näheres in Erfahrung bringen.&lt;/p&gt;&lt;br /&gt;&lt;br /&gt;<br />
+&lt;h3 class=&#8220;adsimple-111954616&#8243;&gt;Wie lange und wo werden die Daten gespeichert?&lt;/h3&gt;&lt;br /&gt;&lt;br /&gt;<br />
+&lt;p&gt;Font Awesome speichert Daten über die Nutzung des Content Delivery Network auf Servern auch in den Vereinigten Staaten von Amerika. Die CDN-Server befinden sich allerdings weltweit und speichern Userdaten, wo Sie sich befinden. In identifizierbarer Form werden die Daten in der Regel nur wenige Wochen gespeichert. Aggregierte Statistiken über die Nutzung von den CDNs können auch länger gespeichert werden. Personenbezogene Daten sind hier nicht enthalten.&lt;/p&gt;&lt;br /&gt;&lt;br /&gt;<br />
+&lt;h3 class=&#8220;adsimple-111954616&#8243;&gt;Wie kann ich meine Daten löschen bzw. die Datenspeicherung verhindern?&lt;/h3&gt;&lt;br /&gt;&lt;br /&gt;<br />
+&lt;p&gt;Font Awesome speichert nach aktuellem Stand unseres Wissens keine personenbezogenen Daten über die Content Delivery Netzwerke. Wenn Sie nicht wollen, dass Daten über die verwendeten Icons gespeichert werden, können Sie leider unsere Website nicht besuchen. Wenn Ihr Browser keine Web-Schriftarten erlaubt, werden auch keine Daten übertragen oder gespeichert. In diesem Fall wird einfach die Standard-Schrift Ihres Computers verwendet.&lt;/p&gt;&lt;br /&gt;&lt;br /&gt;<br />
+&lt;h3 class=&#8220;adsimple-111954616&#8243;&gt;Rechtsgrundlage&lt;/h3&gt;&lt;br /&gt;&lt;br /&gt;<br />
+&lt;p&gt;Wenn Sie eingewilligt haben, dass Font Awesome eingesetzt werden darf, ist die Rechtsgrundlage der entsprechenden Datenverarbeitung diese Einwilligung. Diese Einwilligung stellt laut&lt;strong class=&#8220;adsimple-111954616&#8243;&gt; Art. 6 Abs. 1 lit. a DSGVO (Einwilligung)&lt;/strong&gt; die Rechtsgrundlage für die Verarbeitung personenbezogener Daten, wie sie bei der Erfassung durch Font Awesome vorkommen kann, dar.&lt;/p&gt;&lt;br /&gt;&lt;br /&gt;<br />
+&lt;p&gt;Von unserer Seite besteht zudem ein berechtigtes Interesse, Font Awesome zu verwenden, um unser Online-Service zu optimieren. Die dafür entsprechende Rechtsgrundlage ist &lt;strong class=&#8220;adsimple-111954616&#8243;&gt;Art. 6 Abs. 1 lit. f DSGVO (Berechtigte Interessen)&lt;/strong&gt;. Wir setzen Font Awesome gleichwohl nur ein, soweit Sie eine Einwilligung erteilt haben.&lt;/p&gt;&lt;br /&gt;&lt;br /&gt;<br />
+&lt;p&gt;Wir weisen darauf hin, dass nach Meinung des Europäischen Gerichtshofs derzeit kein angemessenes Schutzniveau für den Datentransfer in die USA besteht. Die Datenverarbeitung geschieht im Wesentlichen durch Font Awesome. Dies kann dazu führen, dass gegebenenfalls Daten nicht anonymisiert verarbeitet und gespeichert werden. Ferner können gegebenenfalls US-amerikanische staatliche Behörden Zugriff auf einzelne Daten nehmen. Es kann ferner vorkommen, dass diese Daten mit Daten aus möglichen anderen Diensten von Font Awesome, bei denen Sie ein Nutzerkonto haben, verknüpft werden.&lt;/p&gt;&lt;br /&gt;&lt;br /&gt;<br />
+&lt;p&gt;Wenn Sie mehr über Font Awesome und deren Umgang mit Daten erfahren wollen, empfehlen wir Ihnen die Datenschutzerklärung unter &lt;a class=&#8220;adsimple-111954616&#8243; href=&#8220;https://fontawesome.com/privacy&#8220;&gt;https://fontawesome.com/privacy&lt;/a&gt; und die Hilfeseite unter &lt;a class=&#8220;adsimple-111954616&#8243; href=&#8220;https://fontawesome.com/support&#8220; target=&#8220;_blank&#8220; rel=&#8220;follow noopener&#8220;&gt;https://fontawesome.com/support&lt;/a&gt;.&lt;/p&gt;&lt;br /&gt;&lt;br /&gt;<br />
+&lt;h2 id=&#8220;google-recaptcha-datenschutzerklaerung&#8220; class=&#8220;adsimple-111954616&#8243;&gt;Google reCAPTCHA Datenschutzerklärung&lt;/h2&gt;&lt;br /&gt;&lt;br /&gt;<br />
+&lt;table border=&#8220;1&#8243; cellpadding=&#8220;15&#8243;&gt;&lt;br /&gt;&lt;br /&gt;<br />
+&lt;tbody&gt;&lt;br /&gt;&lt;br /&gt;<br />
+&lt;tr&gt;&lt;br /&gt;&lt;br /&gt;<br />
+&lt;td&gt;&lt;br /&gt;&lt;br /&gt;<br />
+&lt;strong class=&#8220;adsimple-111954616&#8243;&gt;Google reCAPTCHA Datenschutzerklärung Zusammenfassung&lt;/strong&gt;&lt;br /&gt;&lt;br /&gt;<br />
+&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;<br />
+&amp;#x1f465; Betroffene: Besucher der Website&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;<br />
+&amp;#x1f91d; Zweck: Optimierung unserer Serviceleistung und Schutz vor Cyberangriffen&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;<br />
+&amp;#x1f4d3; Verarbeitete Daten: Daten wie etwa IP-Adresse, Browserinformationen, Ihr Betriebssystem, eingeschränkte Standorts- und Nutzungsdaten&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;<br />
+Mehr Details dazu finden Sie weiter unten in dieser Datenschutzerklärung.&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;<br />
+&amp;#x1f4c5; Speicherdauer: abhängig von den gespeicherten Daten&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;<br />
+&amp;#x2696;&amp;#xfe0f; Rechtsgrundlagen: Art. 6 Abs. 1 lit. a DSGVO (Einwilligung), Art. 6 Abs. 1 lit. f DSGVO (Berechtigte Interessen)&lt;/td&gt;&lt;br /&gt;&lt;br /&gt;<br />
+&lt;/tr&gt;&lt;br /&gt;&lt;br /&gt;<br />
+&lt;/tbody&gt;&lt;br /&gt;&lt;br /&gt;<br />
+&lt;/table&gt;&lt;br /&gt;&lt;br /&gt;<br />
+&lt;h3 class=&#8220;adsimple-111954616&#8243;&gt;Was ist reCAPTCHA?&lt;/h3&gt;&lt;br /&gt;&lt;br /&gt;<br />
+&lt;p&gt;Unser oberstes Ziel ist es, unsere Webseite für Sie und für uns bestmöglich zu sichern und zu schützen. Um das zu gewährleisten, verwenden wir Google reCAPTCHA der Firma Google Inc. Für den europäischen Raum ist das Unternehmen Google Ireland Limited (Gordon House, Barrow Street Dublin 4, Irland) für alle Google-Dienste verantwortlich. Mit reCAPTCHA können wir feststellen, ob Sie auch wirklich ein Mensch aus Fleisch und Blut sind und kein Roboter oder eine andere Spam-Software. Unter Spam verstehen wir jede, auf elektronischen Weg, unerwünschte Information, die uns ungefragter Weise zukommt. Bei den klassischen CAPTCHAS mussten Sie zur Überprüfung meist Text- oder Bildrätsel lösen. Mit reCAPTCHA von Google müssen wir Sie meist nicht mit solchen Rätseln belästigen. Hier reicht es in den meisten Fällen, wenn Sie einfach ein Häkchen setzen und so bestätigen, dass Sie kein Bot sind. Mit der neuen Invisible reCAPTCHA Version müssen Sie nicht mal mehr ein Häkchen setzen. Wie das genau funktioniert und vor allem welche Daten dafür verwendet werden, erfahren Sie im Verlauf dieser Datenschutzerklärung.&lt;/p&gt;&lt;br /&gt;&lt;br /&gt;<br />
+&lt;p&gt;reCAPTCHA ist ein freier Captcha-Dienst von Google, der Webseiten vor Spam-Software und den Missbrauch durch nicht-menschliche Besucher schützt. Am häufigsten wird dieser Dienst verwendet, wenn Sie Formulare im Internet ausfüllen. Ein Captcha-Dienst ist eine Art automatischer Turing-Test, der sicherstellen soll, dass eine Handlung im Internet von einem Menschen und nicht von einem Bot vorgenommen wird. Im klassischen Turing-Test (benannt nach dem Informatiker Alan Turing) stellt ein Mensch die Unterscheidung zwischen Bot und Mensch fest. Bei Captchas übernimmt das auch der Computer bzw. ein Softwareprogramm. Klassische Captchas arbeiten mit kleinen Aufgaben, die für Menschen leicht zu lösen sind, doch für Maschinen erhebliche Schwierigkeiten aufweisen. Bei reCAPTCHA müssen Sie aktiv keine Rätsel mehr lösen. Das Tool verwendet moderne Risikotechniken, um Menschen von Bots zu unterscheiden. Hier müssen Sie nur noch das Textfeld „Ich bin kein Roboter“ ankreuzen bzw. bei Invisible reCAPTCHA ist selbst das nicht mehr nötig. Bei reCAPTCHA wird ein JavaScript-Element in den Quelltext eingebunden und dann läuft das Tool im Hintergrund und analysiert Ihr Benutzerverhalten. Aus diesen Useraktionen berechnet die Software einen sogenannten Captcha-Score. Google berechnet mit diesem Score schon vor der Captcha-Eingabe wie hoch die Wahrscheinlichkeit ist, dass Sie ein Mensch sind. reCAPTCHA bzw. Captchas im Allgemeinen kommen immer dann zum Einsatz, wenn Bots gewisse Aktionen (wie z.B. Registrierungen, Umfragen usw.) manipulieren oder missbrauchen könnten.&lt;/p&gt;&lt;br /&gt;&lt;br /&gt;<br />
+&lt;h3 class=&#8220;adsimple-111954616&#8243;&gt;Warum verwenden wir reCAPTCHA auf unserer Website?&lt;/h3&gt;&lt;br /&gt;&lt;br /&gt;<br />
+&lt;p&gt;Wir wollen nur Menschen aus Fleisch und Blut auf unserer Seite begrüßen. Bots oder Spam-Software unterschiedlichster Art dürfen getrost zuhause bleiben. Darum setzen wir alle Hebel in Bewegung, uns zu schützen und die bestmögliche Benutzerfreundlichkeit für Sie anzubieten. Aus diesem Grund verwenden wir Google reCAPTCHA der Firma Google. So können wir uns ziemlich sicher sein, dass wir eine „botfreie“ Webseite bleiben. Durch die Verwendung von reCAPTCHA werden Daten an Google übermittelt, um festzustellen, ob Sie auch wirklich ein Mensch sind. reCAPTCHA dient also der Sicherheit unserer Webseite und in weiterer Folge damit auch Ihrer Sicherheit. Zum Beispiel könnte es ohne reCAPTCHA passieren, dass bei einer Registrierung ein Bot möglichst viele E-Mail-Adressen registriert, um im Anschluss Foren oder Blogs mit unerwünschten Werbeinhalten „zuzuspamen“. Mit reCAPTCHA können wir solche Botangriffe vermeiden.&lt;/p&gt;&lt;br /&gt;&lt;br /&gt;<br />
+&lt;h3 class=&#8220;adsimple-111954616&#8243;&gt;Welche Daten werden von reCAPTCHA gespeichert?&lt;/h3&gt;&lt;br /&gt;&lt;br /&gt;<br />
+&lt;p&gt;reCAPTCHA sammelt personenbezogene Daten von Usern, um festzustellen, ob die Handlungen auf unserer Webseite auch wirklich von Menschen stammen. Es kann also die IP-Adresse und andere Daten, die Google für den reCAPTCHA-Dienst benötigt, an Google versendet werden. IP-Adressen werden innerhalb der Mitgliedstaaten der EU oder anderer Vertragsstaaten des Abkommens über den Europäischen Wirtschaftsraum fast immer zuvor gekürzt, bevor die Daten auf einem Server in den USA landen. Die IP-Adresse wird nicht mit anderen Daten von Google kombiniert, sofern Sie nicht während der Verwendung von reCAPTCHA mit Ihrem Google-Konto angemeldet sind. Zuerst prüft der reCAPTCHA-Algorithmus, ob auf Ihrem Browser schon Google-Cookies von anderen Google-Diensten (YouTube. Gmail usw.) platziert sind. Anschließend setzt reCAPTCHA ein zusätzliches Cookie in Ihrem Browser und erfasst einen Schnappschuss Ihres Browserfensters.&lt;/p&gt;&lt;br /&gt;&lt;br /&gt;<br />
+&lt;p&gt;Die folgende Liste von gesammelten Browser- und Userdaten, hat nicht den Anspruch auf Vollständigkeit. Vielmehr sind es Beispiele von Daten, die nach unserer Erkenntnis, von Google verarbeitet werden.&lt;/p&gt;&lt;br /&gt;&lt;br /&gt;<br />
+&lt;ul class=&#8220;adsimple-111954616&#8243;&gt;&lt;br /&gt;&lt;br /&gt;<br />
+&lt;li class=&#8220;adsimple-111954616&#8243;&gt;Referrer URL (die Adresse der Seite von der der Besucher kommt)&lt;/li&gt;&lt;br /&gt;&lt;br /&gt;<br />
+&lt;li class=&#8220;adsimple-111954616&#8243;&gt;IP-Adresse (z.B. 256.123.123.1)&lt;/li&gt;&lt;br /&gt;&lt;br /&gt;<br />
+&lt;li class=&#8220;adsimple-111954616&#8243;&gt;Infos über das Betriebssystem&nbsp;(die Software, die den Betrieb Ihres Computers ermöglicht. Bekannte Betriebssysteme sind Windows, Mac OS X oder Linux)&lt;/li&gt;&lt;br /&gt;&lt;br /&gt;<br />
+&lt;li class=&#8220;adsimple-111954616&#8243;&gt;Cookies&nbsp;(kleine Textdateien, die Daten in Ihrem Browser speichern)&lt;/li&gt;&lt;br /&gt;&lt;br /&gt;<br />
+&lt;li class=&#8220;adsimple-111954616&#8243;&gt;Maus- und Keyboardverhalten&nbsp;(jede Aktion, die Sie mit der Maus oder der Tastatur ausführen wird gespeichert)&lt;/li&gt;&lt;br /&gt;&lt;br /&gt;<br />
+&lt;li class=&#8220;adsimple-111954616&#8243;&gt;Datum und Spracheinstellungen&nbsp;(welche Sprache bzw. welches Datum Sie auf Ihrem PC voreingestellt haben wird gespeichert)&lt;/li&gt;&lt;br /&gt;&lt;br /&gt;<br />
+&lt;li class=&#8220;adsimple-111954616&#8243;&gt;Alle Javascript-Objekte&nbsp;(JavaScript ist eine Programmiersprache, die Webseiten ermöglicht, sich an den User anzupassen. JavaScript-Objekte können alle möglichen Daten unter einem Namen sammeln)&lt;/li&gt;&lt;br /&gt;&lt;br /&gt;<br />
+&lt;li class=&#8220;adsimple-111954616&#8243;&gt;Bildschirmauflösung&nbsp;(zeigt an aus wie vielen Pixeln die Bilddarstellung besteht)&lt;/li&gt;&lt;br /&gt;&lt;br /&gt;<br />
+&lt;/ul&gt;&lt;br /&gt;&lt;br /&gt;<br />
+&lt;p&gt;Unumstritten ist, dass Google diese Daten verwendet und analysiert noch bevor Sie auf das Häkchen „Ich bin kein Roboter“ klicken. Bei der Invisible reCAPTCHA-Version fällt sogar das Ankreuzen weg und der ganze Erkennungsprozess läuft im Hintergrund ab. Wie viel und welche Daten Google genau speichert, erfährt man von Google nicht im Detail.&lt;/p&gt;&lt;br /&gt;&lt;br /&gt;<br />
+&lt;p&gt;Folgende Cookies werden von reCAPTCHA verwendet: Hierbei beziehen wir uns auf die reCAPTCHA Demo-Version von Google unter &lt;a class=&#8220;adsimple-111954616&#8243; href=&#8220;https://www.google.com/recaptcha/api2/demo&#8220; target=&#8220;_blank&#8220; rel=&#8220;noopener noreferrer&#8220;&gt;https://www.google.com/recaptcha/api2/demo&lt;/a&gt;. All diese Cookies benötigen zu Trackingzwecken eine eindeutige Kennung. Hier ist eine Liste an Cookies, die Google reCAPTCHA auf der Demo-Version gesetzt hat:&lt;/p&gt;&lt;br /&gt;&lt;br /&gt;<br />
+&lt;p&gt;&lt;br /&gt;&lt;br /&gt;<br />
+&lt;strong class=&#8220;adsimple-111954616&#8243;&gt;Name:&lt;/strong&gt; IDE&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;<br />
+&lt;strong class=&#8220;adsimple-111954616&#8243;&gt;Wert:&lt;/strong&gt;&nbsp;WqTUmlnmv_qXyi_DGNPLESKnRNrpgXoy1K-pAZtAkMbHI-111954616-8&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;<br />
+&lt;strong class=&#8220;adsimple-111954616&#8243;&gt;Verwendungszweck:&lt;/strong&gt; Dieses Cookie wird von der Firma DoubleClick (gehört auch Google) gesetzt, um die Aktionen eines Users auf der Webseite im Umgang mit Werbeanzeigen zu registrieren und zu melden. So kann die Werbewirksamkeit gemessen und entsprechende Optimierungsmaßnahmen getroffen werden. IDE wird in Browsern unter der Domain doubleclick.net gespeichert.&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;<br />
+&lt;strong class=&#8220;adsimple-111954616&#8243;&gt;Ablaufdatum:&lt;/strong&gt; nach einem Jahr&lt;/p&gt;&lt;br /&gt;&lt;br /&gt;<br />
+&lt;p&gt;&lt;br /&gt;&lt;br /&gt;<br />
+&lt;strong class=&#8220;adsimple-111954616&#8243;&gt;Name:&lt;/strong&gt; 1P_JAR&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;<br />
+&lt;strong class=&#8220;adsimple-111954616&#8243;&gt;Wert:&lt;/strong&gt;&nbsp;2019-5-14-12&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;<br />
+&lt;strong class=&#8220;adsimple-111954616&#8243;&gt;Verwendungszweck:&lt;/strong&gt; Dieses Cookie sammelt Statistiken zur Webseite-Nutzung und misst Conversions. Eine Conversion entsteht z.B., wenn ein User zu einem Käufer wird. Das Cookie wird auch verwendet, um Usern relevante Werbeanzeigen einzublenden. Weiters kann man mit dem Cookie vermeiden, dass ein User dieselbe Anzeige mehr als einmal zu Gesicht bekommt.&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;<br />
+&lt;strong class=&#8220;adsimple-111954616&#8243;&gt;Ablaufdatum:&lt;/strong&gt; nach einem Monat&lt;/p&gt;&lt;br /&gt;&lt;br /&gt;<br />
+&lt;p&gt;&lt;br /&gt;&lt;br /&gt;<br />
+&lt;strong class=&#8220;adsimple-111954616&#8243;&gt;Name:&lt;/strong&gt; ANID&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;<br />
+&lt;strong class=&#8220;adsimple-111954616&#8243;&gt;Wert:&lt;/strong&gt;&nbsp;U7j1v3dZa1119546160xgZFmiqWppRWKOr&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;<br />
+&lt;strong class=&#8220;adsimple-111954616&#8243;&gt;Verwendungszweck:&lt;/strong&gt; Viele Infos konnten wir über dieses Cookie nicht in Erfahrung bringen. In der Datenschutzerklärung von Google wird das Cookie im Zusammenhang mit „Werbecookies“ wie z. B. &amp;#8220;DSID&amp;#8221;, &amp;#8220;FLC&amp;#8221;, &amp;#8220;AID&amp;#8221;, &amp;#8220;TAID&amp;#8221; erwähnt. ANID wird unter Domain google.com gespeichert.&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;<br />
+&lt;strong class=&#8220;adsimple-111954616&#8243;&gt;Ablaufdatum:&lt;/strong&gt; nach 9 Monaten&lt;/p&gt;&lt;br /&gt;&lt;br /&gt;<br />
+&lt;p&gt;&lt;br /&gt;&lt;br /&gt;<br />
+&lt;strong class=&#8220;adsimple-111954616&#8243;&gt;Name:&lt;/strong&gt; CONSENT&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;<br />
+&lt;strong class=&#8220;adsimple-111954616&#8243;&gt;Wert:&nbsp;&lt;/strong&gt;YES+AT.de+20150628-20-0&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;<br />
+&lt;strong class=&#8220;adsimple-111954616&#8243;&gt;Verwendungszweck:&lt;/strong&gt; Das Cookie speichert den Status der Zustimmung eines Users zur Nutzung unterschiedlicher Services von Google. CONSENT dient auch der Sicherheit, um User zu überprüfen, Betrügereien von Anmeldeinformationen zu verhindern und Userdaten vor unbefugten Angriffen zu schützen.&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;<br />
+&lt;strong class=&#8220;adsimple-111954616&#8243;&gt;Ablaufdatum:&lt;/strong&gt; nach 19 Jahren&lt;/p&gt;&lt;br /&gt;&lt;br /&gt;<br />
+&lt;p&gt;&lt;br /&gt;&lt;br /&gt;<br />
+&lt;strong class=&#8220;adsimple-111954616&#8243;&gt;Name:&lt;/strong&gt; NID&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;<br />
+&lt;strong class=&#8220;adsimple-111954616&#8243;&gt;Wert:&lt;/strong&gt; 0WmuWqy111954616zILzqV_nmt3sDXwPeM5Q&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;<br />
+&lt;strong class=&#8220;adsimple-111954616&#8243;&gt;Verwendungszweck:&lt;/strong&gt; NID wird von Google verwendet, um Werbeanzeigen an Ihre Google-Suche anzupassen. Mit Hilfe des Cookies „erinnert“ sich Google an Ihre meist eingegebenen Suchanfragen oder Ihre frühere Interaktion mit Anzeigen. So bekommen Sie immer maßgeschneiderte Werbeanzeigen. Das Cookie enthält eine einzigartige ID, um persönliche Einstellungen des Users für Werbezwecke zu sammeln.&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;<br />
+&lt;strong class=&#8220;adsimple-111954616&#8243;&gt;Ablaufdatum:&lt;/strong&gt; nach 6 Monaten&lt;/p&gt;&lt;br /&gt;&lt;br /&gt;<br />
+&lt;p&gt;&lt;br /&gt;&lt;br /&gt;<br />
+&lt;strong class=&#8220;adsimple-111954616&#8243;&gt;Name:&lt;/strong&gt; DV&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;<br />
+&lt;strong class=&#8220;adsimple-111954616&#8243;&gt;Wert:&lt;/strong&gt; gEAABBCjJMXcI0dSAAAANbqc111954616-4&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;<br />
+&lt;strong class=&#8220;adsimple-111954616&#8243;&gt;Verwendungszweck:&lt;/strong&gt; Sobald Sie das „Ich bin kein Roboter“-Häkchen angekreuzt haben, wird dieses Cookie gesetzt. Das Cookie wird von Google Analytics für personalisierte Werbung verwendet. DV sammelt Informationen in anonymisierter Form und wird weiters benutzt, um User-Unterscheidungen zu treffen.&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;<br />
+&lt;strong class=&#8220;adsimple-111954616&#8243;&gt;Ablaufdatum:&lt;/strong&gt; nach 10 Minuten&lt;/p&gt;&lt;br /&gt;&lt;br /&gt;<br />
+&lt;p&gt;&lt;br /&gt;&lt;br /&gt;<br />
+&lt;strong class=&#8220;adsimple-111954616&#8243;&gt;Anmerkung:&nbsp;&lt;/strong&gt;Diese Aufzählung kann keinen Anspruch auf Vollständigkeit erheben, da Google erfahrungsgemäß die Wahl ihrer Cookies immer wieder auch verändert.&lt;/p&gt;&lt;br /&gt;&lt;br /&gt;<br />
+&lt;h3 class=&#8220;adsimple-111954616&#8243;&gt;Wie lange und wo werden die Daten gespeichert?&lt;/h3&gt;&lt;br /&gt;&lt;br /&gt;<br />
+&lt;p&gt;Durch das Einfügen von reCAPTCHA werden Daten von Ihnen auf den Google-Server übertragen. Wo genau diese Daten gespeichert werden, stellt Google, selbst nach wiederholtem Nachfragen, nicht klar dar. Ohne eine Bestätigung von Google erhalten zu haben, ist davon auszugehen, dass Daten wie Mausinteraktion, Verweildauer auf der Webseite oder Spracheinstellungen auf den europäischen oder amerikanischen Google-Servern gespeichert werden. Die IP-Adresse, die Ihr Browser an Google übermittelt, wird grundsätzlich nicht mit anderen Google-Daten aus weiteren Google-Diensten zusammengeführt. Wenn Sie allerdings während der Nutzung des reCAPTCHA-Plug-ins bei Ihrem Google-Konto angemeldet sind, werden die Daten zusammengeführt.&lt;strong class=&#8220;adsimple-111954616&#8243;&gt;&nbsp;&lt;/strong&gt;Dafür gelten die abweichenden Datenschutzbestimmungen der Firma Google.&lt;/p&gt;&lt;br /&gt;&lt;br /&gt;<br />
+&lt;h3 class=&#8220;adsimple-111954616&#8243;&gt;Wie kann ich meine Daten löschen bzw. die Datenspeicherung verhindern?&lt;/h3&gt;&lt;br /&gt;&lt;br /&gt;<br />
+&lt;p&gt;Wenn Sie wollen, dass über Sie und über Ihr Verhalten keine Daten an Google übermittelt werden, müssen Sie sich, bevor Sie unsere Webseite besuchen bzw. die reCAPTCHA-Software verwenden, bei Google vollkommen ausloggen und alle Google-Cookies löschen.&nbsp;Grundsätzlich werden die Daten sobald Sie unsere Seite aufrufen automatisch an Google übermittelt. Um diese Daten wieder zu löschen, müssen Sie den Google-Support auf&nbsp; &lt;a class=&#8220;adsimple-111954616&#8243; href=&#8220;https://support.google.com/?hl=de&amp;amp;tid=111954616&#8243; target=&#8220;_blank&#8220; rel=&#8220;noopener noreferrer&#8220;&gt;https://support.google.com/?hl=de&amp;amp;tid=111954616&lt;/a&gt; kontaktieren.&lt;/p&gt;&lt;br /&gt;&lt;br /&gt;<br />
+&lt;p&gt;Wenn Sie also unsere Webseite verwenden, erklären Sie sich einverstanden, dass Google LLC und deren Vertreter automatisch Daten erheben, bearbeiten und nutzen.&lt;/p&gt;&lt;br /&gt;&lt;br /&gt;<br />
+&lt;p&gt;Bitte beachten Sie, dass bei der Verwendung dieses Tools Daten von Ihnen auch außerhalb der EU gespeichert und verarbeitet werden können. Die meisten Drittstaaten (darunter auch die USA) gelten nach derzeitigem europäischen Datenschutzrecht als nicht sicher. Daten an unsichere Drittstaaten dürfen also nicht einfach übertragen, dort gespeichert und verarbeitet werden, sofern es keine passenden Garantien (wie etwa EU-Standardvertragsklauseln) zwischen uns und dem außereuropäischen Dienstleister gibt.&lt;/p&gt;&lt;br /&gt;&lt;br /&gt;<br />
+&lt;h3 class=&#8220;adsimple-111954616&#8243;&gt;Rechtsgrundlage&lt;/h3&gt;&lt;br /&gt;&lt;br /&gt;<br />
+&lt;p&gt;Wenn Sie eingewilligt haben, dass Google reCAPTCHA eingesetzt werden darf, ist die Rechtsgrundlage der entsprechenden Datenverarbeitung diese Einwilligung. Diese Einwilligung stellt laut&lt;strong class=&#8220;adsimple-111954616&#8243;&gt; Art. 6 Abs. 1 lit. a DSGVO (Einwilligung)&lt;/strong&gt; die Rechtsgrundlage für die Verarbeitung personenbezogener Daten, wie sie bei der Erfassung durch Google reCAPTCHA vorkommen kann, dar.&lt;/p&gt;&lt;br /&gt;&lt;br /&gt;<br />
+&lt;p&gt;Von unserer Seite besteht zudem ein berechtigtes Interesse, Google reCAPTCHA zu verwenden, um unser Online-Service zu optimieren und sicherer zu machen. Die dafür entsprechende Rechtsgrundlage ist &lt;strong class=&#8220;adsimple-111954616&#8243;&gt;Art. 6 Abs. 1 lit. f DSGVO (Berechtigte Interessen)&lt;/strong&gt;. Wir setzen Google reCAPTCHA gleichwohl nur ein, soweit Sie eine Einwilligung erteilt haben.&lt;/p&gt;&lt;br /&gt;&lt;br /&gt;<br />
+&lt;p&gt;Google verarbeitet Daten von Ihnen u.a. auch in den USA. Wir weisen darauf hin, dass nach Meinung des Europäischen Gerichtshofs derzeit kein angemessenes Schutzniveau für den Datentransfer in die USA besteht. Dies kann mit verschiedenen Risiken für die Rechtmäßigkeit und Sicherheit der Datenverarbeitung einhergehen.&lt;/p&gt;&lt;br /&gt;&lt;br /&gt;<br />
+&lt;p&gt;Als Grundlage der Datenverarbeitung bei Empfängern mit Sitz in Drittstaaten (außerhalb der Europäischen Union, Island, Liechtenstein, Norwegen, also insbesondere in den USA) oder einer Datenweitergabe dorthin verwendet Google sogenannte Standardvertragsklauseln (= Art. 46. Abs. 2 und 3 DSGVO). Standardvertragsklauseln (Standard Contractual Clauses – SCC) sind von der EU-Kommission bereitgestellte Mustervorlagen und sollen sicherstellen, dass Ihre Daten auch dann den europäischen Datenschutzstandards entsprechen, wenn diese in Drittländer (wie beispielsweise in die USA) überliefert und dort gespeichert werden. Durch diese Klauseln verpflichtet sich Google, bei der Verarbeitung Ihrer relevanten Daten, das europäische Datenschutzniveau einzuhalten, selbst wenn die Daten in den USA gespeichert, verarbeitet und verwaltet werden. Diese Klauseln basieren auf einem Durchführungsbeschluss der EU-Kommission. Sie finden den Beschluss und die entsprechenden Standardvertragsklauseln u.a. hier: &lt;a class=&#8220;adsimple-111954616&#8243; href=&#8220;https://eur-lex.europa.eu/eli/dec_impl/2021/914/oj?locale=de&#8220; target=&#8220;_blank&#8220; rel=&#8220;noopener&#8220;&gt;https://eur-lex.europa.eu/eli/dec_impl/2021/914/oj?locale=de&lt;/a&gt;&lt;br /&gt;&lt;br /&gt;<br />
+&lt;/p&gt;&lt;br /&gt;&lt;br /&gt;<br />
+&lt;p&gt;Die Google Ads Datenverarbeitungsbedingungen (Google Ads Data Processing Terms), welche den Standardvertragsklauseln entsprechen, finden Sie unter &lt;a class=&#8220;adsimple-111954616&#8243; href=&#8220;https://business.safety.google/adsprocessorterms/&#8220; target=&#8220;_blank&#8220; rel=&#8220;noopener&#8220;&gt;https://business.safety.google/adsprocessorterms/&lt;/a&gt;.&lt;/p&gt;&lt;br /&gt;&lt;br /&gt;<br />
+&lt;p&gt;Etwas mehr über reCAPTCHA erfahren Sie auf der Webentwickler-Seite von Google auf &lt;a class=&#8220;adsimple-111954616&#8243; href=&#8220;https://developers.google.com/recaptcha/&#8220; target=&#8220;_blank&#8220; rel=&#8220;noopener noreferrer&#8220;&gt;https://developers.google.com/recaptcha/&lt;/a&gt;. Google geht hier zwar auf die technische Entwicklung der reCAPTCHA näher ein, doch genaue Informationen über Datenspeicherung und datenschutzrelevanten Themen sucht man auch dort vergeblich. Eine gute Übersicht über die grundsätzliche Verwendung von Daten bei Google finden Sie in der hauseigenen Datenschutzerklärung auf &lt;a class=&#8220;adsimple-111954616&#8243; href=&#8220;https://policies.google.com/privacy?hl=de&amp;amp;tid=111954616&#8243; target=&#8220;_blank&#8220; rel=&#8220;noopener noreferrer&#8220;&gt;https://www.google.com/intl/de/policies/privacy/&lt;/a&gt;.&lt;/p&gt;&lt;br /&gt;&lt;br /&gt;<br />
+&lt;p&gt;Alle Texte sind urheberrechtlich geschützt.&lt;/p&gt;&lt;br /&gt;&lt;br /&gt;<br />
+&lt;p style=&#8220;margin-top:15px&#8220;&gt;Quelle: Erstellt mit dem &lt;a href=&#8220;https://www.adsimple.at/datenschutz-generator/&#8220; title=&#8220;Datenschutz Generator von AdSimple für Österreich&#8220;&gt;Datenschutz Generator&lt;/a&gt; von AdSimple&lt;/p&gt;&lt;br /&gt;&lt;br /&gt;<br />
+</textarea></p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+
+
+
+
+  <footer class="footer-bg">
+
+    <div class="container standard-footer">
+      <div class="row">
+        <div class="col-md-4">
+          <p><img decoding="async" loading="lazy" class="alignnone wp-image-3641 size-medium" style="max-width: 350px;"
+              src="../wp-content/uploads/2022/05/Logo-HC-grau-laenger-300x43.png" alt="" width="200" height="43"
+              srcset="../wp-content/uploads/2022/05/Logo-HC-grau-laenger-300x43.png 300w, ../wp-content/uploads/2022/05/Logo-HC-grau-laenger-1024x146.png 1024w, ../wp-content/uploads/2022/05/Logo-HC-grau-laenger-768x110.png 768w, ../wp-content/uploads/2022/05/Logo-HC-grau-laenger-1536x220.png 1536w, ../wp-content/uploads/2022/05/Logo-HC-grau-laenger-2048x293.png 2048w"
+              sizes="(max-width: 200px) 100vw, 200px" /></p>
+          <p>Huber Consulting setzt sich zum Ziel, bestmögliche Beratung hinsichtlich Arbeitssicherheit,
+            Qualitätsmanagementsysteme bis hin zu integrierten Managementsystemen anzubieten</p>
+        </div>
+
+        <div class="col-md-4">
+          <h4>Inhaber und Büro</h4>
+          <p>Dipl.-Ing.(FH) Erich Huber<br />
+            Sinabelkirchen 294<br />
+            8261 Sinabelkirchen</p>
+          <p>+43 664 804444466<br />
+            +43 680 1233575</p>
+        </div>
+
+        <div class="col-md-4">
+          <div class="menu-footer-navigation-container">
+            <ul id="menu-footer-navigation" class="">
+              <li id="menu-item-428"
+                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-428"><a
+                  href="../index.html">Home</a></li>
+              <li id="menu-item-3505" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3505"><a
+                  href="../managementberatung/index.html">Managementberatung</a></li>
+              <li id="menu-item-3506" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3506"><a
+                  href="../ueber-mich/index.html">Über mich</a></li>
+              <li id="menu-item-3507" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3507"><a
+                  href="../arbeitssicherheit/index.html">Arbeitssicherheit</a></li>
+              <li id="menu-item-3504"
+                class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-3242 current_page_item menu-item-3504">
+                <a href="index.html" aria-current="page">Datenschutz</a>
+              </li>
+              <li id="menu-item-3503" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3503"><a
+                  href="../impressum/index.html">Impressum</a></li>
+            </ul>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+
+
+    <div class="container-fluid copyright-footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-6">
+            <p>© 2025 Hu-Con</p>
+          </div>
+          <div class="col-sm-6 copyright-footer__icons">
+            <div class="social-icons">
+
+              <a target="_blank" href="https://www.xing.com/profile/Erich_Huber/cv"><i class="fab fa-xing"></i></a>
+              <a target="_blank" href="https://www.linkedin.com/in/erich-huber-82637940/"><i
+                  class="fab fa-linkedin-in"></i></a>
+              <a target="_blank" href="https://www.facebook.com/Hu-Con-Huber-Consulting-466695586733827"><i
+                  class="fab fa-facebook"></i></a>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+
+</body>
+
+</html>
