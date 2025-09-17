@@ -544,6 +544,7 @@ pre code {
   padding-left: 15px;
   margin-right: auto;
   margin-left: auto;
+  z-index: 10;
 }
 
 @media (min-width: 576px) {
@@ -11445,13 +11446,17 @@ ul li i {
   }
 }
 
+/* Footer Verbesserungen für Browser-Kompatibilität */
 .footer-bg {
   background-color: #B6BCC3;
+  box-sizing: border-box;
+  overflow: hidden;
 }
 
 .standard-footer {
   padding: 40px 15px 5px;
   color: #272E35;
+  box-sizing: border-box;
 }
 .standard-footer h4 {
   font-size: 1em;
@@ -11860,12 +11865,22 @@ ul li i {
   background-color: #707375;
 }
 
+/* Banner-Responsivität verbessert */
 .banner {
+  min-height: 300px;
   height: 50vh;
+  max-height: 500px;
   color: #f2f2f2;
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
+}
+@media (max-width: 767.98px) {
+  .banner {
+    min-height: 180px;
+    height: 30vh;
+    max-height: 250px;
+  }
 }
 .banner .pb-center-elements {
   align-items: unset;
@@ -11878,10 +11893,30 @@ ul li i {
     padding-bottom: 15px;
   }
 }
+/* Banner-Schriftgrößen responsiv */
 .banner h2 {
   font-size: 3em;
   padding-bottom: 40px;
   font-weight: bold;
+}
+@media (max-width: 991.98px) {
+  .banner h2 {
+    font-size: 2.2em;
+    padding-bottom: 20px;
+  }
+}
+@media (max-width: 767.98px) {
+  .banner h2 {
+    text-align: center;
+    font-size: 1.5em;
+  }
+}
+@media (max-width: 575.98px) {
+  .banner h2 {
+    padding-bottom: 80px;
+    text-align: center;
+    font-size: 1.2em;
+  }
 }
 @media (max-width: 991.98px) {
   .banner h2 {
@@ -11902,11 +11937,11 @@ ul li i {
   }
 }
 .banner p {
-  font-size: 1.3em;
+  font-size: 1.1em;
 }
 @media (max-width: 767.98px) {
   .banner p {
-    font-size: 0.8em;
+    font-size: 0.9em;
   }
 }
 .banner a {
@@ -12189,6 +12224,18 @@ ul li i {
   right: 0;
   background-size: cover;
   z-index: 0;
+}
+
+@media (max-width: 991.98px) {
+  .image-container {
+    left: 0;
+  }
+}
+
+@media (min-width: 1420px ) {
+  .image-container {
+    left: 60%;
+  }
 }
 
 .text-block {
